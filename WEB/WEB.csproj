@@ -1,0 +1,225 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39A4A47C-5CE8-4EB9-88BD-9435F8B9BB31}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CFP.WEB</RootNamespace>
+    <AssemblyName>CFP.WEB</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44327</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=3.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Bson, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Bson.1.0.2\lib\net45\Newtonsoft.Json.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="From\ClassSignIn.aspx" />
+    <Content Include="From\css\chris.css" />
+    <Content Include="From\css\external_css.css" />
+    <Content Include="From\css\pass_blue.css" />
+    <Content Include="From\css\pass_custom.css" />
+    <Content Include="From\HW1004.aspx" />
+    <Content Include="From\js\ClassSignIn_vue.js" />
+    <Content Include="From\js\jquery-ui-1.12.1\AUTHORS.txt" />
+    <Content Include="From\js\jquery-ui-1.12.1\external\jquery\jquery.js" />
+    <Content Include="From\js\jquery-ui-1.12.1\images\ui-icons_444444_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.12.1\images\ui-icons_555555_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.12.1\images\ui-icons_777620_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.12.1\images\ui-icons_777777_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.12.1\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.12.1\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.12.1\index.html" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.css" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.js" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.min.css" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.min.js" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.structure.css" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.structure.min.css" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.theme.css" />
+    <Content Include="From\js\jquery-ui-1.12.1\jquery-ui.theme.min.css" />
+    <Content Include="From\js\jquery-ui-1.12.1\LICENSE.txt" />
+    <Content Include="From\js\jquery-ui-1.13.2\AUTHORS.txt" />
+    <Content Include="From\js\jquery-ui-1.13.2\external\jquery\jquery.js" />
+    <Content Include="From\js\jquery-ui-1.13.2\images\ui-icons_444444_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.13.2\images\ui-icons_555555_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.13.2\images\ui-icons_777620_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.13.2\images\ui-icons_777777_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.13.2\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.13.2\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="From\js\jquery-ui-1.13.2\index.html" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.css" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.js" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.min.css" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.min.js" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.structure.css" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.structure.min.css" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.theme.css" />
+    <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.theme.min.css" />
+    <Content Include="From\js\jquery-ui-1.13.2\LICENSE.txt" />
+    <Content Include="From\js\moment.min.js" />
+    <Content Include="From\js\myProj1.js" />
+    <Content Include="From\js\sample.js" />
+    <Content Include="From\js\vueForBAS03.js" />
+    <Content Include="From\js\qData.js" />
+    <Content Include="From\js\vue\vue.js" />
+    <Content Include="From\js\vue\vue.min.js" />
+    <Content Include="From\js\vue\vueChris.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="From\ClassSignIn.aspx.cs">
+      <DependentUpon>ClassSignIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="From\ClassSignIn.aspx.designer.cs">
+      <DependentUpon>ClassSignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="From\HW1004.aspx.cs">
+      <DependentUpon>HW1004.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="From\HW1004.aspx.designer.cs">
+      <DependentUpon>HW1004.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\GetTitleText.ashx.cs">
+      <DependentUpon>GetTitleText.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\QueryData.ashx.cs">
+      <DependentUpon>QueryData.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="From\js\jquery-ui-1.12.1\package.json" />
+    <Content Include="From\js\jquery-ui-1.13.2\package.json" />
+    <Content Include="Handler\QueryData.ashx" />
+    <Content Include="Handler\GetTitleText.ashx" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{da8893f6-d534-4693-95d7-8acb666deb17}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54636</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44327/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.3.6.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

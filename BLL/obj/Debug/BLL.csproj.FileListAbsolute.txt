@@ -1,0 +1,15 @@
+D:\GitHub\Project\CFP\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\GitHub\Project\CFP\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\GitHub\Project\CFP\BLL\bin\Debug\CFP.BLL.dll.config
+D:\GitHub\Project\CFP\BLL\bin\Debug\CFP.BLL.dll
+D:\GitHub\Project\CFP\BLL\bin\Debug\CFP.BLL.pdb
+D:\GitHub\Project\CFP\BLL\bin\Debug\CFP.DAL.dll
+D:\GitHub\Project\CFP\BLL\bin\Debug\EntityFramework.dll
+D:\GitHub\Project\CFP\BLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\Project\CFP\BLL\bin\Debug\CFP.DAL.pdb
+D:\GitHub\Project\CFP\BLL\bin\Debug\CFP.DAL.dll.config
+D:\GitHub\Project\CFP\BLL\bin\Debug\EntityFramework.xml
+D:\GitHub\Project\CFP\BLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\Project\CFP\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\GitHub\Project\CFP\BLL\obj\Debug\CFP.BLL.dll
+D:\GitHub\Project\CFP\BLL\obj\Debug\CFP.BLL.pdb

@@ -1,0 +1,12 @@
+D:\GitHub\Project\CFP\DAL\bin\Debug\CFP.DAL.pdb
+D:\GitHub\Project\CFP\DAL\bin\Debug\EntityFramework.dll
+D:\GitHub\Project\CFP\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\Project\CFP\DAL\bin\Debug\EntityFramework.xml
+D:\GitHub\Project\CFP\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\GitHub\Project\CFP\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\GitHub\Project\CFP\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\GitHub\Project\CFP\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\GitHub\Project\CFP\DAL\obj\Debug\CFP.DAL.pdb
+D:\GitHub\Project\CFP\DAL\bin\Debug\CFP.DAL.dll.config
+D:\GitHub\Project\CFP\DAL\bin\Debug\CFP.DAL.dll
+D:\GitHub\Project\CFP\DAL\obj\Debug\CFP.DAL.dll
