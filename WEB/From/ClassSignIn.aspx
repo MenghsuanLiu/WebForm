@@ -32,13 +32,13 @@
     <link href="./js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />         
     <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>      
     <!--JQuery blockUI-->
-    <script src="./js/jquery.block.ui/2.6.6/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="./js/jquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>
 
     <title>Class SignIn Form - Chris</title>  
 </head>
 <body>
     <div id="vueApp" style="width:80%;margin:0px auto;">
-    <form action="#" runat="server">            
+    <form id="form1" action="#" runat="server">            
         <fieldset>
         <legend class="col text-center formTitle">Class Sign-in Form<div id="yourname" runat="server"></div></legend>
         <div v-show="(view=='Query')" id="div_criteria">        
@@ -158,7 +158,7 @@
         </fieldset>              
     </form>
     </div>
-    <div name="hiddenArea" class="hide">
+    <div name="hiddenArea" class="hide" style="visibility:hidden">
         <input id="userid" type="text" name="userid" runat="server"/>
         <input id="h_classid" type="text" name="h_classid" runat="server"/>
     </div>     
@@ -167,10 +167,10 @@
     <script src="./js/moment.min.js"></script>
     <!--Vue.js-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>  -->
-    <script src="./js/vue/vue.min.js"></script>  
-    <script src="./js/ClassSignIn_vue.js"></script>  
+    <script src="./js/vue/vue.min.js"></script>
+    <script src="./js/ClassSignIn_vue.js"></script>
     <%--<script src="./js/vue/vueChris.js"></script>--%>  
-    <%--<script src="../js/myProj1.js"></script>--%>
+    <%--<script src="../js/myProj2.js"></script>--%>
 
 </body>
 </html>

@@ -39,32 +39,37 @@ function callajax_queryTraineeGRP() {
                     $("#dt_ls").append(data.error);
                 }
                 else {
-                    $("#dt_ls").empty();
+                    $("#tee").empty();
+                    $("#tb_class").empty();
 
-                    //$("#dt_ls").each(function () {
-                    //    for (var i = 0; i < data.jsonData.trainee_grp.length; i++) {
-                    //        var strOutput = "";
-
-                    //        for (var j in data.jsonData.trainee_grp[i]) {
-                    //            strOutput += data.jsonData.trainee_grp[i][j] + "/";
-                    //        }
-
-                    //        strOutput = strOutput.substring(0, strOutput.length - 1);
-                    //        this.append(strOutput + "<br/>");
-                    //    };
-                    //});
                     for (var i = 0; i < data.jsonData.trainee_grp.length; i++) {
-                        var strOutput = "";
+                        var strval = "";
+                        var tbval = "<tr>";
 
                         for (var j in data.jsonData.trainee_grp[i]) {
-                            strOutput += data.jsonData.trainee_grp[i][j] + "/";
+                            strval += data.jsonData.trainee_grp[i][j] + "/";
+                            tbval += "<td>" + data.jsonData.trainee_grp[i][j] + "</td>";
                         }
+                        tbval += "</tr>"
 
-                        strOutput = strOutput.substring(0, strOutput.length - 1);
-                        $("#dt_ls").append(strOutput + "<br/>");
-
-                        //$lst_trainee.append("<option value='" + data.jsonData.lst_trainee[i] + "'>" + data.jsonData.lst_trainee[i] + "</option>");
+                        strval = strval.substring(0, strval.length - 1);
+                        tbval = tbval.substring(0, tbval.length - 1);
+                        $("#tee").append("<li>" + strval + "</li>")
+                        $("#tb_class").append(tbval)
                     }
+
+                    //for (var i = 0; i < data.jsonData.trainee_grp.length; i++) {
+                    //    var strOutput = "";
+
+                    //    for (var j in data.jsonData.trainee_grp[i]) {
+                    //        strOutput += data.jsonData.trainee_grp[i][j] + "/";
+                    //    }
+
+                    //    strOutput = strOutput.substring(0, strOutput.length - 1);
+                    //    $("#dt_ls").append(strOutput + "<br/>");
+
+                    //    //$lst_trainee.append("<option value='" + data.jsonData.lst_trainee[i] + "'>" + data.jsonData.lst_trainee[i] + "</option>");
+                    //}
                 }
                 ////console.log(data.error);
                 ////console.log(data.jsonData);

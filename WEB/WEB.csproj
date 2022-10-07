@@ -162,6 +162,7 @@
     <Content Include="From\js\jquery-ui-1.13.2\package.json" />
     <Content Include="Handler\QueryData.ashx" />
     <Content Include="Handler\GetTitleText.ashx" />
+    <Content Include="From\js\jquary-blockui-2.7.0\jquery.blockUI.js" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
