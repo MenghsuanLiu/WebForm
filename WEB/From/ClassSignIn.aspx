@@ -41,6 +41,7 @@
     <form id="form1" action="#" runat="server">            
         <fieldset>
         <legend class="col text-center formTitle">Class Sign-in Form<div id="yourname" runat="server"></div></legend>
+        <%--Query Criteria--%>
         <div v-show="(view=='Query')" id="div_criteria">        
             <legend class="tb1">Query Criteria</legend>                                                   
             <table id="tab_criteria" style="width: 100%">
@@ -66,15 +67,17 @@
                 </tr>                                           
                 <tr>
                     <td class="center" colspan="2">
-                        <%--<button id="query" type="button" class="btn btn-primary btn-sm" @click="doQuery()">Query</button>--%>
-                        <button id="query" type="button" class="btn btn-primary btn-sm">Query</button>
+                        <button id="query" type="button" class="btn btn-primary btn-sm" @click="doQuery()">Query</button>
+                        <%--<button id="query" type="button" class="btn btn-primary btn-sm">Query</button>--%>
                         <button id="abort" type="button" class="btn btn-secondary btn-sm" @click="doAbort(event)">Abort</button>
                     </td>
                 </tr>
             </table>
             <br/><br/>                    
-        </div>                
-        <div id="div_result" v-show="(view=='Query' && criteria.signinrecs)">
+        </div>
+            
+
+        <div id="div_result" v-show="(view=='Query' && criteria.signinrecs==[])">
             <legend  class="tb1">Query Result {{ classinfo.lentgh }}</legend>                                               
             <i v-if="criteria.flg_query" class="fa fa-plus" style="font-size:20px;color:green;cursor: pointer;" @click="doEntry()"></i>
             <table id="tabResult" cellspacing="0" cellpadding="6" rules="all" border="1" width="100%">

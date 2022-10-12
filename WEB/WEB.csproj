@@ -83,6 +83,8 @@
     <Content Include="From\css\pass_blue.css" />
     <Content Include="From\css\pass_custom.css" />
     <Content Include="From\HW1004.aspx" />
+    <Content Include="From\HW1011.aspx" />
+    <Content Include="From\image\loading-load.gif" />
     <Content Include="From\js\ClassSignIn_vue.js" />
     <Content Include="From\js\jquery-ui-1.12.1\AUTHORS.txt" />
     <Content Include="From\js\jquery-ui-1.12.1\external\jquery\jquery.js" />
@@ -120,6 +122,114 @@
     <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.theme.css" />
     <Content Include="From\js\jquery-ui-1.13.2\jquery-ui.theme.min.css" />
     <Content Include="From\js\jquery-ui-1.13.2\LICENSE.txt" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\.gitignore" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\css\customMessages.css" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\css\releasenotes.plugin.css" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\css\screenshot.png" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\css\style.css" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\css\template.css" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\css\validationEngine.jquery.css" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoAdjustments.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoAjaxInlinePHP.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoAjaxJAVA.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoAjaxSubmitPHP.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoAttr.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoAutoHide.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoCheckBox.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoChosenLibrary.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoCustomErrorMessages.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoDatepicker.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoDivContainer.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoErrorLimit.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoFieldTypes.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoGlobalSettings.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoHooks.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoInlineMessages.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoLiveEvent.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoMultipleForms.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoNotEmpty.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoOneMessage.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoOnForm.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoOverflown.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoPerFieldPromptDirection.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoPositioning.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoRegExp.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoSelectBoxLibrary.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoShowPrompt.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoSilent.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoValidationComplete.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoValidators.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoValidators.ja.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoWithoutArrow.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\demoWithoutId.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\favicon.ico" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\bg.jpg" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\bg2.png" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\bg_new.png" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\bodybg.png" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\bubble-arrow.png" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\icons.png" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\johnny_automatic_skew_gear.svg" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\images\lineseparator.png" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\index.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\contrib\other-validations.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\jquery-1.8.2.min.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\jquery-3.4.1.min.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\jquery.validationEngine.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\jquery.validationEngine.min.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-ar.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-ca.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-cz.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-da.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-de.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-el.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-en.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-es.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-et.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-fa.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-fi.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-fr.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-he.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-hr.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-hu.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-id.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-it.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-ja.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-lt.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-nl.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-no.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-pl.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-pt.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-pt_BR.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-ro.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-ru.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-sr_Cyrl.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-sr_Latn.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-sv.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-th.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-tr.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-uk_UA.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-vi.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-zh_CN.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-zh_HK.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-zh_TW.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\libs\jquery-1.7.1.min.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\libs\marked.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\libs\modernizr-2.0.6.min.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\releasenotes.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\releases.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\issue430.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\issue451.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\issue480.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\issue493.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\issue498.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\issue507.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\issue524.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\placeholders.html" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\AjaxTestServer.java" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\NanoHTTPD.java" />
+    <Content Include="From\js\jquery.serializeObject.js" />
+    <Content Include="From\js\json2.js" />
     <Content Include="From\js\moment.min.js" />
     <Content Include="From\js\myProj1.js" />
     <Content Include="From\js\sample.js" />
@@ -132,6 +242,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendedPageClasses\BaseForm.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="From\ClassSignIn.aspx.cs">
       <DependentUpon>ClassSignIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -146,8 +259,18 @@
     <Compile Include="From\HW1004.aspx.designer.cs">
       <DependentUpon>HW1004.aspx</DependentUpon>
     </Compile>
+    <Compile Include="From\HW1011.aspx.cs">
+      <DependentUpon>HW1011.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="From\HW1011.aspx.designer.cs">
+      <DependentUpon>HW1011.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\ClassSignIn_DataHandler.ashx.cs">
+      <DependentUpon>ClassSignIn_DataHandler.ashx</DependentUpon>
     </Compile>
     <Compile Include="Handler\GetTitleText.ashx.cs">
       <DependentUpon>GetTitleText.ashx</DependentUpon>
@@ -156,6 +279,8 @@
       <DependentUpon>QueryData.ashx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebUtil\StringUtil.cs" />
+    <Compile Include="WebUtil\WebControlsUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="From\js\jquery-ui-1.12.1\package.json" />
@@ -163,6 +288,26 @@
     <Content Include="Handler\QueryData.ashx" />
     <Content Include="Handler\GetTitleText.ashx" />
     <Content Include="From\js\jquary-blockui-2.7.0\jquery.blockUI.js" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\.github\ISSUE_TEMPLATE.md" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\.github\PULL_REQUEST_TEMPLATE.md" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\bower.json" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\phpajax\ajaxValidateFieldName.php" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\phpajax\ajaxValidateFieldUser.php" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\demos\phpajax\ajaxValidateSubmit.php" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\js\languages\jquery.validationEngine-uk" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\less\validationEngine.jquery.less" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\README.md" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\runDemo.bat" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\runDemo.sh" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\AjaxTestServer%24AjaxValidationFieldResponse.class" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\AjaxTestServer%24AjaxValidationFormResponse.class" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\AjaxTestServer.class" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\NanoHTTPD%24HTTPSession.class" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\NanoHTTPD%24Response.class" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\NanoHTTPD.class" />
+    <Content Include="From\js\jQuery-Validation-Engine-3.0.0\validationengine.jquery.json" />
+    <Content Include="Handler\ClassSignIn_DataHandler.ashx" />
+    <Content Include="From\js\moment.min.js.map" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

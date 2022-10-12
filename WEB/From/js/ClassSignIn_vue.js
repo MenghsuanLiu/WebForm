@@ -6,6 +6,7 @@ const formatYmd = date => date.toISOString().slice(0, 10);
 // Example
 const today = formatYmd(new Date());      // 2020-05-06  
 const format = "YYYY/MM/DD";
+const ymd_format = "YYYY-MM-DD";
 
 var $VM = new Vue({
     el: '#vueApp', // binding element /* el:表示這個 vue instance 創建後會掛載取代 id="app" 的元素
@@ -238,8 +239,39 @@ var $VM = new Vue({
             }
         },
         formatDate: function (_date) {
-            let _output = moment(_date).format(format);
+            let _output = moment(_date).format(ymd_format);
             return (_output);
+        },
+        link_initData: function (_data) {
+            const self = this;
+            try {
+                if (_data.classes) {
+                    self.classinfo = [];
+                    let _rtndata = _data.classes;
+                    for (let i = 0; i < _rtndata.length; i++) {
+                        self.classinfo.push({
+                            classid: _rtndata[i].classid,
+                            classname: _rtndata[i].classname,
+                            classdate: self.formatDate(_rtndata[i].classdate, ymd_format),
+                            trainer: _rtndata[i].trainer,
+                        });
+                    }
+                }
+                if (_data.trainees) {
+                    self.trainee = [];
+                    let _rtndata = _data.trainees;
+                    for (let i = 0; i < _rtndata.length; i++) {
+                        self.trainee.push({
+                            empid: _rtndata[i].empid,
+                            trainee: _rtndata[i].trainee,
+                        });
+                    }
+                }
+                self.criteria.classid = $("#h_classid").val();
+                $("#query").show();
+            } catch (ex) {
+                console.log(ex.message);
+            }
         }
     }
 });
@@ -272,6 +304,24 @@ let loadTitle = function () {
         console.log(exce.message);
     }
 }
+let loadCombo = function () {
+    // form1 上 css class = "saveform"的 tag value 轉成JSON string
+    $("#query").hide();
+    var _classid = "";
+    if ($("#classid").length > 0 && $("#classid").val() != null)
+        _classid = $("#classid").val();
+    var params = {
+        classid: _classid,
+    };
+    var postData = {
+        type: "GetInitData", //DataHandler.ashx ~ method        
+        params: JSON.stringify(params),
+        propStr: "rData" //DataHandler ,jsondata key. 
+    };
+
+    var rtnData = callAjax(postData, true, GetInitDataRtn); //async
+
+}
 
 
 
@@ -290,6 +340,10 @@ $(function () {
         /*Set Default Value*/
         $("#userid").val(_userid);
         loadTitle();
+        loadCombo();
+
+
+
 
 
 
@@ -303,6 +357,10 @@ $(function () {
         alert(exce)
     }
 })
+
+$(document).ajaxStart(function () {
+    $.blockUI({ message: "<div><img src='./image/loading-load.gif' /></div>" });
+}).ajaxStop($.unblockUI);
 
 function AlertMsg(msg) {
     $("#dialog-message").html(msg);
@@ -384,3 +442,14 @@ function callAjax(putParameter, async, customFunc) {
     return returnData;
 }
 
+function GetInitDataRtn(type, rtnData) {
+    if (typeof (rtnData.error) != 'undefined') {
+        if (rtnData.error != "") {
+            alert(rtnData.error);
+        } else {
+            var _data = rtnData.jsonData;
+            $VM.link_initData(_data);
+            console.log(_data);
+        }
+    }
+}
