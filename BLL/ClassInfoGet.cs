@@ -4,9 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Reflection;
+using Newtonsoft.Json;
 
 namespace CFP.BLL
 {
@@ -45,7 +44,6 @@ namespace CFP.BLL
                 throw ex;
             }
         }
-
         public IEnumerable<object> GetTrainee()
         {
             try
@@ -61,7 +59,6 @@ namespace CFP.BLL
                 throw ex;
             }
         }
-
         public IEnumerable<object> GetTrainClassGrp()
         {
             try
@@ -77,7 +74,6 @@ namespace CFP.BLL
                 throw ex;
             }
         }
-
         public IEnumerable<object> GetTrainClassGrpByTrainee(string _trainee)
         {
             try
@@ -156,6 +152,76 @@ namespace CFP.BLL
                 //log.Fatal(System.Reflection.MethodBase.GetCurrentMethod().Name + " ==>" + ex.Message);
                 throw ex;
             }
+        }
+        #endregion
+
+        #region  Query records by classid Selected
+        public IEnumerable<object> GetSelectedClassRecs(string userid, string classid)
+        {
+            try
+            {
+                using (sapDBconn sapctx = new sapDBconn())
+                {
+                    //var ls = sapContext.ZTST_TRAINSIGNIN.Where(x => x.CLASSID.Equals(classid)).ToList();
+                    // inner join
+                    var ls = (
+                        from detail in sapctx.ZTST_TRAINSIGNIN
+                        join master in sapctx.ZTST_TRAINCLASS
+                            on detail.classid equals master.classid
+                        //where detail.classid.Equals(classid) && detail.userid.Equals(userid)
+                        where detail.classid.Equals(classid) && detail.trainee.Equals(userid)
+                        orderby master.classid ascending
+                        select new
+                        {
+                            classid = detail.classid,
+                            classname = master.classname,
+                            classdate = master.classdate,
+                            trainee = detail.trainee,
+                            signin = detail.signin,
+                            homework = detail.homework
+                        }).ToList();
+                    return ls;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        #endregion
+
+        #region Insert Sign in record
+        public void InsertTrainSignInRec(string sJson)
+        {
+            try
+            {
+                using (sapDBconn sapctx = new sapDBconn())
+                {
+                    ZTST_TRAINSIGNIN _add = JsonConvert.DeserializeObject<List<ZTST_TRAINSIGNIN>>(sJson)[0];
+                    //sapContext.ZTST_TRAINSIGNIN.Add(_add);
+                    //sapContext.SaveChanges();
+
+                    ZTST_TRAINSIGNIN _rec = sapctx.ZTST_TRAINSIGNIN.Find(_add.userid, _add.classid, _add.trainee);
+                    if (_rec == null)
+                    {
+                        _rec = new ZTST_TRAINSIGNIN();
+                        sapctx.Entry(_rec).State = EntityState.Added;
+                    }
+                    else
+                    {
+                        sapctx.Entry(_rec).State = EntityState.Modified;
+                    }
+                    SetValue2(_add, _rec);
+                    //log.InfoFormat("InsertSignInRec={0}", JsonConvert.SerializeObject(_rec));
+                    sapctx.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                //log.Fatal(System.Reflection.MethodBase.GetCurrentMethod().Name + " ==>" + ex.Message);
+                throw ex;
+            }
+
         }
         #endregion
     }

@@ -1,4 +1,4 @@
-﻿const _userid = "庫庫少";
+﻿const _userid = "chrisliu";
 const _url_ajaxGet = "../Handler/GetTitleText.ashx"
 const _url_ajaxPOst = "../Handler/ClassSignIn_DataHandler.ashx";
 // `date` is a `Date` object
@@ -13,48 +13,22 @@ var $VM = new Vue({
     data() {       // 資料區塊
         return {
             view: 'Query', // 'Result','Entry',
-            // classinfo: [
-            //     {
-            //         classid : 'BAS01',
-            //         classname : 'HTML vs. IIS web site',
-            //         classdate : '2022-08-31',
-            //         trainer : 'sonia',
-            //     },
-            //     {
-            //         classid : 'BAS02',
-            //         classname : 'CSS/JavaScript/HTML DOM',
-            //         classdate : '2022-09-06',
-            //         trainer : 'sonia',
-            //     },
-            //     {
-            //         classid : 'BAS03',
-            //         classname : 'JQuery/Vue.js',
-            //         classdate : '2022-09-13',
-            //         trainer : 'sonia',
-            //     },
-            //     {
-            //         classid : 'BAS04',
-            //         classname : 'Demo Class',
-            //         classdate : '2022-12-31',
-            //         trainer : 'chris',
-            //     }                           
-            // ],
             classinfo: {
-                classid: '',
-                classname: '',
-                classdate: '',
-                trainer: '',
+                classid: "",
+                classname: "",
+                classdate: "",
+                trainer: "",
             },
             criteria: {
-                classid: '',
-                classdate: '',
-                trainer: '',
+                classid: "",
+                classdate: "",
+                trainer: "",
                 signinrecs: [],
                 flg_query: false,
             },
             newsignin: {
-                trainee: '',
-                signin: 'N',
+                trainee: "",
+                signin: "N",
                 flg_signin: false,
                 homework: 0,
             },
@@ -140,10 +114,10 @@ var $VM = new Vue({
     },
     // 方法區塊:供目前Vue區域內使用,未调用不會執行,只執行logic,不限定需回傳值.
     methods: {
-        initdata: function () {
-            const self = this;
-            // self.criteria.classid = 'BAS02';                   
-        },
+        //initdata : function() {
+        //    const self=this;                     
+        //    self.criteria.classid = 'BAS02';                   
+        //},      
         setClass: function () {
             const self = this;
             try {
@@ -158,19 +132,29 @@ var $VM = new Vue({
                 console.log(ex.message);
             }
         },
+        //按下Query鍵
         doQuery: function () {
             const self = this;
             try {
-                let _lst = self.classSigninRecs.filter(x => x.classid == self.criteria.classid)[0];
-                if (!_lst) return;
-                let _rec = _lst.trainees;
-                self.criteria.signinrecs = _rec;
-                self.criteria.flg_query = true;
-                //console.log(self.criteria.signinrecs);                
+                queryresult_ajax();
+                //callajax_queryresult();
             } catch (ex) {
                 console.log(ex.message);
             }
         },
+        //doQuery : function() {
+        //    const self=this;     
+        //    try{                          
+        //        let _lst = self.classSigninRecs.filter(x=>x.classid==self.criteria.classid)[0];  
+        //        if (!_lst) return;
+        //        let _rec = _lst.trainees;  
+        //        self.criteria.signinrecs = _rec; 
+        //        self.criteria.flg_query = true;
+        //        //console.log(self.criteria.signinrecs);                
+        //    }catch(ex){
+        //        console.log(ex.message);
+        //    }                      
+        //},
         doEntry: function () {
             const self = this;
             try {
@@ -183,8 +167,12 @@ var $VM = new Vue({
             const self = this;
             try {
                 e = e || window.event;
-                if (e.srcElement.id == 'abort1') self.view = 'Query';
-                else self.criteria.signinrecs = [];
+                if (e.srcElement.id == 'save_abort') self.view = 'Query';
+                else {
+                    self.criteria.signinrecs = [];
+                    self.criteria.flg_query = false;
+                }
+
                 console.log("event type:", e.type); //will be the event
                 console.log("event element id:", e.srcElement.id); //we be the dom element 
             } catch (ex) {
@@ -210,12 +198,13 @@ var $VM = new Vue({
                     AlertMsg("If sign-in,please entry 「homework %」!");
                     return false;
                 }
-                self.criteria.signinrecs.push({
-                    trainee: self.newsignin.trainee,
-                    signin: self.newsignin.flg_signin == true ? "Y" : "N",
-                    homework: self.newsignin.homework,
-                });
-                self.view = 'Query';
+                insertnew_ajax();
+                //self.criteria.signinrecs.push({
+                //    trainee: self.newsignin.trainee,
+                //    signin: self.newsignin.flg_signin==true?"Y":"N",                            
+                //    homework: self.newsignin.homework, 
+                //});
+                //self.view = 'Query';
             } catch (ex) {
                 console.log(ex.message);
             }
@@ -242,6 +231,7 @@ var $VM = new Vue({
             let _output = moment(_date).format(ymd_format);
             return (_output);
         },
+        //取得資料寫進classinfo
         link_initData: function (_data) {
             const self = this;
             try {
@@ -269,6 +259,24 @@ var $VM = new Vue({
                 }
                 self.criteria.classid = $("#h_classid").val();
                 $("#query").show();
+            } catch (ex) {
+                console.log(ex.message);
+            }
+        },
+        //取得資料寫入criteria.signinrecs,同時指定criteria.flg_query = true
+        link_classSelectedResult: function (_data) {
+            const self = this;
+            try {
+                self.criteria.signinrecs = [];
+                for (let i = 0; i < _data.length; i++) {
+                    _classid = _data[i].classid;
+                    self.criteria.signinrecs.push({
+                        trainee: _data[i].trainee,
+                        signin: _data[i].signin,
+                        homework: _data[i].homework,
+                    });
+                }
+                self.criteria.flg_query = true;
             } catch (ex) {
                 console.log(ex.message);
             }
@@ -322,9 +330,6 @@ let loadCombo = function () {
     var rtnData = callAjax(postData, true, GetInitDataRtn); //async
 
 }
-
-
-
 let del = function (dataid) {
     try {
         //document.getElementById(dataid).style.display = "none";
@@ -358,10 +363,6 @@ $(function () {
     }
 })
 
-$(document).ajaxStart(function () {
-    $.blockUI({ message: "<div><img src='./image/loading-load.gif' /></div>" });
-}).ajaxStop($.unblockUI);
-
 function AlertMsg(msg) {
     $("#dialog-message").html(msg);
     $("#dialog-message").dialog({
@@ -393,6 +394,47 @@ function ConfirmMsg(msg, _yfunc, _nfunc, _datakey) {
         }
     });
 }
+//用ajax依classid取得內容
+function queryresult_ajax() {
+    var _userid = $("#userid").val();
+    var _classid = $("#classid").val();
+    var params = {
+        userid: _userid,
+        classid: _classid,
+    };
+    var postData = {
+        type: "GetSelectedRecs", //DataHandler.ashx ~ method
+        params: JSON.stringify(params),
+        propStr: "rData" //DataHandler ,jsondata key. 
+    };
+    var rtnData = callAjax(postData, true, GetSelectedRecsRtn); //async
+}
+//用ajax寫資料進table
+function insertnew_ajax() {
+    let _signin = $("#signin")[0].checked;
+    let _homework = Number($("#homework").val());
+    let _vo = {
+        //userid: $("#userid").val(),
+        userid: $("#trainee"),
+        classid: $("#classid").val(),
+        trainee: $("#trainee").val(),
+        signin: _signin == true ? "Y" : "N",
+        homework: _homework,
+    };
+    let _jsondata = "";
+    _jsondata = "[" + JSON.stringify(_vo) + "]";
+    var params = {
+        newdata: _jsondata,
+    };
+    var postData = {
+        type: "SaveNewRec", //DataHandler.ashx ~ method
+        params: JSON.stringify(params),
+        propStr: "rData" //DataHandler ,jsondata key. 
+    };
+
+    var rtnData = callAjax(postData, true, SaveNewRecRtn); //async
+}
+
 
 function delY(_trainee) {
     //console.log("delY:"+_trainee);
@@ -441,7 +483,7 @@ function callAjax(putParameter, async, customFunc) {
     });
     return returnData;
 }
-
+//進來頁面 1.取得init的資料 2.用method $VM.link_initData寫到畫面
 function GetInitDataRtn(type, rtnData) {
     if (typeof (rtnData.error) != 'undefined') {
         if (rtnData.error != "") {
@@ -449,6 +491,34 @@ function GetInitDataRtn(type, rtnData) {
         } else {
             var _data = rtnData.jsonData;
             $VM.link_initData(_data);
+            console.log(_data);
+        }
+    }
+}
+//按Query 1.取得符合條件的資料 2.用method $VM.link_classSelectedResult寫到畫面
+function GetSelectedRecsRtn(type, rtnData) {
+    if (typeof (rtnData.error) != 'undefined') {
+        if (rtnData.error != "") {
+            alert(rtnData.error);
+        } else {
+            var _data = rtnData.jsonData.rData;
+            console.log(_data);
+
+            $VM.link_classSelectedResult(_data);
+            //generateResultTable(_data);            
+        }
+    }
+}
+//按Save 1.重新Query資料 2.切回Query Mode
+function SaveNewRecRtn() {
+    if (typeof (rtnData.error) != 'undefined') {
+        if (rtnData.error != "") {
+            alert(rtnData.error);
+        } else {
+            var _data = rtnData.jsonData;
+            // re-Query
+            queryresult_ajax();
+            $VM.view = 'Query';
             console.log(_data);
         }
     }

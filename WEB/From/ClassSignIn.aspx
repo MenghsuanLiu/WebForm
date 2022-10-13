@@ -49,6 +49,7 @@
                     <td style="width: 15%" class="title" rowspan="2">Class：</td>
                     <td style="width: 85%" class="info">
                         <select id="classid" v-model="criteria.classid" >
+                          <option value="">--Select one--</option>
                           <option v-for="(item,n) in classinfo" :value="item.classid">{{ item.classid}}_{{ item.classname }}</option>
                         </select>
                     </td>                                    
@@ -74,11 +75,12 @@
                 </tr>
             </table>
             <br/><br/>                    
-        </div>
-            
-
-        <div id="div_result" v-show="(view=='Query' && criteria.signinrecs==[])">
-            <legend  class="tb1">Query Result {{ classinfo.lentgh }}</legend>                                               
+        </div>            
+        <%--Query Result Display--%>       
+        <div id="div_result" v-show="(view=='Query' && criteria.flg_query)">
+        <%--<div id="div_result" v-show="(view=='Query' && criteria.signinrecs)">--%>
+            <legend  class="tb1">Query Result {{ classinfo.lentgh }}</legend>   
+            <%--增加一筆資料--%>
             <i v-if="criteria.flg_query" class="fa fa-plus" style="font-size:20px;color:green;cursor: pointer;" @click="doEntry()"></i>
             <table id="tabResult" cellspacing="0" cellpadding="6" rules="all" border="1" width="100%">
                 <thead>
@@ -97,7 +99,9 @@
                     <td class="info"><i class="fa fa-minus" style="font-size:20px;color:red;cursor: pointer;" @click="doDel(item.trainee)"></i></td>                    
                     <td class="info"><i class="fa fa-pencil-square-o" style="font-size:20px;color:forestgreen;cursor: pointer;" @click="doMod(item.trainee)"></i></td>                    
                     <td class="info">{{ criteria.classid }}_{{ criteria.classname }}</td>
-                    <td class="info">{{ formatDate(criteria.classdate) }}</td>
+                    <%--<td class="info">{{ formatDate(criteria.classdate) }}</td>--%>
+                    <%--<td class="info">{{ item.classid }}_{{ item.classname }}</td>--%>
+                    <td class="info">{{ formatDate(item.classdate) }}</td>
                     <td class="info">{{ item.trainee }}</td>
                     <td class="info center"><input type="checkbox" id="chk_signin_1" name="chk_signin" :checked="(item.signin=='Y'?true:false)" onclick="return false"/></td>
                     <td class="info">{{ item.homework }} %</td>
@@ -105,7 +109,8 @@
                 </tbody>
             </table>            
             <br/><br />                       
-        </div>         
+        </div>
+        <%--新增資料的DIV--%>
         <div v-show="(view=='Entry')" id="div_entry">       
             <div  class="tb1">Entry/Change</div>                                                                                 
             <table style="width: 100%">
@@ -134,7 +139,7 @@
                     <td style="width: 85%" class="info">
                         <select id="trainee" v-model="newsignin.trainee" >
                           <option value="">--Select one--</option>
-                          <option v-for="(item,n) in trainee" :value="item.trainee">{{ item.empid}}_{{ item.trainee }}</option>
+                          <option v-for="(item,n) in trainee" :value="item.trainee" :key="item.empid">{{ item.empid}}_{{ item.trainee }}</option>
                         </select>                         
                     </td>                                    
                 </tr>
@@ -153,14 +158,16 @@
                 <tr>
                     <td class="center" colspan="2">
                         <button id="save" type="button" class="btn btn-primary btn-sm" @click="doSave()">Save</button>
-                        <button id="abort1" type="button" class="btn btn-secondary btn-sm" @click="doAbort(event)">Abort</button>
+                        <button id="save_abort" type="button" class="btn btn-secondary btn-sm" @click="doAbort(event)">Abort</button>
                     </td>
                 </tr>
             </table>
         </div>               
-        </fieldset>              
+        </fieldset>
     </form>
     </div>
+
+    <%--以下為Hide的部份--%>
     <div name="hiddenArea" class="hide" style="visibility:hidden">
         <input id="userid" type="text" name="userid" runat="server"/>
         <input id="h_classid" type="text" name="h_classid" runat="server"/>

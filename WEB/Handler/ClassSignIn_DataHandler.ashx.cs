@@ -90,7 +90,47 @@ namespace CFP.WEB.Handler
                 throw e;
             }
         }
+        public static void GetSelectedRecs(string paramsStr, string propStr, ref string errMsg, ref Dictionary<string, object> jsonData)
+        {
+            try
+            {
+                //取出classid / userid
+                Dictionary<string, object> obj = JsonConvert.DeserializeObject<Dictionary<string, object>>(paramsStr);
+                string _userid = obj["userid"] as string;
+                string _classid = obj["classid"] as string;
+                using (var _classinfo = new ClassInfoGet())
+                {
+                    var reqdata = _classinfo.GetSelectedClassRecs(_userid, _classid);
+                    jsonData.Add(propStr, reqdata);
+                }
+            }
+            catch (Exception e)
+            {
+                errMsg = e.StackTrace;
+                throw e;
+            }
+        }
+        public static void SaveNewRec(string paramsStr, string propStr, ref string errMsg, ref Dictionary<string, object> jsonData)
+        {
+            try
+            {
+                Dictionary<string, object> obj = JsonConvert.DeserializeObject<Dictionary<string, object>>(paramsStr);
+                string sJson = obj["newdata"] as string;
 
+                //ClassInfo.InsertSignInRec(sJson);
+                using (var _classinfo = new ClassInfoGet())
+                {
+                    _classinfo.InsertTrainSignInRec(sJson);
+                }
+
+                jsonData.Add(propStr, true);
+            }
+            catch (Exception e)
+            {
+                errMsg = e.StackTrace;
+                throw e;
+            }
+        }
         public bool IsReusable
         {
             get
