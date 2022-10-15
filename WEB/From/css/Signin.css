@@ -1,0 +1,11 @@
+[v-cloak]{
+    display: none;
+}
+.center {
+    text-align: center
+}
+.formTitle {
+    font-size: 20px;
+    background-color: #006db4;
+    color: white;
+}

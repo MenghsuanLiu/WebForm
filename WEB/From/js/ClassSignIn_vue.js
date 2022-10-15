@@ -32,58 +32,6 @@ var $VM = new Vue({
                 flg_signin: false,
                 homework: 0,
             },
-            // trainee: [ 
-            //     { gpid: "G1", empid: '949086', userid: 'link' },
-            //     { gpid: "G2", empid: '081271', userid: 'stanleyl' },
-            //     { gpid: "G3", empid: '926382', userid: 'janeth' }
-            // ],        
-            // classSigninRecs:[
-            //     {
-            //         classid : 'BAS01',  
-            //         trainees: [
-            //             {   
-            //                 trainee: 'link',
-            //                 signin: 'Y',
-            //                 homework: 90,
-            //             },
-            //             {   
-            //                 trainee: 'stanleyl',
-            //                 signin: 'Y',
-            //                 homework: 10,
-            //             },                            
-            //         ]                                                                  
-            //     }, 
-            //     {
-            //         classid : 'BAS02',  
-            //         trainees: [
-            //             {   
-            //                 trainee: 'link',
-            //                 signin: 'Y',
-            //                 homework: 20,
-            //             },
-            //             {   
-            //                 trainee: 'stanleyl',
-            //                 signin: 'N',
-            //                 homework: 0,
-            //             },                            
-            //         ]                                                                  
-            //     },
-            //     {
-            //         classid : 'BAS04',  
-            //         trainees: [
-            //             {   
-            //                 trainee: 'chris',
-            //                 signin: 'Y',
-            //                 homework: 40,
-            //             },
-            //             {   
-            //                 trainee: 'little',
-            //                 signin: 'Y',
-            //                 homework: 70,
-            //             },                            
-            //         ]                                                                  
-            //     },                         
-            // ]     
         }
     },
     // created區塊:在DOM渲染成html前callback;用於初始值
@@ -142,19 +90,6 @@ var $VM = new Vue({
                 console.log(ex.message);
             }
         },
-        //doQuery : function() {
-        //    const self=this;     
-        //    try{                          
-        //        let _lst = self.classSigninRecs.filter(x=>x.classid==self.criteria.classid)[0];  
-        //        if (!_lst) return;
-        //        let _rec = _lst.trainees;  
-        //        self.criteria.signinrecs = _rec; 
-        //        self.criteria.flg_query = true;
-        //        //console.log(self.criteria.signinrecs);                
-        //    }catch(ex){
-        //        console.log(ex.message);
-        //    }                      
-        //},
         doEntry: function () {
             const self = this;
             try {
@@ -217,16 +152,39 @@ var $VM = new Vue({
                 console.log(ex.message);
             }
         },
-        confirmDel: function (_trainee) {
+        doDel_confirm: function (_trainee) {
             //console.log("confirmDel:"+_trainee)
             const self = this;
             try {
-                let _existIdx = self.criteria.signinrecs.findIndex(x => x.trainee == _trainee);
-                this.criteria.signinrecs.splice(_existIdx, 1);
+                //let _existIdx = self.criteria.signinrecs.findIndex(x=>x.trainee==_trainee);
+                //this.criteria.signinrecs.splice(_existIdx,1);              
+                let _empid = self.criteria.signinrecs.find(x => x.trainee == _trainee).empid;
+                let _classid = $("#classid").val();
+                delrecod_ajax(_empid, _classid, _trainee);
             } catch (ex) {
                 console.log(ex.message);
             }
         },
+        doMod: function (_trainee) {
+            const self = this;
+            try {
+                //let _userid = $("#userid").val();
+                let _empid = self.criteria.signinrecs.find(x => x.trainee == _trainee).empid;
+                let _classid = $("#classid").val();
+                var postData = {
+                    empid: _empid,
+                    classid: _classid,
+                    trainee: _trainee,
+                };
+
+                var url = "./ClassSignIn_Maintain.aspx";
+                $.redirectPost(url, postData);
+
+            } catch (ex) {
+                console.log(ex.message);
+            }
+        },
+
         formatDate: function (_date) {
             let _output = moment(_date).format(ymd_format);
             return (_output);
@@ -271,9 +229,11 @@ var $VM = new Vue({
                 for (let i = 0; i < _data.length; i++) {
                     _classid = _data[i].classid;
                     self.criteria.signinrecs.push({
+                        empid: _data[i].empid,
                         trainee: _data[i].trainee,
                         signin: _data[i].signin,
                         homework: _data[i].homework,
+                        curusr: _data[i].trainee == $("#userid").val(),
                     });
                 }
                 self.criteria.flg_query = true;
@@ -330,27 +290,24 @@ let loadCombo = function () {
     var rtnData = callAjax(postData, true, GetInitDataRtn); //async
 
 }
-let del = function (dataid) {
-    try {
-        //document.getElementById(dataid).style.display = "none";
-        $("[id='" + dataid + "']").hide();
-    } catch (ex) {
-        console.log(ex.message);
-    }
-}
+//let del = function(dataid){
+//    try{                       
+//        //document.getElementById(dataid).style.display = "none";
+//        $("[id='" + dataid + "']").hide();                 
+//    }catch(ex){
+//        console.log(ex.message);
+//    }                
+//} 
 
 
 $(function () {
     try {
         /*Set Default Value*/
+        $("#classdate").datepicker({ dateFormat: 'yy/mm/dd' }).val();
+        $("#classdate_add").datepicker({ dateFormat: 'yy/mm/dd' }).val();
         $("#userid").val(_userid);
         loadTitle();
         loadCombo();
-
-
-
-
-
 
         $("#trainee").change(function () {
             $(this).css("background-color", "#D6D6FF");
@@ -399,7 +356,8 @@ function queryresult_ajax() {
     var _userid = $("#userid").val();
     var _classid = $("#classid").val();
     var params = {
-        userid: _userid,
+        //userid: _userid,
+        userid: "",
         classid: _classid,
     };
     var postData = {
@@ -413,11 +371,12 @@ function queryresult_ajax() {
 function insertnew_ajax() {
     let _signin = $("#signin")[0].checked;
     let _homework = Number($("#homework").val());
+    let _obj = document.getElementById("trainee")
     let _vo = {
         //userid: $("#userid").val(),
-        userid: $("#trainee"),
+        userid: $("#trainee").val().split(",")[0],
         classid: $("#classid").val(),
-        trainee: $("#trainee").val(),
+        trainee: $("#trainee").val().split(",")[1],
         signin: _signin == true ? "Y" : "N",
         homework: _homework,
     };
@@ -434,11 +393,26 @@ function insertnew_ajax() {
 
     var rtnData = callAjax(postData, true, SaveNewRecRtn); //async
 }
+//用ajax去刪Table資料
+function delrecod_ajax(_userid, _classid, _trainee) {
+    var params = {
+        userid: _userid,
+        classid: _classid,
+        trainee: _trainee,
+    };
+    var postData = {
+        type: "DelRec", //DataHandler.ashx ~ method
+        params: JSON.stringify(params),
+        propStr: "rData" //DataHandler ,jsondata key. 
+    };
+
+    var rtnData = callAjax(postData, true, DelRecRtn); //async
+}
 
 
 function delY(_trainee) {
     //console.log("delY:"+_trainee);
-    $VM.confirmDel(_trainee);
+    $VM.doDel_confirm(_trainee);
 }
 
 function delN() {
@@ -483,7 +457,7 @@ function callAjax(putParameter, async, customFunc) {
     });
     return returnData;
 }
-//進來頁面 1.取得init的資料 2.用method $VM.link_initData寫到畫面
+//進來頁面 1.取得init的資料(課程/訓練人) 2.用method $VM.link_initData寫到畫面
 function GetInitDataRtn(type, rtnData) {
     if (typeof (rtnData.error) != 'undefined') {
         if (rtnData.error != "") {
@@ -510,7 +484,7 @@ function GetSelectedRecsRtn(type, rtnData) {
     }
 }
 //按Save 1.重新Query資料 2.切回Query Mode
-function SaveNewRecRtn() {
+function SaveNewRecRtn(type, rtnData) {
     if (typeof (rtnData.error) != 'undefined') {
         if (rtnData.error != "") {
             alert(rtnData.error);
@@ -523,3 +497,31 @@ function SaveNewRecRtn() {
         }
     }
 }
+//Delete
+function DelRecRtn(type, rtnData) {
+    if (typeof (rtnData.error) != 'undefined') {
+        if (rtnData.error != "") {
+            alert(rtnData.error);
+        } else {
+            var _data = rtnData.jsonData;
+            // re-Query
+            queryresult_ajax();
+            $VM.view = 'Query';
+            console.log(_data);
+        }
+    }
+}
+
+
+// jquery extend function
+$.extend(
+    {
+        redirectPost: function (location, args) {
+            var form = '';
+            $.each(args, function (key, value) {
+                value = value.split('"').join('\"')
+                form += '<input type="hidden" name="' + key + '" value="' + value + '">';
+            });
+            $('<form action="' + location + '" method="POST">' + form + '</form>').appendTo($(document.body)).submit();
+        }
+    });

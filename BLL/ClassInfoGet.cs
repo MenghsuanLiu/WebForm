@@ -169,13 +169,15 @@ namespace CFP.BLL
                         join master in sapctx.ZTST_TRAINCLASS
                             on detail.classid equals master.classid
                         //where detail.classid.Equals(classid) && detail.userid.Equals(userid)
-                        where detail.classid.Equals(classid) && detail.trainee.Equals(userid)
+                        //where detail.classid.Equals(classid) && detail.trainee.Equals(userid)
+                        where (classid == "" || detail.classid.Contains(classid)) && (userid == "" || detail.trainee.Contains(userid))
                         orderby master.classid ascending
                         select new
                         {
                             classid = detail.classid,
                             classname = master.classname,
                             classdate = master.classdate,
+                            empid = detail.userid,
                             trainee = detail.trainee,
                             signin = detail.signin,
                             homework = detail.homework
@@ -222,6 +224,35 @@ namespace CFP.BLL
                 throw ex;
             }
 
+        }
+        #endregion
+
+        #region - DeleteRec
+        public void DeleteRec(string _userid, string _classid, string _trainee)
+        {
+            try
+            {
+                using (sapDBconn sapctx = new sapDBconn())
+                {
+                    ZTST_TRAINSIGNIN _rec = sapctx.ZTST_TRAINSIGNIN.Find(_userid, _classid, _trainee);
+                    if (_rec == null)
+                    {
+                    }
+                    else
+                    {
+                        sapctx.Entry(_rec).State = EntityState.Deleted;
+                    }
+
+                    //log.Info("DeleteData=" + JsonConvert.SerializeObject(_rec));
+
+                    sapctx.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                //log.Fatal(System.Reflection.MethodBase.GetCurrentMethod().Name + " ==>" + ex.Message);
+                throw ex;
+            }
         }
         #endregion
     }

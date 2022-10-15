@@ -13,7 +13,7 @@ using System.Web.UI.WebControls;
 
 namespace CFP.WEB.From
 {
-    public partial class HW1011 : BaseForm
+    public partial class ClassSignIn_Maintain : BaseForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -48,57 +48,56 @@ namespace CFP.WEB.From
                 LoadFormData();
             }
         }
-
-    protected void classid_SelectedIndexChanged(object sender, EventArgs e)
-    {
+        protected void classid_SelectedIndexChanged(object sender, EventArgs e)
+        {
             LoadFormData();
-    }
-   
+        }
+
 
         public override void BindBasicInfo()
-    {
-        //classid
-        BindCustomizeDDL(classid, "classid");
-        classid.Items.Insert(0, new ListItem("Pleae Select...", ""));
-    }
-
-    public static void BindCustomizeDDL(DropDownList ddl, string kind)
-    {
-        try
         {
-            switch (kind)
+            //classid
+            BindCustomizeDDL(classid, "classid");
+            classid.Items.Insert(0, new ListItem("Pleae Select...", ""));
+        }
+
+        public static void BindCustomizeDDL(DropDownList ddl, string kind)
+        {
+            try
             {
-                case "classid":
-                    using (ClassInfoGet _classinfo = new ClassInfoGet())
-                    {
-                        var ls = _classinfo.GetClassDDLList();
-                        ddl.DataSource = ls;
-                        ddl.DataValueField = "Value";
-                        ddl.DataTextField = "Text";
-                    }
-                    break;
+                switch (kind)
+                {
+                    case "classid":
+                        using (ClassInfoGet _classinfo = new ClassInfoGet())
+                        {
+                            var ls = _classinfo.GetClassDDLList();
+                            ddl.DataSource = ls;
+                            ddl.DataValueField = "Value";
+                            ddl.DataTextField = "Text";
+                        }
+                        break;
+                }
+                ddl.DataBind();
             }
-            ddl.DataBind();
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
-        catch (Exception ex)
+        public override void LoadFormData()
         {
-            throw ex;
+            InitViewModel(userid.Text, classid.SelectedValue, trainee.Text);
         }
-    }
-    public override void LoadFormData()
-    {
-        InitViewModel(userid.Text, classid.SelectedValue, trainee.Text);
-    }
-    private void InitViewModel(string _userid, string _classid, string _trainee)
-    {
-        SignInModel model = new SignInModel();
-        using (ClassInfoGet _classinfo = new ClassInfoGet())
+        private void InitViewModel(string _userid, string _classid, string _trainee)
         {
-            model = _classinfo.getSignInData(_userid, _classid, _trainee);
-        }
+            SignInModel model = new SignInModel();
+            using (ClassInfoGet _classinfo = new ClassInfoGet())
+            {
+                model = _classinfo.getSignInData(_userid, _classid, _trainee);
+            }
 
-        WebControlsUtil.SetPageData(Page, model);
-        //classid.SelectedValue = model.classid;            
+            WebControlsUtil.SetPageData(Page, model);
+            //classid.SelectedValue = model.classid;            
+        }
     }
-}
 }

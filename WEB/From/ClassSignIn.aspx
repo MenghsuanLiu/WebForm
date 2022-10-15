@@ -15,22 +15,25 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
 
-    <link rel="shortcut icon" href="./image/favicon.png"/>
-    <link rel="icon" href="./image/favicon.png" type="image/x-icon" />
+<%--    <link rel="shortcut icon" href="./image/favicon.png"/>--%>
+<%--    <link rel="icon" href="./image/favicon.png" type="image/x-icon" />--%>
 
     <link href="./css/pass_blue.css"  rel="stylesheet" />
     <link href="./css/pass_custom.css" rel="stylesheet" />    
-    <%--<link href="./css/myProj1.css" rel="stylesheet" />--%>
+    <link href="./css/Signin.css" rel="stylesheet" />
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"/>    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>    
 
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     
     <!--JQuery UI-->
     <link href="./js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />         
-    <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>      
+    <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
     <!--JQuery blockUI-->
     <script src="./js/jquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>
 
@@ -96,8 +99,14 @@
                 </thead>
                 <tbody>
                 <tr v-for="(item,n) in criteria.signinrecs" :key="trainee">
-                    <td class="info"><i class="fa fa-minus" style="font-size:20px;color:red;cursor: pointer;" @click="doDel(item.trainee)"></i></td>                    
-                    <td class="info"><i class="fa fa-pencil-square-o" style="font-size:20px;color:forestgreen;cursor: pointer;" @click="doMod(item.trainee)"></i></td>                    
+                    <td class="info center">
+                        <i v-if="item.curusr" class="fa fa-minus" style="font-size:20px;color:red;cursor: pointer;" @click="doDel(item.trainee)"></i>
+                        <i v-else="item.curusr">&nbsp;</i>
+                    </td>                    
+                    <td class="info center">
+                        <i v-if="item.curusr" class="fa fa-pencil-square-o" style="font-size:20px;color:forestgreen;cursor: pointer;" @click="doMod(item.trainee)"></i>
+                        <i v-else="item.curusr">&nbsp;</i>
+                    </td>                    
                     <td class="info">{{ criteria.classid }}_{{ criteria.classname }}</td>
                     <%--<td class="info">{{ formatDate(criteria.classdate) }}</td>--%>
                     <%--<td class="info">{{ item.classid }}_{{ item.classname }}</td>--%>
@@ -127,7 +136,7 @@
                         <table style="width: 100%">
                             <tr>
                                 <td style="width: 15%" class="title">Class Date：</td>
-                                <td style="width: 35%" ><input type="date" name="classdate" id="classdate2" :value="criteria.classdate" readonly/></td>
+                                <td style="width: 35%" ><input type="date" name="classdate" id="classdate_add" :value="criteria.classdate" readonly/></td>
                                 <td style="width: 15%" class="title">Trainer：</td>
                                 <td style="width: 35%" ><input type="text" name="trainer" :value="criteria.trainer" readonly/></td>                                
                             </tr>
@@ -139,7 +148,7 @@
                     <td style="width: 85%" class="info">
                         <select id="trainee" v-model="newsignin.trainee" >
                           <option value="">--Select one--</option>
-                          <option v-for="(item,n) in trainee" :value="item.trainee" :key="item.empid">{{ item.empid}}_{{ item.trainee }}</option>
+                          <option v-for="(item,n) in trainee" :value="[item.empid, item.trainee]">{{ item.empid }}_{{ item.trainee }}</option>
                         </select>                         
                     </td>                                    
                 </tr>

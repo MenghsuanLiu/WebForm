@@ -131,6 +131,29 @@ namespace CFP.WEB.Handler
                 throw e;
             }
         }
+        public static void DelRec(string paramsStr, string propStr, ref string errMsg, ref Dictionary<string, object> jsonData)
+        {
+            try
+            {
+                Dictionary<string, object> obj = JsonConvert.DeserializeObject<Dictionary<string, object>>(paramsStr);
+                string _userid = obj["userid"] as string;
+                string _classid = obj["classid"] as string;
+                string _trainee = obj["trainee"] as string;
+
+                //ClassInfo.DeleteSignInRec(_userid,_classid, _trainee);
+                using (var _classinfo = new ClassInfoGet())
+                {
+                    _classinfo.DeleteRec(_userid, _classid, _trainee);
+                }
+
+                jsonData.Add(propStr, true);
+            }
+            catch (Exception e)
+            {
+                errMsg = e.StackTrace;
+                throw e;
+            }
+        }
         public bool IsReusable
         {
             get

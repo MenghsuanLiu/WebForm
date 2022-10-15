@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HW1011.aspx.cs" Inherits="CFP.WEB.From.HW1011" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ClassSignIn_Maintain.aspx.cs" Inherits="CFP.WEB.From.ClassSignIn_Maintain" %>
 
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -20,7 +20,7 @@
 
     <link href="./css/pass_blue.css"  rel="stylesheet" />
     <link href="./css/pass_custom.css" rel="stylesheet" />    
-    <link href="./css/myProj1.css" rel="stylesheet" />
+    <link href="./css/Signin.css" rel="stylesheet" />
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
@@ -33,7 +33,7 @@
     <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>      
 
     <!--JQuery blockUI-->
-    <script src="./js/jquery.block.ui/2.6.6/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="./jsjquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>
 
     <!--JQuery validationEngine-->
     <link href="../js/jQuery-Validation-Engine-3.0.0/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
@@ -92,8 +92,7 @@
                 <tr>
                     <td style="width: 15%" class="title" rowspan="2">Trainee：</td>
                     <td class="auto-style1" style="width: 30%">                 
-                        <asp:TextBox runat="server" ID="trainee" Width="80px" CssClass="saveform" ReadOnly="True"></asp:TextBox>
-                        <asp:Label ID="treegp" runat="server" Text="Label"></asp:Label>              
+                        <asp:TextBox runat="server" ID="trainee" Width="80px" CssClass="saveform" ReadOnly="True"></asp:TextBox>             
                 </tr>
                 <tr>                    
                     <td class="info">
@@ -127,8 +126,8 @@
     <%--<script src="../js/moment.min.js"></script>--%>
     <!--Vue.js-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>  -->
-    <script src="./js/vue/vue.min.js"></script>    
+    <script src="./js/vue/vue.min.js"></script>
+    <script src="./js/ClassSignIn_vue.js"></script>
     <%--<script src="../js/myProj2.js"></script>--%>
-
 </body>
 </html>

@@ -78,10 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="From\ClassSignIn.aspx" />
+    <Content Include="From\ClassSignIn_Maintain.aspx" />
     <Content Include="From\css\chris.css" />
     <Content Include="From\css\external_css.css" />
     <Content Include="From\css\pass_blue.css" />
     <Content Include="From\css\pass_custom.css" />
+    <Content Include="From\css\Signin.css" />
     <Content Include="From\HW1004.aspx" />
     <Content Include="From\HW1011.aspx" />
     <Content Include="From\image\loading-load.gif" />
@@ -251,6 +253,13 @@
     </Compile>
     <Compile Include="From\ClassSignIn.aspx.designer.cs">
       <DependentUpon>ClassSignIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="From\ClassSignIn_Maintain.aspx.cs">
+      <DependentUpon>ClassSignIn_Maintain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="From\ClassSignIn_Maintain.aspx.designer.cs">
+      <DependentUpon>ClassSignIn_Maintain.aspx</DependentUpon>
     </Compile>
     <Compile Include="From\HW1004.aspx.cs">
       <DependentUpon>HW1004.aspx</DependentUpon>
