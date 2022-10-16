@@ -7,6 +7,7 @@ const formatYmd = date => date.toISOString().slice(0, 10);
 const today = formatYmd(new Date());      // 2020-05-06  
 const format = "YYYY/MM/DD";
 const ymd_format = "YYYY-MM-DD";
+const _SignInPage = $("title").text().includes("SignIn");
 
 var $VM = new Vue({
     el: '#vueApp', // binding element /* el:表示這個 vue instance 創建後會掛載取代 id="app" 的元素
@@ -100,6 +101,7 @@ var $VM = new Vue({
         },
         doAbort: function (e) {
             const self = this;
+            
             try {
                 e = e || window.event;
                 if (e.srcElement.id == 'save_abort') self.view = 'Query';
@@ -109,7 +111,11 @@ var $VM = new Vue({
                 }
 
                 console.log("event type:", e.type); //will be the event
-                console.log("event element id:", e.srcElement.id); //we be the dom element 
+                console.log("event element id:", e.srcElement.id); //we be the dom element
+                if (!_SignInPage) {
+                    let url = './ClassSignIn.aspx';
+                    $(location).prop("href", url);
+                }
             } catch (ex) {
                 console.log(ex.message);
             }
@@ -117,21 +123,31 @@ var $VM = new Vue({
         doSave: function () {
             const self = this;
             try {
-                if (self.newsignin.trainee == "") {
-                    AlertMsg("please select 「Trainee」!");
-                    return false;
-                }
                 let _classdate = $("#classdate").val();
-                //alert(_classdate);
-                if (self.criteria.classdate > today) {
-                    AlertMsg("class in future, can not be entry!");
-                    return false;
-                }
                 let _signin = $("#signin")[0].checked;
-                let _homework = $("#homework").text();
-                if (self.newsignin.flg_signin == true && (self.newsignin.homework == "" || self.newsignin.homework == "0")) {
-                    AlertMsg("If sign-in,please entry 「homework %」!");
-                    return false;
+                let _homework = $("#homework").val();
+
+                if (_SignInPage) {
+                    if (self.newsignin.trainee == "") {
+                        AlertMsg("please select 「Trainee」!");
+                        return false;
+                    }
+                    //alert(_classdate);
+                    if (self.criteria.classdate > today) {
+                        AlertMsg("class in future, can not be entry!");
+                        return false;
+                    }
+                    if (self.newsignin.flg_signin == true && (self.newsignin.homework == "" || self.newsignin.homework == "0")) {
+                        AlertMsg("If sign-in,please entry 「homework %」!");
+                        return false;
+                    }
+                }
+                else {
+                    if (_homework == "" || _homework == "0") {
+                        AlertMsg("If sign-in,please entry 「homework %」!");
+                        return false;
+
+                    }
                 }
                 insertnew_ajax();
                 //self.criteria.signinrecs.push({
@@ -176,7 +192,7 @@ var $VM = new Vue({
                     classid: _classid,
                     trainee: _trainee,
                 };
-
+ 
                 var url = "./ClassSignIn_Maintain.aspx";
                 $.redirectPost(url, postData);
 
@@ -247,7 +263,8 @@ window.$VM = $VM;
 
 
 let loadTitle = function () {
-    try {
+
+    try {                                    
         $.ajax({
             type: "GET",
             url: _url_ajaxGet,
@@ -301,13 +318,17 @@ let loadCombo = function () {
 
 
 $(function () {
+ 
     try {
         /*Set Default Value*/
         $("#classdate").datepicker({ dateFormat: 'yy/mm/dd' }).val();
         $("#classdate_add").datepicker({ dateFormat: 'yy/mm/dd' }).val();
         $("#userid").val(_userid);
-        loadTitle();
-        loadCombo();
+
+        if (_SignInPage) {
+            loadTitle();
+            loadCombo();
+        }
 
         $("#trainee").change(function () {
             $(this).css("background-color", "#D6D6FF");

@@ -43,6 +43,7 @@
     <script src="./js/json2.js" type="text/javascript"></script>
     <script src="./js/jquery.serializeObject.js" type="text/javascript"></script>
 
+
     <title>Class From Maintain</title>  
     <style type="text/css">
         .auto-style1 {
@@ -66,8 +67,8 @@
                 <tr>
                     <td style="width: 15%" class="title" rowspan="2">Class：</td>
                     <td style="width: 85%" class="info">                                    
-                             <%--<asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" onfocus="defaultIndex=this.selectedIndex" onchange="this.selectedIndex=defaultIndex" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />       --%>                        
-                             <asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />                               
+                             <asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" onfocus="defaultIndex=this.selectedIndex" onchange="this.selectedIndex=defaultIndex" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />                               
+                             <%--<asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />--%>                               
                              <asp:TextBox ID="userid" runat="server" CssClass="saveform hide" Width="60px">                             
                              </asp:TextBox>
                     </td>                                    
@@ -112,7 +113,7 @@
                 </tr>   
                 <tr>
                     <td class="center" colspan="2">
-                        <button id="save" type="button" class="btn btn-primary btn-sm">Change to Save</button>
+                        <button id="save" type="button" class="btn btn-primary btn-sm" @click="doSave()">Change to Save</button>
                         <button id="abort1" type="button" class="btn btn-secondary btn-sm" @click="doAbort(event)">Abort</button>
                     </td>
                 </tr>
@@ -122,6 +123,13 @@
     </form>   
     </div>     
     <div id="dialog-message" title="請檢查~~" class="hide"></div>
+
+    <input id="hide_empid" type="hidden" runat="server" />
+    <input id="hide_classid" type="hidden" runat="server" />
+    <input id="hide_trainee" type="hidden" runat="server" />
+
+
+    <%--ClassSignIn.aspx call過來時會加入(ClassSignIn_vue.js => $.extend)--%>
     
     <%--<script src="../js/moment.min.js"></script>--%>
     <!--Vue.js-->

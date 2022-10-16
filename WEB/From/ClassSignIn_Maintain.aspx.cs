@@ -21,16 +21,16 @@ namespace CFP.WEB.From
             if (!IsPostBack)
             {
                 userid.Text = "soniali";
-                //classid.SelectedValue = "BAS01";
+                classid.SelectedValue = "BAS01";
                 trainee.Text = "chrisliu";
                 Debug.WriteLine("~~Request.RequestType=" + Request.RequestType);
                 // get POST parameters
                 if (Request.Form != null)
                 {
                     NameValueCollection _req = Request.Form;
-                    if (!string.IsNullOrEmpty(_req["userid"]))
+                    if (!string.IsNullOrEmpty(_req["empid"]))
                     {
-                        userid.Text = _req["userid"];
+                        userid.Text = _req["empid"];
                         classid.SelectedValue = _req["classid"];
                         trainee.Text = _req["trainee"];
                     }
@@ -50,7 +50,7 @@ namespace CFP.WEB.From
         }
         protected void classid_SelectedIndexChanged(object sender, EventArgs e)
         {
-            LoadFormData();
+            //LoadFormData();
         }
 
 

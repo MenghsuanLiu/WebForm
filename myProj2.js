@@ -67,7 +67,7 @@ var $VM = new Vue({
                 console.log("event type:",e.type); //will be the event
                 console.log("event element id:", e.srcElement.id); //we be the dom element 
                 let url = './class_BAS03_vue.aspx';
-                $(location).prop("href",url);
+                $(location).prop("href",url);       
             }catch(ex){
                 console.log(ex.message);
             }                   
