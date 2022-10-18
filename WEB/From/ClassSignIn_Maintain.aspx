@@ -33,7 +33,7 @@
     <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>      
 
     <!--JQuery blockUI-->
-    <script src="./jsjquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>
+    <%--<script src="./jsjquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>--%>
 
     <!--JQuery validationEngine-->
     <link href="../js/jQuery-Validation-Engine-3.0.0/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
@@ -124,9 +124,7 @@
     </div>     
     <div id="dialog-message" title="請檢查~~" class="hide"></div>
 
-    <input id="hide_empid" type="hidden" runat="server" />
-    <input id="hide_classid" type="hidden" runat="server" />
-    <input id="hide_trainee" type="hidden" runat="server" />
+    <input id="h_empid" type="hidden" runat="server" />
 
 
     <%--ClassSignIn.aspx call過來時會加入(ClassSignIn_vue.js => $.extend)--%>

@@ -1,8 +1,7 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="hw1018_chris.aspx.cs" Inherits="ChrisWeb.Web.Form.hw1018_chris" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HW1018.aspx.cs" Inherits="CFP.WEB.From.HW1018" %>
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -139,6 +138,6 @@
     <!--Vue.js-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>  -->
     <script src="./js/vue/vue.min.js"></script>    
-    <script src="./js/ClassSignIn_vue.js"></script>
+    <script src="./js/HW1018.js"></script>
 </body>
 </html>

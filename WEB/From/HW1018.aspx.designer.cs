@@ -11,17 +11,17 @@ namespace CFP.WEB.From
 {
 
 
-    public partial class ClassSignIn_Maintain
+    public partial class HW1018
     {
 
         /// <summary>
-        /// form1 control.
+        /// form_hw control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form_hw;
 
         /// <summary>
         /// classid control.
@@ -33,22 +33,22 @@ namespace CFP.WEB.From
         protected global::System.Web.UI.WebControls.DropDownList classid;
 
         /// <summary>
-        /// userid control.
+        /// userid_hw control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox userid;
+        protected global::System.Web.UI.WebControls.TextBox userid_hw;
 
         /// <summary>
-        /// classdate control.
+        /// classdate_hw control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText classdate;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText classdate_hw;
 
         /// <summary>
         /// trainer control.
@@ -60,13 +60,13 @@ namespace CFP.WEB.From
         protected global::System.Web.UI.HtmlControls.HtmlInputText trainer;
 
         /// <summary>
-        /// trainee control.
+        /// ddl_trainee control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox trainee;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_trainee;
 
         /// <summary>
         /// signin control.
@@ -87,12 +87,12 @@ namespace CFP.WEB.From
         protected global::System.Web.UI.WebControls.TextBox homework;
 
         /// <summary>
-        /// h_empid control.
+        /// homeworkURL control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputHidden h_empid;
+        protected global::System.Web.UI.WebControls.TextBox homeworkURL;
     }
 }

@@ -85,7 +85,9 @@
     <Content Include="From\css\pass_custom.css" />
     <Content Include="From\css\Signin.css" />
     <Content Include="From\HW1011.aspx" />
+    <Content Include="From\HW1018.aspx" />
     <Content Include="From\image\loading-load.gif" />
+    <Content Include="From\image\Spinner-1s-200px.gif" />
     <Content Include="From\js\ClassSignIn_vue.js" />
     <Content Include="From\js\jquery-ui-1.12.1\AUTHORS.txt" />
     <Content Include="From\js\jquery-ui-1.12.1\external\jquery\jquery.js" />
@@ -234,6 +236,7 @@
     <Content Include="From\js\moment.min.js" />
     <Content Include="From\js\myProj1.js" />
     <Content Include="From\js\sample.js" />
+    <Content Include="From\js\HW1018.js" />
     <Content Include="From\js\vueForBAS03.js" />
     <Content Include="From\js\qData.js" />
     <Content Include="From\js\vue\vue.js" />
@@ -266,6 +269,13 @@
     </Compile>
     <Compile Include="From\HW1011.aspx.designer.cs">
       <DependentUpon>HW1011.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="From\HW1018.aspx.cs">
+      <DependentUpon>HW1018.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="From\HW1018.aspx.designer.cs">
+      <DependentUpon>HW1018.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

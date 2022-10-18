@@ -16,6 +16,7 @@ namespace CFP.DAL.Model
         public virtual DbSet<ZTST_TRAINCLASSGRP> ZTST_TRAINCLASSGRP { get; set; }
         public virtual DbSet<ZTST_TRAINEE> ZTST_TRAINEE { get; set; }
         public virtual DbSet<ZTST_TRAINSIGNIN> ZTST_TRAINSIGNIN { get; set; }
+        public virtual DbSet<ZTST_TRAINSIGNIN2> ZTST_TRAINSIGNIN2 { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

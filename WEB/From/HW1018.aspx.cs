@@ -1,5 +1,7 @@
-using ChrisWeb.BLL.Model;
-using ChrisWeb.BLL;
+﻿using CFP.BLL.Model;
+using CFP.WEB.ExtendedPageClasses;
+using CFP.BLL;
+using CFP.WEB.WebUtil;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -8,11 +10,10 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using ChrisWeb.Web.ExtendedPageClasses;
 
-namespace ChrisWeb.Web.Form
+namespace CFP.WEB.From
 {
-    public partial class hw1018_chris : BaseForm
+    public partial class HW1018 : BaseForm
     {
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -60,7 +61,7 @@ namespace ChrisWeb.Web.Form
 
         protected void classid_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //LoadFormData();
+            LoadFormData();
             //string msg = classid.SelectedItem.Text + " - " + classid.SelectedItem.Value;
         }
         public override void BindBasicInfo()
@@ -122,7 +123,9 @@ namespace ChrisWeb.Web.Form
 
         protected void trainee_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            homework.Text = "";
+            homeworkURL.Text = "";
+            LoadFormData();
         }
     }
 }

@@ -61,6 +61,7 @@
     <Compile Include="Model\ZTST_TRAINCLASSGRP.cs" />
     <Compile Include="Model\ZTST_TRAINEE.cs" />
     <Compile Include="Model\ZTST_TRAINSIGNIN.cs" />
+    <Compile Include="Model\ZTST_TRAINSIGNIN2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="unitTestProg.cs" />
   </ItemGroup>

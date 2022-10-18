@@ -51,7 +51,11 @@ namespace CFP.BLL
                 using (var sapctx = new sapDBconn())
                 {
                     var teels = sapctx.ZTST_TRAINEE.ToList();
-                    return teels;
+                    var lsProcess = teels.Select(x => new { Value = x.trainee, Text = x.empid + "-" + x.trainee + "[" + x.zname + "]" })
+                    .Distinct()
+                    .OrderBy(x => x.Value)
+                    .ToList();
+                    return lsProcess;
                 }
             }
             catch (Exception ex)
@@ -143,6 +147,39 @@ namespace CFP.BLL
                     {
                         model.treegp = tee.groupid;
                     }
+                    model.signin = string.IsNullOrEmpty(model.signin) ? "N" : model.signin;
+                }
+                return model;
+            }
+            catch (Exception ex)
+            {
+                //log.Fatal(System.Reflection.MethodBase.GetCurrentMethod().Name + " ==>" + ex.Message);
+                throw ex;
+            }
+        }
+        #endregion
+
+        #region getSignInDataWithURL return Model_TrainSigIn2
+        public Model_TrainSigIn2 getSignInDataWithURL(string _classid, string _trainee)
+        {
+            Model_TrainSigIn2 model = new Model_TrainSigIn2();
+            try
+            {
+                using (sapDBconn sapctx = new sapDBconn())
+                {
+                    ZTST_TRAINSIGNIN2 rec = sapctx.ZTST_TRAINSIGNIN2.FirstOrDefault(x => x.trainee.Equals(_trainee) &&
+                                                                     x.classid.Equals(_classid));
+                    if (rec != null)
+                    {
+                        SetValue2<ZTST_TRAINSIGNIN2, Model_TrainSigIn2>(rec, model);
+                    }
+                    ZTST_TRAINCLASS ls = sapctx.ZTST_TRAINCLASS.FirstOrDefault(x => x.classid.Equals(_classid));
+                    if (ls != null)
+                    {
+                        model.classdate_hw = ls.classdate;
+                        model.trainer = ls.trainer;
+                    }
+
                     model.signin = string.IsNullOrEmpty(model.signin) ? "N" : model.signin;
                 }
                 return model;

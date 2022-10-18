@@ -86,7 +86,6 @@ var $VM = new Vue({
             const self = this;
             try {
                 queryresult_ajax();
-                //callajax_queryresult();
             } catch (ex) {
                 console.log(ex.message);
             }
@@ -101,7 +100,7 @@ var $VM = new Vue({
         },
         doAbort: function (e) {
             const self = this;
-            
+
             try {
                 e = e || window.event;
                 if (e.srcElement.id == 'save_abort') self.view = 'Query';
@@ -192,7 +191,7 @@ var $VM = new Vue({
                     classid: _classid,
                     trainee: _trainee,
                 };
- 
+                sessionStorage.setItem("empid", _empid);
                 var url = "./ClassSignIn_Maintain.aspx";
                 $.redirectPost(url, postData);
 
@@ -264,7 +263,7 @@ window.$VM = $VM;
 
 let loadTitle = function () {
 
-    try {                                    
+    try {
         $.ajax({
             type: "GET",
             url: _url_ajaxGet,
@@ -307,18 +306,11 @@ let loadCombo = function () {
     var rtnData = callAjax(postData, true, GetInitDataRtn); //async
 
 }
-//let del = function(dataid){
-//    try{                       
-//        //document.getElementById(dataid).style.display = "none";
-//        $("[id='" + dataid + "']").hide();                 
-//    }catch(ex){
-//        console.log(ex.message);
-//    }                
-//} 
+
 
 
 $(function () {
- 
+
     try {
         /*Set Default Value*/
         $("#classdate").datepicker({ dateFormat: 'yy/mm/dd' }).val();
@@ -328,6 +320,10 @@ $(function () {
         if (_SignInPage) {
             loadTitle();
             loadCombo();
+        }
+        else {
+            let _empid = sessionStorage.getItem("empid");
+            $("#h_empid").val(_empid)
         }
 
         $("#trainee").change(function () {
@@ -392,12 +388,19 @@ function queryresult_ajax() {
 function insertnew_ajax() {
     let _signin = $("#signin")[0].checked;
     let _homework = Number($("#homework").val());
-    let _obj = document.getElementById("trainee")
+    let _obj = document.getElementById("trainee");
+    let _empid = $("#trainee").val().split(",")[0];
+    let _trnee = $("#trainee").val().split(",")[1];
+    if (!_SignInPage) {
+        _empid = $("#h_empid").val();
+        _trnee = $("#trainee").val();
+    }
     let _vo = {
         //userid: $("#userid").val(),
-        userid: $("#trainee").val().split(",")[0],
+        //userid: $("#trainee").val().split(",")[0],
+        userid: _empid,
         classid: $("#classid").val(),
-        trainee: $("#trainee").val().split(",")[1],
+        trainee: _trnee,
         signin: _signin == true ? "Y" : "N",
         homework: _homework,
     };
@@ -445,7 +448,11 @@ function delN() {
 function callAjax(putParameter, async, customFunc) {
     var returnData = null;
     if (async) {
-        $.blockUI();
+        $.blockUI({
+            // message: "<i class='fa fa-refresh fa-spin orange' style='font-size:600%'></i>",
+            message: "<img src='./image/Spinner-1s-200px.gif' />",
+            css: { borderWidth: "0px", backgroundColor: "transparent" }
+        });
     }
 
     // alert(url);    

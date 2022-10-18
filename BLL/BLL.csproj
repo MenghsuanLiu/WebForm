@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassInfoGet.cs" />
+    <Compile Include="Model\Model_TrainSigIn2.cs" />
     <Compile Include="Model\SignInModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="uTestProg.cs" />
