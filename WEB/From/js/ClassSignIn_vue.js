@@ -1,6 +1,8 @@
 ﻿const _userid = "chrisliu";
-const _url_ajaxGet = "../Handler/GetTitleText.ashx"
+const _url_ajaxGet = "../Handler/GetTitleText.ashx";
 const _url_ajaxPOst = "../Handler/ClassSignIn_DataHandler.ashx";
+const _url_maintain = "./ClassSignIn_Maintain.aspx";
+const _url_main = "./ClassSignIn.aspx";
 // `date` is a `Date` object
 const formatYmd = date => date.toISOString().slice(0, 10);
 // Example
@@ -112,13 +114,13 @@ var $VM = new Vue({
                 console.log("event type:", e.type); //will be the event
                 console.log("event element id:", e.srcElement.id); //we be the dom element
                 if (!_SignInPage) {
-                    let url = './ClassSignIn.aspx';
-                    $(location).prop("href", url);
+                    $(location).prop("href", _url_main);
                 }
             } catch (ex) {
                 console.log(ex.message);
             }
         },
+        //這個是ClassSignIn.aspx的新增功能使用
         doSave: function () {
             const self = this;
             try {
@@ -148,7 +150,7 @@ var $VM = new Vue({
 
                     }
                 }
-                insertnew_ajax();
+                insertnew_ajax("new");
                 //self.criteria.signinrecs.push({
                 //    trainee: self.newsignin.trainee,
                 //    signin: self.newsignin.flg_signin==true?"Y":"N",                            
@@ -192,8 +194,8 @@ var $VM = new Vue({
                     trainee: _trainee,
                 };
                 sessionStorage.setItem("empid", _empid);
-                var url = "./ClassSignIn_Maintain.aspx";
-                $.redirectPost(url, postData);
+
+                $.redirectPost(_url_maintain, postData);
 
             } catch (ex) {
                 console.log(ex.message);
@@ -331,6 +333,20 @@ $(function () {
             $("#signin").attr('checked', false);
             $("#homework").val('0');
         });
+        $("#save_maintain").click(function () {
+            let _confirm = true;
+            if ($("#form_maintain").validationEngine('validate') == true) {
+                _confirm = confirm("確定儲存？");
+                if (!_confirm) {
+                    return false;
+                }
+                insertnew_ajax("change");
+            }
+            else {
+                return false;
+            }
+            return false;
+        });
     }
     catch (exce) {
         alert(exce)
@@ -385,7 +401,7 @@ function queryresult_ajax() {
     var rtnData = callAjax(postData, true, GetSelectedRecsRtn); //async
 }
 //用ajax寫資料進table
-function insertnew_ajax() {
+function insertnew_ajax(_function) {
     let _signin = $("#signin")[0].checked;
     let _homework = Number($("#homework").val());
     let _obj = document.getElementById("trainee");
@@ -415,7 +431,16 @@ function insertnew_ajax() {
         propStr: "rData" //DataHandler ,jsondata key. 
     };
 
-    var rtnData = callAjax(postData, true, SaveNewRecRtn); //async
+    switch (_function) {
+        case "new":
+            var rtnData = callAjax(postData, true, SaveNewRecRtn); //async
+            break;
+        case "change":
+            var rtnData = callAjax(postData, true, SaveChangeRecRtn); //async
+            break;
+    }
+
+
 }
 //用ajax去刪Table資料
 function delrecod_ajax(_userid, _classid, _trainee) {
@@ -433,7 +458,7 @@ function delrecod_ajax(_userid, _classid, _trainee) {
     var rtnData = callAjax(postData, true, DelRecRtn); //async
 }
 
-
+//刪除的功能中問是否刪除的選項
 function delY(_trainee) {
     //console.log("delY:"+_trainee);
     $VM.doDel_confirm(_trainee);
@@ -449,9 +474,9 @@ function callAjax(putParameter, async, customFunc) {
     var returnData = null;
     if (async) {
         $.blockUI({
-            // message: "<i class='fa fa-refresh fa-spin orange' style='font-size:600%'></i>",
-            message: "<img src='./image/Spinner-1s-200px.gif' />",
-            css: { borderWidth: "0px", backgroundColor: "transparent" }
+            message: "<i class='fa fa-spinner fa-pulse orange' style='font-size:600%'></i>",
+            /*"<img src='./image/Color-Loading-2.gif' />",*/
+            css: { borderWidth: '0px', backgroundColor: 'transparent' }
         });
     }
 
@@ -539,7 +564,41 @@ function DelRecRtn(type, rtnData) {
         }
     }
 }
+//按Save Change(Maintain頁)
+function SaveChangeRecRtn(type, rtnData) {
+    try {
+        if (typeof (rtnData.error) != 'undefined') {
+            if (rtnData.error != "") {
+                alert(rtnData.error);
+            } else {
+                console.log(rtnData.jsonData);
+                if (rtnData.jsonData.rData) {
+                    var _data = rtnData.jsonData.rData;
+                    alert(_data);
+                    backQuery();
+                }
+                console.log("End~~~~");
+            }
+        }
+    } catch (ex) {
+        console.log(ex.message);
+    }
+}
 
+function backQuery() {
+    try {
+        let _userid = $("#userid").val();
+        let _classid = $("#classid").val();
+        var postData = {
+            userid: _userid,
+            classid: _classid
+        };
+        $.redirectPost(_url_main, postData);
+
+    } catch (ex) {
+        console.log(ex.message);
+    }
+}
 
 // jquery extend function
 $.extend(

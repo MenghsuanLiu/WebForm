@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Web.SessionState;
 using System.Web;
 using CFP.BLL;
+using CFP.BLL.Model;
 
 namespace CFP.WEB.Handler
 {
@@ -116,14 +117,17 @@ namespace CFP.WEB.Handler
             {
                 Dictionary<string, object> obj = JsonConvert.DeserializeObject<Dictionary<string, object>>(paramsStr);
                 string sJson = obj["newdata"] as string;
-
+                //因為sJson頭尾有中刮號,要刪掉
+                string val = sJson.Substring(1, sJson.Length - 2);
+                SignInModel _model = JsonConvert.DeserializeObject<SignInModel>(val);
                 //ClassInfo.InsertSignInRec(sJson);
                 using (var _classinfo = new ClassInfoGet())
                 {
                     _classinfo.InsertTrainSignInRec(sJson);
+                    //這個要可以用要using DAL
+                    string sMessage = string.Format("【" + _model.classid + "=>" + _model.trainee + "】儲存成功！");
+                    jsonData.Add(propStr, sMessage);
                 }
-
-                jsonData.Add(propStr, true);
             }
             catch (Exception e)
             {
@@ -147,6 +151,30 @@ namespace CFP.WEB.Handler
                 }
 
                 jsonData.Add(propStr, true);
+            }
+            catch (Exception e)
+            {
+                errMsg = e.StackTrace;
+                throw e;
+            }
+        }
+        public static void CreateModifyRec(string paramsStr, string propStr, ref string errMsg, ref Dictionary<string, object> jsonData)
+        {
+            try
+            {
+                Dictionary<string, object> obj = JsonConvert.DeserializeObject<Dictionary<string, object>>(paramsStr);
+                //這裡的"data" = paramsStr裡的宣告data(請參考hw1018.jslet params = {data: Jsondata};)
+                string sJson = obj["data"] as string;
+                //因為sJson頭尾有中刮號,要刪掉
+                string val = sJson.Substring(1, sJson.Length - 2);
+                Model_TrainSigIn2 _model = JsonConvert.DeserializeObject<Model_TrainSigIn2>(val);
+                //ClassInfo.InsertSignInRec(sJson);
+                using (var _classinfo = new ClassInfoGet())
+                {
+                    _classinfo.InsertTrainSignInRecWithURL(sJson);
+                    string sMessage = string.Format("【" + _model.classid + "=>" + _model.trainee + "】儲存成功！");
+                    jsonData.Add(propStr, sMessage);
+                }
             }
             catch (Exception e)
             {

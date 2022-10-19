@@ -15,13 +15,13 @@ namespace CFP.WEB.From
     {
 
         /// <summary>
-        /// form1 control.
+        /// form_maintain control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form_maintain;
 
         /// <summary>
         /// classid control.
@@ -66,7 +66,7 @@ namespace CFP.WEB.From
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox trainee;
+        protected global::System.Web.UI.WebControls.DropDownList trainee;
 
         /// <summary>
         /// signin control.

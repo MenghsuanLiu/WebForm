@@ -33,15 +33,15 @@
     <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>      
 
     <!--JQuery blockUI-->
-    <%--<script src="./jsjquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>--%>
+    <script src="./js/jquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>
 
     <!--JQuery validationEngine-->
-    <link href="../js/jQuery-Validation-Engine-3.0.0/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
+    <link href="./js/jQuery-Validation-Engine-3.0.0/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
     <script src="./js/jQuery-Validation-Engine-3.0.0/js/languages/jquery.validationEngine-zh_TW.js" type="text/javascript"></script>
     <script src="./js/jQuery-Validation-Engine-3.0.0/js/jquery.validationEngine.js" type="text/javascript"></script>
     <!--JSON2-->
-    <script src="./js/json2.js" type="text/javascript"></script>
-    <script src="./js/jquery.serializeObject.js" type="text/javascript"></script>
+    <script src="./js/json2/json2.js" type="text/javascript"></script>
+    <script src="./js/json2/serializeObject.js" type="text/javascript"></script>
 
 
     <title>Class From Maintain</title>  
@@ -58,62 +58,65 @@
 </head>
 <body>
     <div id="vueApp" style="width:80%;margin:0px auto;">
-    <form id="form1" runat="server"> 
+    <form id="form_maintain" runat="server"> 
         <fieldset>
         <%--<legend class="col text-center formTitle">Class Sign-in Form </legend><div id="yourname"></div>--%>     
         <div  id="div_entry">       
             <div  class="tb1">Change</div>                                                                                 
             <table style="width: 100%">
+                <%--Class / UserID(Hide)--%>
                 <tr>
                     <td style="width: 15%" class="title" rowspan="2">Class：</td>
-                    <td style="width: 85%" class="info">                                    
-                             <asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" onfocus="defaultIndex=this.selectedIndex" onchange="this.selectedIndex=defaultIndex" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />                               
-                             <%--<asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />--%>                               
-                             <asp:TextBox ID="userid" runat="server" CssClass="saveform hide" Width="60px">                             
-                             </asp:TextBox>
-                    </td>                                    
+                    <td style="width: 85%" class="info">
+                        <asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" onfocus="defaultIndex=this.selectedIndex" onchange="this.selectedIndex=defaultIndex" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True"/>                               
+                        <asp:TextBox ID="userid" runat="server" CssClass="saveform hide" Width="60px" style="display:none"/>
+                    </td>     
                 </tr>
+                <%--Class Date / Trainer--%>
                 <tr>                    
                     <td class="info">
                         <table style="width: 100%">
                             <tr>
                                 <td style="width: 15%" class="title">Class Date：</td>
                                 <td style="width: 35%" >
-                                    <%--<asp:TextBox runat="server" ID="classdate" Width="80px" CssClass="saveform" ReadOnly="True"></asp:TextBox>--%>
                                     <input type="text"  runat="server" ID="classdate" Width="80px" CssClass="saveform" ReadOnly/></td>
                                 <td style="width: 15%" class="title">Trainer：</td>
                                 <td style="width: 35%" >
-                                    <%--<asp:TextBox runat="server" ID="TextBox1" Width="80px" CssClass="saveform" ReadOnly="True"></asp:TextBox>--%>
-                                    <input type="text"  runat="server" ID="trainer" Width="80px" CssClass="saveform" ReadOnly/></td>                                    
+                                    <input type="text"  runat="server" ID="trainer" Width="80px" CssClass="saveform" ReadOnly />                                    
                                 </td>                                
                             </tr>
                         </table>                        
                     </td>                                 
-                </tr>                                           
+                </tr>
+                <%--學員--%>
                 <tr>
                     <td style="width: 15%" class="title" rowspan="2">Trainee：</td>
                     <td class="auto-style1" style="width: 30%">                 
-                        <asp:TextBox runat="server" ID="trainee" Width="80px" CssClass="saveform" ReadOnly="True"></asp:TextBox>             
+                        <asp:DropDownList runat="server" ID="trainee" CssClass="saveform validate[required]" OnSelectedIndexChanged="trainee_SelectedIndexChanged" AutoPostBack="True" Enabled="False"/>
+                    </td>
                 </tr>
+                <%--是否Sigin/完成百分比--%>
                 <tr>                    
                     <td class="info">
                         <table class="w-100">
                             <tr>
                                 <td style="width: 15%" class="title">Sign-in：</td>
-                                <td style="width: 35%" >
-                                    <%--<asp:CheckBox ID="signflag" runat="server" Text="Sign-in" CssClass="saveform" />        --%>     
+                                <td style="width: 35%" >   
                                     <input id="signin" type="checkbox" runat="server" Text="Sign-in" value="Y" class="saveform" />        
                                 </td>
                                 <td style="width: 15%" class="title">Homework(%):</td>
                                 <td style="width: 35%" >
-                                    <asp:TextBox runat="server" ID="homework" Width="60px" CssClass="saveform validate[custom[integer],min[0],max[100]]"></asp:TextBox></td>
+                                    <asp:TextBox runat="server" ID="homework" Width="60px" CssClass="saveform validate[custom[integer],min[0],max[100]]" />
+                                </td>
                             </tr>
                         </table>                        
                     </td>                                 
-                </tr>   
+                </tr> 
+                <%--按鍵區--%>
                 <tr>
                     <td class="center" colspan="2">
-                        <button id="save" type="button" class="btn btn-primary btn-sm" @click="doSave()">Change to Save</button>
+                        <%--<button id="save" type="button" class="btn btn-primary btn-sm" @click="doSave()">Change to Save</button>--%>
+                        <button id="save_maintain" type="button" class="btn btn-primary btn-sm">Change to Save</button>
                         <button id="abort1" type="button" class="btn btn-secondary btn-sm" @click="doAbort(event)">Abort</button>
                     </td>
                 </tr>
@@ -123,10 +126,7 @@
     </form>   
     </div>     
     <div id="dialog-message" title="請檢查~~" class="hide"></div>
-
     <input id="h_empid" type="hidden" runat="server" />
-
-
     <%--ClassSignIn.aspx call過來時會加入(ClassSignIn_vue.js => $.extend)--%>
     
     <%--<script src="../js/moment.min.js"></script>--%>

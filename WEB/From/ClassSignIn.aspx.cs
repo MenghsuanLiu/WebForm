@@ -17,10 +17,10 @@ namespace CFP.WEB.From
             if (Request.Form != null)
             {
                 NameValueCollection _req = Request.Form;
-                if (!string.IsNullOrEmpty(_req["empid"]))
+                if (!string.IsNullOrEmpty(_req["userid"]))
                 {
-                    Debug.WriteLine("got para userid:" + _req["empid"] + ",classid:" + _req["classid"]);
-                    userid.Value = _req["trainee"];
+                    Debug.WriteLine("got para userid:" + _req["userid"] + ",classid:" + _req["classid"]);
+                    userid.Value = _req["userid"];
                     h_classid.Value = _req["classid"];
                 }
                 else

@@ -234,6 +234,8 @@
     <Content Include="From\js\json2\jquery.serialize-object.js" />
     <Content Include="From\js\jquery.serializeObject.js" />
     <Content Include="From\js\json2.js" />
+    <Content Include="From\js\json2\json2.js" />
+    <Content Include="From\js\json2\serializeObject.js" />
     <Content Include="From\js\moment.min.js" />
     <Content Include="From\js\myProj1.js" />
     <Content Include="From\js\sample.js" />
@@ -336,6 +338,10 @@
     <ProjectReference Include="..\BLL\BLL.csproj">
       <Project>{da8893f6-d534-4693-95d7-8acb666deb17}</Project>
       <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{1196eba3-d841-4f01-a697-e517d3da0fea}</Project>
+      <Name>DAL</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

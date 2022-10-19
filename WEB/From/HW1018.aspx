@@ -39,8 +39,9 @@
     <script src="./js/jQuery-Validation-Engine-3.0.0/js/languages/jquery.validationEngine-zh_TW.js" type="text/javascript"></script>
     <script src="./js/jQuery-Validation-Engine-3.0.0/js/jquery.validationEngine.js" type="text/javascript"></script>
     <!--JSON2-->
-    <script src="./js/json2.js" type="text/javascript"></script>
-    <script src="./js/jquery.serialize-object.js" type="text/javascript"></script>
+    <script src="./js/json2/json2.js" type="text/javascript"></script>
+    <script src="./js/json2/serializeObject.js" type="text/javascript"></script>
+    <%--<script src="./js/jquery.serialize-object.js" type="text/javascript"></script>--%>
     <title>Class From Maintain With URL input</title>  
     <style type="text/css">
         .auto-style1 {
