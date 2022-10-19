@@ -160,15 +160,14 @@ namespace CFP.BLL
         #endregion
 
         #region getSignInDataWithURL return Model_TrainSigIn2
-        public Model_TrainSigIn2 getSignInDataWithURL(string _classid, string _trainee)
+        public Model_TrainSigIn2 getSignInDataWithURL(string _usrid, string _classid, string _trainee)
         {
             Model_TrainSigIn2 model = new Model_TrainSigIn2();
             try
             {
                 using (sapDBconn sapctx = new sapDBconn())
                 {
-                    ZTST_TRAINSIGNIN2 rec = sapctx.ZTST_TRAINSIGNIN2.FirstOrDefault(x => x.trainee.Equals(_trainee) &&
-                                                                     x.classid.Equals(_classid));
+                    ZTST_TRAINSIGNIN2 rec = sapctx.ZTST_TRAINSIGNIN2.FirstOrDefault(x => x.userid.Equals(_usrid) && x.trainee.Equals(_trainee) && x.classid.Equals(_classid));
                     if (rec != null)
                     {
                         SetValue2<ZTST_TRAINSIGNIN2, Model_TrainSigIn2>(rec, model);
@@ -176,7 +175,7 @@ namespace CFP.BLL
                     ZTST_TRAINCLASS ls = sapctx.ZTST_TRAINCLASS.FirstOrDefault(x => x.classid.Equals(_classid));
                     if (ls != null)
                     {
-                        model.classdate_hw = ls.classdate;
+                        model.classdate = ls.classdate;
                         model.trainer = ls.trainer;
                     }
 
@@ -264,7 +263,42 @@ namespace CFP.BLL
         }
         #endregion
 
-        #region - DeleteRec
+        #region Modify SignIn With URL record
+        public void InsertTrainSignInRecWithURL(string sJson)
+        {
+            try
+            {
+                using (sapDBconn sapctx = new sapDBconn())
+                {
+                    ZTST_TRAINSIGNIN2 _add = JsonConvert.DeserializeObject<List<ZTST_TRAINSIGNIN2>>(sJson)[0];
+                    //sapContext.ZTST_TRAINSIGNIN.Add(_add);
+                    //sapContext.SaveChanges();
+
+                    ZTST_TRAINSIGNIN2 _rec = sapctx.ZTST_TRAINSIGNIN2.Find(_add.userid, _add.classid, _add.trainee);
+                    if (_rec == null)
+                    {
+                        _rec = new ZTST_TRAINSIGNIN2();
+                        sapctx.Entry(_rec).State = EntityState.Added;
+                    }
+                    else
+                    {
+                        sapctx.Entry(_rec).State = EntityState.Modified;
+                    }
+                    SetValue2(_add, _rec);
+                    //log.InfoFormat("InsertSignInRec={0}", JsonConvert.SerializeObject(_rec));
+                    sapctx.SaveChanges();
+                }
+            }
+            catch (Exception ex)
+            {
+                //log.Fatal(System.Reflection.MethodBase.GetCurrentMethod().Name + " ==>" + ex.Message);
+                throw ex;
+            }
+
+        }
+        #endregion
+
+        #region DeleteRec
         public void DeleteRec(string _userid, string _classid, string _trainee)
         {
             try

@@ -14,8 +14,8 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
 
-    <link rel="shortcut icon" href="./image/favicon.png" />
-    <link rel="icon" href="./image/favicon.png" type="image/x-icon" />
+<%--    <link rel="shortcut icon" href="./image/favicon.png" />
+    <link rel="icon" href="./image/favicon.png" type="image/x-icon" />--%>
 
     <link href="./css/pass_blue.css"  rel="stylesheet" />
     <link href="./css/pass_custom.css" rel="stylesheet" />    
@@ -28,20 +28,19 @@
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     
     <!--JQuery UI-->
-    <link href="./js/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />         
-    <script src="./js/jquery-ui-1.12.1/jquery-ui.min.js" type="text/javascript"></script>      
+    <link href="./js/jquery-ui-1.13.2/jquery-ui.min.css" rel="stylesheet" type="text/css" />         
+    <script src="./js/jquery-ui-1.13.2/jquery-ui.min.js" type="text/javascript"></script>      
 
     <!--JQuery blockUI-->
-    <script src="./js/jquery.block.ui/2.6.6/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="./js/jquary-blockui-2.7.0/jquery.blockUI.js" type="text/javascript"></script>
 
     <!--JQuery validationEngine-->
-    <link href="../js/jquery.validationEngine/2.6.1/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
-    <script src="./js/jquery.validationEngine/2.6.1/js/languages/jquery.validationEngine-zh_TW.js" type="text/javascript"></script>
-    <script src="./js/jquery.validationEngine/2.6.1/js/jquery.validationEngine.js" type="text/javascript"></script>
+    <link href="./js/jQuery-Validation-Engine-3.0.0/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" />
+    <script src="./js/jQuery-Validation-Engine-3.0.0/js/languages/jquery.validationEngine-zh_TW.js" type="text/javascript"></script>
+    <script src="./js/jQuery-Validation-Engine-3.0.0/js/jquery.validationEngine.js" type="text/javascript"></script>
     <!--JSON2-->
-    <script src="./js/json2/json2.js" type="text/javascript"></script>
-    <script src="./js/json2/serializeObject.js" type="text/javascript"></script>
-
+    <script src="./js/json2.js" type="text/javascript"></script>
+    <script src="./js/jquery.serialize-object.js" type="text/javascript"></script>
     <title>Class From Maintain With URL input</title>  
     <style type="text/css">
         .auto-style1 {
@@ -56,7 +55,7 @@
 </head>
 <body>
     <div id="vueApp" style="width:80%;margin:0px auto;">
-    <form id="form_hw" runat="server"> 
+    <form id="form_mod" runat="server"> 
         <fieldset>
         <%--<legend class="col text-center formTitle">Class Sign-in Form </legend><div id="yourname"></div>--%>     
         <div  id="div_entry">       
@@ -65,11 +64,10 @@
                 <%--課程下拉選單/User ID--%>
                 <tr>
                     <td style="width: 15%" class="title" rowspan="2">Class：</td>
-                    <td style="width: 85%" class="info">                                    
+                    <td style="width: 85%" class="info">
                              <%--<asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" onfocus="defaultIndex=this.selectedIndex" onchange="this.selectedIndex=defaultIndex" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />       --%>                        
-                             <asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />                               
-                             <asp:TextBox ID="userid_hw" runat="server" CssClass="saveform hide" Width="60px">                             
-                             </asp:TextBox>
+                        <asp:DropDownList runat="server" ID="classid" CssClass="saveform validate[required]" OnSelectedIndexChanged="classid_SelectedIndexChanged" AutoPostBack="True" />                               
+                        <asp:TextBox ID="userid" runat="server" CssClass="saveform hide" Width="60px" style="display:none"/>  
                     </td>                                    
                 </tr>
                 <%--課程日期/訓練者--%>
@@ -80,7 +78,7 @@
                                 <td style="width: 15%" class="title">Class Date：</td>
                                 <td style="width: 35%" >
                                     <%--<asp:TextBox runat="server" ID="classdate" Width="80px" CssClass="saveform" ReadOnly="True"></asp:TextBox>--%>
-                                    <input type="text"  runat="server" ID="classdate_hw" Width="80px" CssClass="saveform" ReadOnly/>
+                                    <input type="text"  runat="server" ID="classdate" Width="80px" CssClass="saveform" ReadOnly/>
 
                                 </td>
                                 <td style="width: 15%" class="title">Trainer：</td>
@@ -96,7 +94,7 @@
                 <tr>
                     <td style="width: 15%" class="title" rowspan="2">Trainee：</td>
                     <td class="auto-style1" style="width: 30%"> 
-                        <asp:DropDownList runat="server" ID="ddl_trainee" CssClass="saveform validate[required]" OnSelectedIndexChanged="trainee_SelectedIndexChanged" AutoPostBack="True" />
+                        <asp:DropDownList runat="server" ID="trainee" CssClass="saveform validate[required]" OnSelectedIndexChanged="trainee_SelectedIndexChanged" AutoPostBack="True" />
                         <%--<asp:TextBox runat="server" ID="trainee" Width="80px" CssClass="saveform" ReadOnly="True"></asp:TextBox>--%>
                     </td>
                 </tr>
@@ -124,8 +122,8 @@
                 <%--按鍵區--%>
                 <tr>
                     <td class="center" colspan="2">
-                        <button id="save_hw1018" type="button" class="btn btn-primary btn-sm">Change to Save</button>
-                        <button id="abort1" type="button" class="btn btn-secondary btn-sm" @click="doAbort_HW1018()">Abort</button>
+                        <button id="save" type="button" class="btn btn-primary btn-sm">Change to Save</button>
+                        <button id="abort" type="button" class="btn btn-secondary btn-sm">Abort</button>
                     </td>
                 </tr>
             </table>
@@ -137,7 +135,6 @@
     
     <!--Vue.js-->
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.10/dist/vue.js"></script>  -->
-    <script src="./js/vue/vue.min.js"></script>    
-    <script src="./js/HW1018.js"></script>
+    <script src="./js/hw1018.js"></script>
 </body>
 </html>

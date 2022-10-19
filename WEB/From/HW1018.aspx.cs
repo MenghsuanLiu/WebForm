@@ -20,10 +20,10 @@ namespace CFP.WEB.From
             base.Page_Load(sender, e);
             if (!IsPostBack)
             {
-                userid_hw.Text = "soniali";
+                userid.Text = "chrisliu";
                 //classid.SelectedValue = "BAS01";
                 //trainee.Text = "chrisliu";
-                ddl_trainee.SelectedValue = "chrisliu";
+                trainee.SelectedValue = "chrisliu";
                 Debug.WriteLine("~~Request.RequestType=" + Request.RequestType);
                 // get POST parameters
                 if (Request.Form != null)
@@ -31,9 +31,9 @@ namespace CFP.WEB.From
                     NameValueCollection _req = Request.Form;
                     if (!string.IsNullOrEmpty(_req["userid"]))
                     {
-                        userid_hw.Text = _req["userid"];
+                        userid.Text = _req["userid"];
                         classid.SelectedValue = _req["classid"];
-                        ddl_trainee.SelectedValue = _req["trainee"];
+                        trainee.SelectedValue = _req["trainee"];
                         //trainee.Text = _req["trainee"];
                     }
                     else
@@ -51,9 +51,9 @@ namespace CFP.WEB.From
             }
             else
             {
-                homework.Text = "";
-                homeworkURL.Text = "";
-                LoadFormData();
+                //homework.Text = "";
+                //homeworkURL.Text = "";
+                //LoadFormData();
             }
         }
 
@@ -68,7 +68,7 @@ namespace CFP.WEB.From
         {
             //classid
             BindCustomizeDDL(classid, "classid");
-            BindCustomizeDDL(ddl_trainee, "trainee");
+            BindCustomizeDDL(trainee, "trainee");
             classid.Items.Insert(0, new ListItem("Pleae Select...", ""));
         }
         public static void BindCustomizeDDL(DropDownList ddl, string kind)
@@ -106,14 +106,14 @@ namespace CFP.WEB.From
 
         public override void LoadFormData()
         {
-            InitViewModel(classid.SelectedValue, ddl_trainee.SelectedValue);
+            InitViewModel(userid.Text, classid.SelectedValue, trainee.SelectedValue);
         }
-        private void InitViewModel(string _classid, string _trainee)
+        private void InitViewModel(string _userid, string _classid, string _trainee)
         {
             Model_TrainSigIn2 model = new Model_TrainSigIn2();
             using (ClassInfoGet _classinfo = new ClassInfoGet())
             {
-                model = _classinfo.getSignInDataWithURL(_classid, _trainee);
+                model = _classinfo.getSignInDataWithURL(_userid, _classid, _trainee);
             }
 
             WebControlsUtil.SetPageData(Page, model);

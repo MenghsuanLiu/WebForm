@@ -65,15 +65,15 @@
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/diffs-5303d7d90fde.js"></script>
   
 
-  <title>JSON-js/json2.js at master · douglascrockford/JSON-js</title>
+  <title>jquery-serialize-object/jquery.serialize-object.js at master · macek/jquery-serialize-object</title>
 
 
 
     
 
-  <meta name="request-id" content="C64D:07E0:155AD3:1AC10C:634FF024" data-turbo-transient="true" /><meta name="html-safe-nonce" content="2d5bac5c4030ee071d2c146bfad4f04c0d1966fcd52f0e57049c6c40c88a0735" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9kb3VnbGFzY3JvY2tmb3JkL0pTT04tanMiLCJyZXF1ZXN0X2lkIjoiQzY0RDowN0UwOjE1NUFEMzoxQUMxMEM6NjM0RkYwMjQiLCJ2aXNpdG9yX2lkIjoiODY1MzE2NjA3NzE0MjQ5Mjg4NSIsInJlZ2lvbl9lZGdlIjoiamFwYW5lYXN0IiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-turbo-transient="true" /><meta name="visitor-hmac" content="3262a4edfa4cf4c12548cf372ff9a2aebabc321eae1fb4126fb12a3e438806f4" data-turbo-transient="true" />
+  <meta name="request-id" content="C64D:07E0:1564D4:1ACFF1:634FF07F" data-turbo-transient="true" /><meta name="html-safe-nonce" content="2d5bac5c4030ee071d2c146bfad4f04c0d1966fcd52f0e57049c6c40c88a0735" data-turbo-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9tYWNlay9qcXVlcnktc2VyaWFsaXplLW9iamVjdCIsInJlcXVlc3RfaWQiOiJDNjREOjA3RTA6MTU2NEQ0OjFBQ0ZGMTo2MzRGRjA3RiIsInZpc2l0b3JfaWQiOiI4NjUzMTY2MDc3MTQyNDkyODg1IiwicmVnaW9uX2VkZ2UiOiJqYXBhbmVhc3QiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-turbo-transient="true" /><meta name="visitor-hmac" content="eaeb78bdddb015e44d7b91bcefc1ece526c83f3da7df971d434dd0ac65c51b27" data-turbo-transient="true" />
 
-    <meta name="hovercard-subject-tag" content="repository:1092277" data-turbo-transient>
+    <meta name="hovercard-subject-tag" content="repository:2965907" data-turbo-transient>
 
 
   <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree" data-turbo-transient="true" />
@@ -104,16 +104,16 @@
 
     <meta name="viewport" content="width=device-width">
     
-      <meta name="description" content="JSON in JavaScript. Contribute to douglascrockford/JSON-js development by creating an account on GitHub.">
+      <meta name="description" content="Converts HTML form into JavaScript object. Contribute to macek/jquery-serialize-object development by creating an account on GitHub.">
       <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <meta property="fb:app_id" content="1401488693436528">
     <meta name="apple-itunes-app" content="app-id=1477376905" />
-      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/f3304ec6bcccf9ce035148604ac3d3f6a2bcade688415e989e562026eae30fe4/douglascrockford/JSON-js" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="JSON-js/json2.js at master · douglascrockford/JSON-js" /><meta name="twitter:description" content="JSON in JavaScript. Contribute to douglascrockford/JSON-js development by creating an account on GitHub." />
-      <meta property="og:image" content="https://opengraph.githubassets.com/f3304ec6bcccf9ce035148604ac3d3f6a2bcade688415e989e562026eae30fe4/douglascrockford/JSON-js" /><meta property="og:image:alt" content="JSON in JavaScript. Contribute to douglascrockford/JSON-js development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="JSON-js/json2.js at master · douglascrockford/JSON-js" /><meta property="og:url" content="https://github.com/douglascrockford/JSON-js" /><meta property="og:description" content="JSON in JavaScript. Contribute to douglascrockford/JSON-js development by creating an account on GitHub." />
+      <meta name="twitter:image:src" content="https://opengraph.githubassets.com/74558866ca220e5cd4ef888d1f09f71482113f320ac274b5b48467c748059224/macek/jquery-serialize-object" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="jquery-serialize-object/jquery.serialize-object.js at master · macek/jquery-serialize-object" /><meta name="twitter:description" content="Converts HTML form into JavaScript object. Contribute to macek/jquery-serialize-object development by creating an account on GitHub." />
+      <meta property="og:image" content="https://opengraph.githubassets.com/74558866ca220e5cd4ef888d1f09f71482113f320ac274b5b48467c748059224/macek/jquery-serialize-object" /><meta property="og:image:alt" content="Converts HTML form into JavaScript object. Contribute to macek/jquery-serialize-object development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="jquery-serialize-object/jquery.serialize-object.js at master · macek/jquery-serialize-object" /><meta property="og:url" content="https://github.com/macek/jquery-serialize-object" /><meta property="og:description" content="Converts HTML form into JavaScript object. Contribute to macek/jquery-serialize-object development by creating an account on GitHub." />
       
     <link rel="assets" href="https://github.githubassets.com/">
-      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/38637433/ws?session=eyJ2IjoiVjMiLCJ1IjozODYzNzQzMywicyI6OTM3MTI4MjU1LCJjIjozNTczMzkyNjM2LCJ0IjoxNjY2MTgzMjExfQ==--bba887dd98ace4a2691b80b53103f4f960fd810015b639a34d3e3f7855de8236" data-refresh-url="/_alive" data-session-id="2214d44ff6de829d728ca4c88443313e68a06a95aec0f7cd252eb81fe12395ab">
+      <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/38637433/ws?session=eyJ2IjoiVjMiLCJ1IjozODYzNzQzMywicyI6OTM3MTI4MjU1LCJjIjoyOTA2MjAyNjIyLCJ0IjoxNjY2MTgzMzE5fQ==--c540d14b615d0e006edc7124145d194876ccf254423915b7de21f25457951668" data-refresh-url="/_alive" data-session-id="2214d44ff6de829d728ca4c88443313e68a06a95aec0f7cd252eb81fe12395ab">
       <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-b87581f5816c.js">
 
 
@@ -137,13 +137,13 @@
 
         <meta data-hydrostats="publish">
 
-  <meta name="go-import" content="github.com/douglascrockford/JSON-js git https://github.com/douglascrockford/JSON-js.git">
+  <meta name="go-import" content="github.com/macek/jquery-serialize-object git https://github.com/macek/jquery-serialize-object.git">
 
-  <meta name="octolytics-dimension-user_id" content="262641" /><meta name="octolytics-dimension-user_login" content="douglascrockford" /><meta name="octolytics-dimension-repository_id" content="1092277" /><meta name="octolytics-dimension-repository_nwo" content="douglascrockford/JSON-js" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="1092277" /><meta name="octolytics-dimension-repository_network_root_nwo" content="douglascrockford/JSON-js" />
+  <meta name="octolytics-dimension-user_id" content="242438" /><meta name="octolytics-dimension-user_login" content="macek" /><meta name="octolytics-dimension-repository_id" content="2965907" /><meta name="octolytics-dimension-repository_nwo" content="macek/jquery-serialize-object" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="2965907" /><meta name="octolytics-dimension-repository_network_root_nwo" content="macek/jquery-serialize-object" />
 
 
 
-    <link rel="canonical" href="https://github.com/douglascrockford/JSON-js/blob/master/json2.js" data-turbo-transient>
+    <link rel="canonical" href="https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js" data-turbo-transient>
   <meta name="turbo-body-classes" content="logged-in env-production page-responsive page-blob">
 
 
@@ -213,7 +213,7 @@
 <div class="header-search flex-auto position-relative js-site-search flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="1092277" data-scoped-search-url="/douglascrockford/JSON-js/search" data-owner-scoped-search-url="/users/douglascrockford/search" data-unscoped-search-url="/search" data-turbo="false" action="/douglascrockford/JSON-js/search" accept-charset="UTF-8" method="get">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="2965907" data-scoped-search-url="/macek/jquery-serialize-object/search" data-owner-scoped-search-url="/users/macek/search" data-unscoped-search-url="/search" data-turbo="false" action="/macek/jquery-serialize-object/search" accept-charset="UTF-8" method="get">
       <label class="form-control header-search-wrapper input-sm p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
         <input type="text"
           class="form-control js-site-search-focus header-search-input jump-to-field js-jump-to-field js-site-search-field is-clearable"
@@ -234,7 +234,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="fsr0pBttRuLiOMoW2cB4B4hF3f7snosZritF6fm-omFRUHjJf5XvjsxHNsmeO7d04o7Jhlp_Jjhw6GNFifcuEA" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="j5fRwO0XU7IuOZyULua0b2qV5COHooPsDpEN4OYZjH2gDV2tie_63gBGYEtpHXscAF7wWzFDLs3QUitMllAADA" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -433,7 +433,7 @@
 
   <a class="js-selected-navigation-item Header-link mt-md-n3 mb-md-n3 py-2 py-md-3 mr-0 mr-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:explore" data-turbo="false" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">Explore</a>
 
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;MenghsuanLiu&quot;,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="416839989af01b4b983763d8670e1ed20f3d7e37f90bebc99c2f1952f2d310d4" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;MenghsuanLiu&quot;,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="60444a68609cda63e69ec8ebb3ffac020abc4542f70227eefcf9ab5e3901ffcc" data-turbo="false" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-turbo="false" href="/settings/profile">Settings</a>
 
@@ -441,7 +441,7 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/38637433?s=40&amp;v=4" width="20" height="20" alt="@MenghsuanLiu" />
       MenghsuanLiu
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UZxoxAsrGvNJNIUUoy1iNjAcCg50mqUZZA5qXSdg8szW5qWSyqBKyAjN0ZQWY_j6CqltNYUXMQTWxawejJDJgA" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-turbo="false" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="1NCy_oNckGpKQRsLjzFZ1VkgbCu1SWFsSS2Syvvlf1lTqn-oQtfAUQu4T4s6f8MZY5ULEETE9XH75lSJUBVEFQ" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
@@ -476,7 +476,7 @@
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
         
 
-<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6Mzg2Mzc0MzMiLCJ0IjoxNjY2MTgzMjExfQ==--89aab2294a396b2cf18556b93b55cc8416e5693bfa6cafad8495a2a0f7224dd0" data-indicator-mode="global" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-view-component="true" class="js-socket-channel">
+<notification-indicator data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6Mzg2Mzc0MzMiLCJ0IjoxNjY2MTgzMzE5fQ==--2cb9e8c1a85602630222135265721e70ad02b7d9ae0316278c0113907e032746" data-indicator-mode="global" data-tooltip-global="You have unread notifications" data-tooltip-unavailable="Notifications are unavailable at the moment." data-tooltip-none="You have no unread notifications" data-view-component="true" class="js-socket-channel">
   <a id="AppHeader-notifications-button" href="/notifications"
     class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
 
@@ -631,7 +631,7 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit" aria-label="command palette">
     <command-palette
       class="command-palette color-bg-default rounded-3 border color-shadow-small"
-      return-to=/douglascrockford/JSON-js/blob/master/json2.js
+      return-to=/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js
       user-id="38637433"
       activation-hotkey="Mod+k,Mod+Alt+k"
       command-mode-hotkey="Mod+Shift+k"
@@ -735,23 +735,23 @@
         <command-palette-scope >
           <div data-target="command-palette-scope.placeholder" hidden class="color-fg-subtle">/&nbsp;&nbsp;<span class="text-semibold color-fg-default">...</span>&nbsp;&nbsp;/&nbsp;&nbsp;</div>
               <command-palette-token
-                data-text="douglascrockford"
-                data-id="MDQ6VXNlcjI2MjY0MQ=="
+                data-text="macek"
+                data-id="MDQ6VXNlcjI0MjQzOA=="
                 data-type="owner"
-                data-value="douglascrockford"
+                data-value="macek"
                 data-targets="command-palette-scope.tokens"
                 class="color-fg-default text-semibold"
                 style="white-space:nowrap;line-height:20px;"
-                >douglascrockford<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
+                >macek<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
               <command-palette-token
-                data-text="JSON-js"
-                data-id="MDEwOlJlcG9zaXRvcnkxMDkyMjc3"
+                data-text="jquery-serialize-object"
+                data-id="MDEwOlJlcG9zaXRvcnkyOTY1OTA3"
                 data-type="repository"
-                data-value="JSON-js"
+                data-value="jquery-serialize-object"
                 data-targets="command-palette-scope.tokens"
                 class="color-fg-default text-semibold"
                 style="white-space:nowrap;line-height:20px;"
-                >JSON-js<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
+                >jquery-serialize-...<span class="color-fg-subtle text-normal">&nbsp;&nbsp;/&nbsp;&nbsp;</span></command-palette-token>
         </command-palette-scope>
         <div class="command-palette-input-group flex-1 form-control border-0 box-shadow-none" style="z-index: 0">
           <div class="command-palette-typeahead position-absolute d-flex flex-items-center Truncate">
@@ -793,7 +793,7 @@
       </command-palette-input>
 
       <command-palette-page-stack
-        data-default-scope-id="MDEwOlJlcG9zaXRvcnkxMDkyMjc3"
+        data-default-scope-id="MDEwOlJlcG9zaXRvcnkyOTY1OTA3"
         data-default-scope-type="Repository"
         data-action="command-palette-page-octicons-cached:command-palette-page-stack#cacheOcticons"
       >
@@ -1213,16 +1213,16 @@
             </command-palette-item-group>
 
             <command-palette-page
-              data-page-title="douglascrockford"
-              data-scope-id="MDQ6VXNlcjI2MjY0MQ=="
+              data-page-title="macek"
+              data-scope-id="MDQ6VXNlcjI0MjQzOA=="
               data-scope-type="owner"
               data-targets="command-palette-page-stack.defaultPages"
               hidden
             >
             </command-palette-page>
             <command-palette-page
-              data-page-title="JSON-js"
-              data-scope-id="MDEwOlJlcG9zaXRvcnkxMDkyMjc3"
+              data-page-title="jquery-serialize-object"
+              data-scope-id="MDEwOlJlcG9zaXRvcnkyOTY1OTA3"
               data-scope-type="repository"
               data-targets="command-palette-page-stack.defaultPages"
               hidden
@@ -1233,14 +1233,14 @@
         <command-palette-page data-is-root>
         </command-palette-page>
           <command-palette-page
-            data-page-title="douglascrockford"
-            data-scope-id="MDQ6VXNlcjI2MjY0MQ=="
+            data-page-title="macek"
+            data-scope-id="MDQ6VXNlcjI0MjQzOA=="
             data-scope-type="owner"
           >
           </command-palette-page>
           <command-palette-page
-            data-page-title="JSON-js"
-            data-scope-id="MDEwOlJlcG9zaXRvcnkxMDkyMjc3"
+            data-page-title="jquery-serialize-object"
+            data-scope-id="MDEwOlJlcG9zaXRvcnkyOTY1OTA3"
             data-scope-type="repository"
           >
           </command-palette-page>
@@ -1569,11 +1569,11 @@
 </svg>
     
     <span class="author flex-self-stretch" itemprop="author">
-      <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/douglascrockford/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/douglascrockford">douglascrockford</a>
+      <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/macek/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/macek">macek</a>
     </span>
     <span class="mx-1 flex-self-stretch color-fg-muted">/</span>
     <strong itemprop="name" class="mr-2 flex-self-stretch">
-      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/douglascrockford/JSON-js">JSON-js</a>
+      <a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/macek/jquery-serialize-object">jquery-serialize-object</a>
     </strong>
 
     <span></span><span class="Label Label--secondary v-align-middle mr-1">Public</span>
@@ -1597,7 +1597,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="4525d99afd56abc928b404d9b890ded962af53fb29dbc52c6312abfa77be95be" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
+        <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="129def883f2f80c2a5ea16a2b238d4beb16718a37b6201cc0ad029c6fc235494" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="btn-sm btn">    <span data-menu-button>
             <span
               hidden
               
@@ -1629,7 +1629,7 @@
               Watch
             </span>
           </span>
-            <span id="repo-notifications-counter" data-target="notifications-list-subscription-form.socialCount" data-pjax-replace="true" data-turbo-replace="true" title="488" data-view-component="true" class="Counter">488</span>
+            <span id="repo-notifications-counter" data-target="notifications-list-subscription-form.socialCount" data-pjax-replace="true" data-turbo-replace="true" title="54" data-view-component="true" class="Counter">54</span>
           <span class="dropdown-caret"></span>
 </summary>
         <details-menu
@@ -1649,9 +1649,9 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="f7RGVQTMRKAyKkh-tOtGUvkkYe_s4LGVxclkaV7xSE04XelerIJMOi2dNYw6BchIUbSaePSqLDiUE75GBUTQkQ" autocomplete="off" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="0SEs3zElQOKUmpr5A6PJyGootgeGCeOcEZvPUxaWJJmWyIPUmWtIeIst5wuNTUfSwrhNkJ5DfjFAQRV8TSO8RQ" autocomplete="off" />
 
-                <input type="hidden" name="repository_id" value="1092277">
+                <input type="hidden" name="repository_id" value="2965907">
 
                 <button
                   type="submit"
@@ -1767,9 +1767,9 @@
           hidden
         >
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lQCQJhf-Crd4zPcng3RlggLYQma57IOzVOwjrJa-8zHS6T8tv7ACLWd7itUNmuuYqki58aGmHh4FNvmDzQtr7Q" autocomplete="off" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" data-turbo="false" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Gc_6s5c3v6JhKaf3cUvekztEJnxpw_0OI0OmWW2Kna9eJlW4P3m3OH6e2gX_pVCJk9Td63GJYKNymXx2Nj8Fcw" autocomplete="off" />
 
-              <input type="hidden" name="repository_id" value="1092277">
+              <input type="hidden" name="repository_id" value="2965907">
 
               <header class="d-sm-none SelectMenu-header pb-0 border-bottom-0 px-2 px-sm-3">
                 <h1 class="f3 SelectMenu-title d-inline-flex">
@@ -1918,31 +1918,31 @@
 
   <li>
         <div data-view-component="true" class="BtnGroup">
-        <a icon="repo-forked" href="/douglascrockford/JSON-js/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="7325c06a9975e38ef801a4a908a207f50517e1da3d84805091dedb1b963ea91c" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of douglascrockford/JSON-js" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
+        <a icon="repo-forked" href="/macek/jquery-serialize-object/fork" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="77bdbc9bbdacd7717feb94dca447e5725a692353814faa4c0cf8ef10575a4258" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" aria-label="Fork your own copy of macek/jquery-serialize-object" data-view-component="true" class="btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo-forked mr-2">
     <path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path>
 </svg>Fork
-          <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="4,712" data-view-component="true" class="Counter">4.7k</span>
+          <span id="repo-network-counter" data-pjax-replace="true" data-turbo-replace="true" title="369" data-view-component="true" class="Counter">369</span>
 </a>
-      <details group_item="true" id="my-forks-menu-1092277" data-view-component="true" class="details-reset details-overlay BtnGroup-parent d-inline-block position-relative">
+      <details group_item="true" id="my-forks-menu-2965907" data-view-component="true" class="details-reset details-overlay BtnGroup-parent d-inline-block position-relative">
               <summary aria-label="See your forks of this repository" data-view-component="true" class="btn-sm btn BtnGroup-item px-2 float-none">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
 </summary>
   <details-menu
     class="SelectMenu right-0"
-      src="/douglascrockford/JSON-js/my_forks_menu_content?can_fork=true"
+      src="/macek/jquery-serialize-object/my_forks_menu_content?can_fork=true"
       
       role="menu"
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-cd27ba">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-48f243">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-cd27ba"
+        id="filter-menu-48f243"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -1984,34 +1984,34 @@
 
   <div data-view-component="true" class="js-toggler-container js-social-container starring-container d-flex">
     <div data-view-component="true" class="starred BtnGroup flex-1">
-      <form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/douglascrockford/JSON-js/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="rWNW-hpJgRI566WJwxhqbqd9nviKK-Ymjj7Tu6AUh8GaxqJG3hRrZ6Y7OEyXlb9iVUa9qT36RhBHlVLqu-0TQQ" autocomplete="off" />
-          <input type="hidden" value="xRXOMGaUEJ2m-VEVecDUdBjAytvKf4ObtDwgfmIrms3ysDqMosn66DkpzNAtTQF46vvpin2uI619l6EvedIOTQ" data-csrf="true" class="js-confirm-csrf-token" />
+      <form class="js-social-form BtnGroup-parent flex-auto js-deferred-toggler-target" data-turbo="false" action="/macek/jquery-serialize-object/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="61DXJVa7BjKue3d9qFzrtOp-3KBzJcJAMDhiuFIxK1HdH1T0AdXXQ6HZRg6T8EdB7VLeCG_njlkhiMxpzNNx3g" autocomplete="off" />
+          <input type="hidden" value="zh07sdzIsogQqq1TF3Cxlts6iUvuyNaYV4fVNV2lvEn4Urhgi6Zj-R8InCAs3B1j3BaL4_IKmoFGN3vkw0fmxg" data-csrf="true" class="js-confirm-csrf-token" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="22100b1ab71ba2bb08fdc08d46320f0ac3c56f27ddf957eb6da3084bbb350c55" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (8535)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="30251ec89c731c01ca9171c59fa7c8749ac341548910be447622efbee56b7de1" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository (1100)" type="submit" data-view-component="true" class="rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill starred-button-icon d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Starred
-</span>            <span id="repo-stars-counter-unstar" aria-label="8535 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="8,535" data-view-component="true" class="Counter js-social-count">8.5k</span>
-</button></form>        <details id="details-user-list-1092277" data-view-component="true" class="details-reset details-overlay BtnGroup-parent js-user-list-menu d-inline-block position-relative">
+</span>            <span id="repo-stars-counter-unstar" aria-label="1100 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="1,100" data-view-component="true" class="Counter js-social-count">1.1k</span>
+</button></form>        <details id="details-user-list-2965907" data-view-component="true" class="details-reset details-overlay BtnGroup-parent js-user-list-menu d-inline-block position-relative">
         <summary aria-label="Add this repository to a list" data-view-component="true" class="btn-sm btn BtnGroup-item px-2 float-none">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
 </summary>
   <details-menu
     class="SelectMenu right-0"
-      src="/douglascrockford/JSON-js/lists"
+      src="/macek/jquery-serialize-object/lists"
       
       role="menu"
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-0c3835">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-cb7304">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-0c3835"
+        id="filter-menu-cb7304"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2032,33 +2032,33 @@
 </details>
 </div>
     <div data-view-component="true" class="unstarred BtnGroup flex-1">
-      <form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/douglascrockford/JSON-js/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="o38rX8K57KFwhlnFfVryHHyL0rPJhZGhHfRW2HtRvEW3OGP3wdOqz1WYTtor8DbhqBTvzu4WLHoqbFycnBfDlA" autocomplete="off" />
+      <form class="js-social-form BtnGroup-parent flex-auto" data-turbo="false" action="/macek/jquery-serialize-object/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="c3O528J0E7wZ4UnZlByF99uCXKo2gVU3m_e_uiYoGtGYuXl_hsPfJLoXU12EPAPLhxByKc8fxVtge6Q4pPPaeA" autocomplete="off" />
         <input type="hidden" name="context" value="repository">
-          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="e63af570d0015049dd7972baafc8e6bb068af54cd75fa40c0a9491cba7a23b24" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (8535)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
+          <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="16b8f27d9db329f48f26174ab87e3db061b5cdf2a59ef9a61a7fc82b32c1316c" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository (1100)" type="submit" data-view-component="true" class="js-toggler-target rounded-left-2 btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star d-inline-block mr-2">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg><span data-view-component="true" class="d-inline">
             Star
-</span>            <span id="repo-stars-counter-star" aria-label="8535 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="8,535" data-view-component="true" class="Counter js-social-count">8.5k</span>
-</button></form>        <details id="details-user-list-1092277" data-view-component="true" class="details-reset details-overlay BtnGroup-parent js-user-list-menu d-inline-block position-relative">
+</span>            <span id="repo-stars-counter-star" aria-label="1100 users starred this repository" data-singular-suffix="user starred this repository" data-plural-suffix="users starred this repository" data-turbo-replace="true" title="1,100" data-view-component="true" class="Counter js-social-count">1.1k</span>
+</button></form>        <details id="details-user-list-2965907" data-view-component="true" class="details-reset details-overlay BtnGroup-parent js-user-list-menu d-inline-block position-relative">
         <summary aria-label="Add this repository to a list" data-view-component="true" class="btn-sm btn BtnGroup-item px-2 float-none">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-triangle-down">
     <path d="M4.427 7.427l3.396 3.396a.25.25 0 00.354 0l3.396-3.396A.25.25 0 0011.396 7H4.604a.25.25 0 00-.177.427z"></path>
 </svg>
 </summary>
   <details-menu
     class="SelectMenu right-0"
-      src="/douglascrockford/JSON-js/lists"
+      src="/macek/jquery-serialize-object/lists"
       
       role="menu"
       
 >
     <div class="SelectMenu-modal">
-        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-0c3835">
+        <button class="SelectMenu-closeButton position-absolute right-0 m-2" type="button" aria-label="Close menu" data-toggle-for="details-cb7304">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
     <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
 </svg>
         </button>
       <div
-        id="filter-menu-0c3835"
+        id="filter-menu-cb7304"
         class="d-flex flex-column flex-1 overflow-hidden"
 >
         <div
@@ -2094,7 +2094,7 @@
 
   <ul data-view-component="true" class="UnderlineNav-body list-style-none">
       <li data-view-component="true" class="d-inline-flex">
-  <a id="code-tab" href="/douglascrockford/JSON-js" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /douglascrockford/JSON-js" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
+  <a id="code-tab" href="/macek/jquery-serialize-object" data-tab-item="i0code-tab" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /macek/jquery-serialize-object" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g c" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Code&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" aria-current="page" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
@@ -2106,31 +2106,31 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="issues-tab" href="/douglascrockford/JSON-js/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /douglascrockford/JSON-js/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="issues-tab" href="/macek/jquery-serialize-object/issues" data-tab-item="i1issues-tab" data-selected-links="repo_issues repo_labels repo_milestones /macek/jquery-serialize-object/issues" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g i" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Issues&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline">
     <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
 </svg>
         <span data-content="Issues">Issues</span>
-          <span id="issues-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="1" data-view-component="true" class="Counter">1</span>
+          <span id="issues-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="15" data-view-component="true" class="Counter">15</span>
 
 
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="pull-requests-tab" href="/douglascrockford/JSON-js/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /douglascrockford/JSON-js/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="pull-requests-tab" href="/macek/jquery-serialize-object/pulls" data-tab-item="i2pull-requests-tab" data-selected-links="repo_pulls checks /macek/jquery-serialize-object/pulls" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g p" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Pull requests&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
 </svg>
         <span data-content="Pull requests">Pull requests</span>
-          <span id="pull-requests-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="3" data-view-component="true" class="Counter">3</span>
+          <span id="pull-requests-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="8" data-view-component="true" class="Counter">8</span>
 
 
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="actions-tab" href="/douglascrockford/JSON-js/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /douglascrockford/JSON-js/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="actions-tab" href="/macek/jquery-serialize-object/actions" data-tab-item="i3actions-tab" data-selected-links="repo_actions /macek/jquery-serialize-object/actions" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g a" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Actions&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
@@ -2142,7 +2142,7 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="projects-tab" href="/douglascrockford/JSON-js/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /douglascrockford/JSON-js/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="projects-tab" href="/macek/jquery-serialize-object/projects" data-tab-item="i4projects-tab" data-selected-links="repo_projects new_repo_project repo_project /macek/jquery-serialize-object/projects" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g b" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Projects&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0114.25 16H1.75A1.75 1.75 0 010 14.25V1.75zM1.5 6.5v7.75c0 .138.112.25.25.25H5v-8H1.5zM5 5H1.5V1.75a.25.25 0 01.25-.25H5V5zm1.5 1.5v8h7.75a.25.25 0 00.25-.25V6.5h-8zm8-1.5h-8V1.5h7.75a.25.25 0 01.25.25V5z"></path>
@@ -2154,18 +2154,30 @@
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="security-tab" href="/douglascrockford/JSON-js/security" data-tab-item="i5security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /douglascrockford/JSON-js/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="wiki-tab" href="/macek/jquery-serialize-object/wiki" data-tab-item="i5wiki-tab" data-selected-links="repo_wiki /macek/jquery-serialize-object/wiki" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g w" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Wiki&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+    
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-book UnderlineNav-octicon d-none d-sm-inline">
+    <path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path>
+</svg>
+        <span data-content="Wiki">Wiki</span>
+          <span id="wiki-repo-tab-count" data-pjax-replace="" data-turbo-replace="" title="Not available" data-view-component="true" class="Counter"></span>
+
+
+    
+</a></li>
+      <li data-view-component="true" class="d-inline-flex">
+  <a id="security-tab" href="/macek/jquery-serialize-object/security" data-tab-item="i6security-tab" data-selected-links="security overview alerts policy token_scanning code_scanning /macek/jquery-serialize-object/security" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-hotkey="g s" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Security&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path>
 </svg>
         <span data-content="Security">Security</span>
-          <include-fragment src="/douglascrockford/JSON-js/security/overall-count" accept="text/fragment+html"></include-fragment>
+          <include-fragment src="/macek/jquery-serialize-object/security/overall-count" accept="text/fragment+html"></include-fragment>
 
     
 </a></li>
       <li data-view-component="true" class="d-inline-flex">
-  <a id="insights-tab" href="/douglascrockford/JSON-js/pulse" data-tab-item="i6insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /douglascrockford/JSON-js/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
+  <a id="insights-tab" href="/macek/jquery-serialize-object/pulse" data-tab-item="i7insights-tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /macek/jquery-serialize-object/pulse" data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" data-analytics-event="{&quot;category&quot;:&quot;Underline navbar&quot;,&quot;action&quot;:&quot;Click tab&quot;,&quot;label&quot;:&quot;Insights&quot;,&quot;target&quot;:&quot;UNDERLINE_NAV.TAB&quot;}" data-view-component="true" class="UnderlineNav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item">
     
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline">
     <path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
@@ -2187,31 +2199,35 @@
 </summary>
   <details-menu role="menu" data-view-component="true" class="dropdown-menu dropdown-menu-sw">          <ul>
               <li data-menu-item="i0code-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /douglascrockford/JSON-js" href="/douglascrockford/JSON-js">
+                <a role="menuitem" class="js-selected-navigation-item selected dropdown-item" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /macek/jquery-serialize-object" href="/macek/jquery-serialize-object">
                   Code
 </a>              </li>
               <li data-menu-item="i1issues-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /douglascrockford/JSON-js/issues" href="/douglascrockford/JSON-js/issues">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_issues repo_labels repo_milestones /macek/jquery-serialize-object/issues" href="/macek/jquery-serialize-object/issues">
                   Issues
 </a>              </li>
               <li data-menu-item="i2pull-requests-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /douglascrockford/JSON-js/pulls" href="/douglascrockford/JSON-js/pulls">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_pulls checks /macek/jquery-serialize-object/pulls" href="/macek/jquery-serialize-object/pulls">
                   Pull requests
 </a>              </li>
               <li data-menu-item="i3actions-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /douglascrockford/JSON-js/actions" href="/douglascrockford/JSON-js/actions">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_actions /macek/jquery-serialize-object/actions" href="/macek/jquery-serialize-object/actions">
                   Actions
 </a>              </li>
               <li data-menu-item="i4projects-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /douglascrockford/JSON-js/projects" href="/douglascrockford/JSON-js/projects">
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_projects new_repo_project repo_project /macek/jquery-serialize-object/projects" href="/macek/jquery-serialize-object/projects">
                   Projects
 </a>              </li>
-              <li data-menu-item="i5security-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /douglascrockford/JSON-js/security" href="/douglascrockford/JSON-js/security">
+              <li data-menu-item="i5wiki-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_wiki /macek/jquery-serialize-object/wiki" href="/macek/jquery-serialize-object/wiki">
+                  Wiki
+</a>              </li>
+              <li data-menu-item="i6security-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="security overview alerts policy token_scanning code_scanning /macek/jquery-serialize-object/security" href="/macek/jquery-serialize-object/security">
                   Security
 </a>              </li>
-              <li data-menu-item="i6insights-tab" hidden>
-                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /douglascrockford/JSON-js/pulse" href="/douglascrockford/JSON-js/pulse">
+              <li data-menu-item="i7insights-tab" hidden>
+                <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people community /macek/jquery-serialize-object/pulse" href="/macek/jquery-serialize-object/pulse">
                   Insights
 </a>              </li>
           </ul>
@@ -2247,7 +2263,7 @@
 
 
     
-<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/douglascrockford/JSON-js/blob/8e8b0407e475e35942f7e9461dab81929fcc7321/json2.js">Permalink</a>
+<a class="d-none js-permalink-shortcut" data-hotkey="y" href="/macek/jquery-serialize-object/blob/1531b2b8962b50fd80381485e580386f4ec77135/jquery.serialize-object.js">Permalink</a>
 
 <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
   
@@ -2255,7 +2271,7 @@
   <details
     class="js-branch-select-menu details-reset details-overlay mr-0 mb-0 "
     id="branch-select-menu"
-    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="89acbb97c5a1f7e4e356555cb83464edbf137d71c586eca7d74f15fa92ab657b">
+    data-hydro-click-payload="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;REFS_SELECTOR_MENU&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="527da1f22c7f3b727c8774f94ee54ae663fda0a94d7898adc275ba1693d40fb6">
     <summary class="btn css-truncate"
             data-hotkey="w"
             title="Switch branches or tags">
@@ -2306,12 +2322,12 @@
               tab-selected:ref-selector#tabSelected
               focus-list:ref-selector#focusFirstListMember
             "
-            query-endpoint="/douglascrockford/JSON-js/refs"
+            query-endpoint="/macek/jquery-serialize-object/refs"
             
-            cache-key="v0:1613516272.5864398"
+            cache-key="v0:1436373235.0"
             current-committish="bWFzdGVy"
             default-branch="bWFzdGVy"
-            name-with-owner="ZG91Z2xhc2Nyb2NrZm9yZC9KU09OLWpz"
+            name-with-owner="bWFjZWsvanF1ZXJ5LXNlcmlhbGl6ZS1vYmplY3Q="
             prefetch-on-mouseover
           >
 
@@ -2334,7 +2350,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/douglascrockford/JSON-js/blob/{{ urlEncodedRefName }}/json2.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/macek/jquery-serialize-object/blob/{{ urlEncodedRefName }}/jquery.serialize-object.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2344,7 +2360,7 @@
 </template>
 
 
-              <footer class="SelectMenu-footer"><a href="/douglascrockford/JSON-js/branches">View all branches</a></footer>
+              <footer class="SelectMenu-footer"><a href="/macek/jquery-serialize-object/branches">View all branches</a></footer>
           </ref-selector>
 
         </div>
@@ -2358,11 +2374,11 @@
               focus-list:ref-selector#focusFirstListMember
             "
             data-targets="input-demux.sinks"
-            query-endpoint="/douglascrockford/JSON-js/refs"
-            cache-key="v0:1613516272.5864398"
+            query-endpoint="/macek/jquery-serialize-object/refs"
+            cache-key="v0:1436373235.0"
             current-committish="bWFzdGVy"
             default-branch="bWFzdGVy"
-            name-with-owner="ZG91Z2xhc2Nyb2NrZm9yZC9KU09OLWpz"
+            name-with-owner="bWFjZWsvanF1ZXJ5LXNlcmlhbGl6ZS1vYmplY3Q="
           >
 
             <template data-target="ref-selector.fetchFailedTemplate">
@@ -2374,7 +2390,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/douglascrockford/JSON-js/blob/{{ urlEncodedRefName }}/json2.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/macek/jquery-serialize-object/blob/{{ urlEncodedRefName }}/jquery.serialize-object.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2392,7 +2408,7 @@
 </svg>
               </div>
             </div>
-              <footer class="SelectMenu-footer"><a href="/douglascrockford/JSON-js/tags">View all tags</a></footer>
+              <footer class="SelectMenu-footer"><a href="/macek/jquery-serialize-object/tags">View all tags</a></footer>
           </ref-selector>
         </div>
       </tab-container>
@@ -2435,9 +2451,9 @@
 
 
   <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/douglascrockford/JSON-js"><span>JSON-js</span></a></span></span><span class="separator">/</span><strong class="final-path">json2.js</strong>
+    <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" data-turbo-frame="repo-content-turbo-frame" href="/macek/jquery-serialize-object"><span>jquery-serialize-object</span></a></span></span><span class="separator">/</span><strong class="final-path">jquery.serialize-object.js</strong>
       <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
-    <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="bebef00a13a3c8980fbe1a3a03a2c30dd79d99ea60173e266f9b84fc11d92059" data-view-component="true" class="Link--secondary css-truncate btn-link">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="7edb5e72395c6fcb7cf41b8fd241d1b77b1ab4df1b3c4d27092d8f77de7d4d04" data-view-component="true" class="Link--secondary css-truncate btn-link">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
 </svg>
     <span data-menu-button>Jump to</span>
@@ -2465,53 +2481,83 @@
         </div>
       <div class="SelectMenu-list">
         <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
-            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L171">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L38">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>f</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>FormSerializer</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L178">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L45">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>this_value</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>build</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L184">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L50">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>toJSON</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>makeObject</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L215">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L76">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>quote</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>incrementPush</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L234">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L83">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>str</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>encode</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L394">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L92">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>stringify</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>addPair</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L442">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L99">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>parse</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>addPairs</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
-</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:1092277,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="14a4dd93197db3d74ad508570c8eb7ed7e7ebb44c589ae82395f608ed2b253ac" href="/douglascrockford/JSON-js/blob/master/json2.js#L449">
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L109">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
-              <span class="flex-auto css-truncate-target" data-menu-button-text>walk</span>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>serialize</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L113">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>serializeJSON</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L126">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>serializeObject</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L126">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>serializeObject</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L132">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>serializeJSON</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:2965907,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;backend&quot;:&quot;ALEPH_FUZZY&quot;,&quot;code_nav_context&quot;:&quot;BLOB_VIEW&quot;,&quot;retry_backend&quot;:&quot;&quot;,&quot;cross_repo_results_included&quot;:&quot;CROSS_REPO_UNKNOWN&quot;,&quot;in_repo_result_count&quot;:0,&quot;cross_repo_result_count&quot;:0,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8a372e05aba0b3eaed8a0370aa23046527cea283c681637efbe900973e225725" href="/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js#L132">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>serializeJSON</span>
               <span class="flex-auto d-flex flex-justify-end">Function</span>
 </a>        </div>
       </div>
@@ -2526,7 +2572,7 @@
 </details>
 
   </h2>
-    <a href="/douglascrockford/JSON-js/find/master" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
+    <a href="/macek/jquery-serialize-object/find/master" data-pjax="" data-hotkey="t" data-view-component="true" class="btn mr-2 d-none d-md-block">    Go to file
 </a>
   <details id="blob-more-options-details" data-view-component="true" class="details-overlay details-reset position-relative">
     <summary role="button" data-view-component="true" class="btn">    <svg aria-label="More options" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
@@ -2535,7 +2581,7 @@
 </summary>
   <div data-view-component="true">      <ul class="dropdown-menu dropdown-menu-sw">
         <li class="d-block d-md-none">
-          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="b82f86152ae578ff6cbb6e56d3ab83146c3665d4654500a59ea047c3e937c091" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/douglascrockford/JSON-js/find/master">
+          <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="8e4779af65191649f6f5a2bffbd980e6a562e4de0e524bcf46c254b81d37b5ad" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/macek/jquery-serialize-object/find/master">
             <span class="flex-auto">Go to file</span>
             <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>        </li>
@@ -2553,13 +2599,13 @@
 </button>        </li>
         <li class="dropdown-divider" role="none"></li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="json2.js" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="jquery.serialize-object.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
             Copy path
 
 </clipboard-copy>        </li>
         <li>
-          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/douglascrockford/JSON-js/blob/8e8b0407e475e35942f7e9461dab81929fcc7321/json2.js" data-view-component="true" class="dropdown-item cursor-pointer">
+          <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/macek/jquery-serialize-object/blob/1531b2b8962b50fd80381485e580386f4ec77135/jquery.serialize-object.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
             <span class="d-flex flex-items-baseline">
               <span class="flex-auto">Copy permalink</span>
@@ -2588,83 +2634,20 @@
   
 </div></div>
 
-    <include-fragment src="/douglascrockford/JSON-js/spoofed_commit_check/8e8b0407e475e35942f7e9461dab81929fcc7321" data-test-selector="spoofed-commit-check"></include-fragment>
+    <include-fragment src="/macek/jquery-serialize-object/spoofed_commit_check/1531b2b8962b50fd80381485e580386f4ec77135" data-test-selector="spoofed-commit-check"></include-fragment>
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-  
-  <div class="Box-header Details js-details-container">
-      <div class="d-flex flex-items-center">
-        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
-          <a rel="author" data-hovercard-type="user" data-hovercard-url="/users/douglascrockford/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/douglascrockford"><img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/262641?s=48&amp;v=4" width="24" height="24" alt="@douglascrockford" /></a>
-        </span>
-        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
-          <div class="css-truncate css-truncate-overflow">
-            <a class="text-bold Link--primary" rel="author" data-hovercard-type="user" data-hovercard-url="/users/douglascrockford/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/douglascrockford">douglascrockford</a>
+  <include-fragment src="/macek/jquery-serialize-object/contributors/master/jquery.serialize-object.js" class="commit-loader">
+    <div class="Box-header d-flex flex-items-center">
+      <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
+      <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
+    </div>
 
-              <span class="markdown-title">
-                <a data-pjax="true" title="Remove urls" class="Link--secondary" href="/douglascrockford/JSON-js/commit/2a76286e00cdc1e98fbc9e9ec6589563a3a4c3bb">Remove urls</a>
-              </span>
-          </div>
-
-
-          <span class="ml-2">
-            <include-fragment accept="text/fragment+html" src="/douglascrockford/JSON-js/commit/2a76286e00cdc1e98fbc9e9ec6589563a3a4c3bb/rollup?direction=e" class="d-inline"></include-fragment>
-          </span>
-        </div>
-        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end color-fg-muted no-wrap">
-          <span class="d-none d-md-inline">
-            <span>Latest commit</span>
-            <a class="text-small text-mono Link--secondary" href="/douglascrockford/JSON-js/commit/2a76286e00cdc1e98fbc9e9ec6589563a3a4c3bb" data-pjax>2a76286</a>
-            <span itemprop="dateModified"><relative-time datetime="2018-04-21T23:22:47Z" class="no-wrap">Apr 21, 2018</relative-time></span>
-          </span>
-
-          <a data-pjax href="/douglascrockford/JSON-js/commits/master/json2.js" class="ml-3 no-wrap Link--primary no-underline">
-            <svg text="gray" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-history">
-    <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path>
-</svg>
-            <span class="d-none d-sm-inline">
-              <strong>History</strong>
-            </span>
-          </a>
-        </div>
-      </div>
-
-  </div>
-
-  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
-    <details class="details-reset details-overlay details-overlay-dark lh-default color-fg-default float-left mr-3" id="blob_contributors_box">
-      <summary class="Link--primary">
-        <svg text="gray" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
-    <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
-</svg>
-        <strong>1</strong>
-        
-        contributor
-      </summary>
-      <details-dialog
-        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-        aria-label="Users who have contributed to this file"
-        src="/douglascrockford/JSON-js/contributors-list/master/json2.js" preload>
-        <div class="Box-header">
-          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
-    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
-</svg>
-          </button>
-          <h3 class="Box-title">
-            Users who have contributed to this file
-          </h3>
-        </div>
-        <include-fragment>
-          <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-3 mx-auto d-block anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke" />
-</svg>
-        </include-fragment>
-      </details-dialog>
-    </details>
-  </div>
-</div>
+    <div class="Box-body d-flex flex-items-center" >
+      <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
+      <span class="color-fg-danger h6 loader-error">Cannot retrieve contributors at this time</span>
+    </div>
+</include-fragment></div>
 
 
 
@@ -2688,41 +2671,41 @@
 
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
 
-      530 lines (424 sloc)
+      146 lines (119 sloc)
       <span class="file-info-divider"></span>
-    18.4 KB
+    3.31 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
       
 
     <div class="BtnGroup">
-        <a data-permalink-href="/douglascrockford/JSON-js/raw/8e8b0407e475e35942f7e9461dab81929fcc7321/json2.js" href="/douglascrockford/JSON-js/raw/master/json2.js" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
-</a>          <a data-permalink-href="/douglascrockford/JSON-js/blame/8e8b0407e475e35942f7e9461dab81929fcc7321/json2.js" href="/douglascrockford/JSON-js/blame/master/json2.js" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
+        <a data-permalink-href="/macek/jquery-serialize-object/raw/1531b2b8962b50fd80381485e580386f4ec77135/jquery.serialize-object.js" href="/macek/jquery-serialize-object/raw/master/jquery.serialize-object.js" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Raw
+</a>          <a data-permalink-href="/macek/jquery-serialize-object/blame/1531b2b8962b50fd80381485e580386f4ec77135/jquery.serialize-object.js" href="/macek/jquery-serialize-object/blame/master/jquery.serialize-object.js" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link btn-sm btn BtnGroup-item">    Blame
 </a>    </div>
 
     <div class="d-flex">
         
 <div class="ml-1" data-test-selector="edit-dropdown-menu-component">
-  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/douglascrockford/JSON-js/edit/master/json2.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Q6-f5kSaxSYsCp15nPXHXVwymnWhCINZyghSdYTCHOjaghiEgC7r0quMf5Hqx3Q3r7D_R-4nrRBPMtfHb8_Wyw" autocomplete="off" />
+  <form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/macek/jquery-serialize-object/edit/master/jquery.serialize-object.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="32pZeakbwQalBtgikRbNdiiI1DhTqerjU77Pdy8ydb3uS1TkriO3eUu-i587GEitjmna4VbplQzSxP9MiHg9NQ" autocomplete="off" />
       <button title="Fork this project and edit the file" data-hotkey="e" data-disable-with="" data-test-selector="edit-icon-button" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
     <path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path>
 </svg>
 </button></form>
   <details class="details-reset details-overlay select-menu BtnGroup-parent d-inline-block position-relative">
-      <summary data-disable-invalid="" data-disable-with="" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:1092277,&quot;actor_id&quot;:38637433,&quot;github_dev_enabled&quot;:true,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:false}}" aria-label="Select additional options" data-view-component="true" class="js-blob-dropdown-click select-menu-button btn-sm btn BtnGroup-item float-none px-2">
+      <summary data-disable-invalid="" data-disable-with="" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:2965907,&quot;actor_id&quot;:38637433,&quot;github_dev_enabled&quot;:true,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:false}}" aria-label="Select additional options" data-view-component="true" class="js-blob-dropdown-click select-menu-button btn-sm btn BtnGroup-item float-none px-2">
 </summary>    <div class="SelectMenu right-0">
       <div class="SelectMenu-modal width-full">
         <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/douglascrockford/JSON-js/edit/master/json2.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5Gyijvr4dBixsW_qwNgCrTXi5YCZ6iyVXx4pWVY5Fcx9QSXsPkxa7DY3jQK26rHHxmCAstbFAtzaJKzrvTTf7w" autocomplete="off" />
+          <form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/macek/jquery-serialize-object/edit/master/jquery.serialize-object.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="n0obsxyJtOcOW_-f30G3O8ZXLaPkoHpsjHrIOamEbH6uaxYuG7HCmODjrCJ1TzLgYLYjeuHgBYMNAPgCDs4k9g" autocomplete="off" />
               <button title="Fork this project and edit the file" data-test-selector="edit-text-button" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
               <div class="color-fg-muted">E</div>
 </button></form>
-            <a aria-label="Open this file in github.dev" data-test-selector="github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:1092277,&quot;actor_id&quot;:38637433,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:false}}" href="https://github.dev/" data-view-component="true" class="SelectMenu-item js-github-dev-shortcut js-blob-dropdown-click width-full d-flex flex-justify-between color-fg-default f5 text-normal">
+            <a aria-label="Open this file in github.dev" data-test-selector="github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:2965907,&quot;actor_id&quot;:38637433,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:false}}" href="https://github.dev/" data-view-component="true" class="SelectMenu-item js-github-dev-shortcut js-blob-dropdown-click width-full d-flex flex-justify-between color-fg-default f5 text-normal">
               <div class="mr-5 no-wrap">Open in github.dev</div>
               <div class="color-fg-muted">.</div>
 </a>
-            <a data-platforms="windows,mac" data-test-selector="github-desktop-link" aria-label="Open this file in GitHub Desktop" href="x-github-client://openRepo/https://github.com/douglascrockford/JSON-js?branch=master&amp;filepath=json2.js" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform width-full text-normal color-fg-default f5">
+            <a data-platforms="windows,mac" data-test-selector="github-desktop-link" aria-label="Open this file in GitHub Desktop" href="x-github-client://openRepo/https://github.com/macek/jquery-serialize-object?branch=master&amp;filepath=jquery.serialize-object.js" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform width-full text-normal color-fg-default f5">
               Open in GitHub Desktop
 </a>        </div>
       </div>
@@ -2733,10 +2716,10 @@
 
         
 <div data-test-selector="remote-clipboard-copy">
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/douglascrockford/JSON-js/raw/8e8b0407e475e35942f7e9461dab81929fcc7321/json2.js" data-action="click:remote-clipboard-copy#remoteCopy">
+  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/macek/jquery-serialize-object/raw/1531b2b8962b50fd80381485e580386f4ec77135/jquery.serialize-object.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="2ab45a23f775dec8c9b541c6d1d109ce24b31d094a8b4fc299f0d7dd2b013d4c" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="6d0d5841dec0ae2a41730c92ab9903ad006af20d64b8500f515783b4e132dcbc" aria-label="Copy raw contents">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
 </svg>
@@ -2761,7 +2744,7 @@
 </remote-clipboard-copy></div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/douglascrockford/JSON-js/delete/master/json2.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Qu6rZ89eG2xz0-U7F5u2VuBoAVpWVwREsc-3VsvrY28LOXZcXGzVEz8viKuCFpPWoY4gKsl2evSmHtZ1cEt_MA" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" data-turbo="false" action="/macek/jquery-serialize-object/delete/master/jquery.serialize-object.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="vchhMf3rcK45lysGsYva7JXizw7uAsasSls4BqTZARjPfzbrN2j-H2ovLkAoSha6G0sOcNFAP0CkUsf9vncc2w" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Fork this project and delete the file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2778,7 +2761,7 @@
           aria-haspopup="true"
           aria-label="possible actions"
           data-test-selector="small-screen-more-options"
-          data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:1092277,&quot;actor_id&quot;:38637433,&quot;github_dev_enabled&quot;:true,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}"
+          data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:2965907,&quot;actor_id&quot;:38637433,&quot;github_dev_enabled&quot;:true,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}"
         >
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
     <path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
@@ -2789,20 +2772,20 @@
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/douglascrockford/JSON-js?branch=master&amp;filepath=json2.js">
+                   href="x-github-client://openRepo/https://github.com/macek/jquery-serialize-object?branch=master&amp;filepath=jquery.serialize-object.js">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/douglascrockford/JSON-js/raw/master/json2.js">
+            <a class="dropdown-item" href="/macek/jquery-serialize-object/raw/master/jquery.serialize-object.js">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/douglascrockford/JSON-js/raw/master/json2.js" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/macek/jquery-serialize-object/raw/master/jquery.serialize-object.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:1092277,&quot;originating_url&quot;:&quot;https://github.com/douglascrockford/JSON-js/blob/master/json2.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="2ab45a23f775dec8c9b541c6d1d109ce24b31d094a8b4fc299f0d7dd2b013d4c">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:2965907,&quot;originating_url&quot;:&quot;https://github.com/macek/jquery-serialize-object/blob/master/jquery.serialize-object.js&quot;,&quot;user_id&quot;:38637433}}" data-hydro-click-hmac="6d0d5841dec0ae2a41730c92ab9903ad006af20d64b8500f515783b4e132dcbc">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -2825,20 +2808,20 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/douglascrockford/JSON-js/blame/master/json2.js">
+              <a class="dropdown-item" href="/macek/jquery-serialize-object/blame/master/jquery.serialize-object.js">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/douglascrockford/JSON-js/edit/master/json2.js">Edit file</a>
+                <a class="dropdown-item" href="/macek/jquery-serialize-object/edit/master/jquery.serialize-object.js">Edit file</a>
               </li>
                 <li>
-                  <a class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click" data-test-selector="small-screen-github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:1092277,&quot;actor_id&quot;:38637433,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/">Open with github.dev</a>
+                  <a class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click" data-test-selector="small-screen-github-dev-link" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:2965907,&quot;actor_id&quot;:38637433,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/">Open with github.dev</a>
                 </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/douglascrockford/JSON-js/delete/master/json2.js">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/macek/jquery-serialize-object/delete/master/jquery.serialize-object.js">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2875,253 +2858,257 @@
 </svg>
 </span></template>
 
-  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="JavaScript" data-tagsearch-path="json2.js">
+  <table data-hpc class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="JavaScript" data-tagsearch-path="jquery.serialize-object.js">
         <tr>
           <td id="L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
-          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  json2.js</span></td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/**</span></td>
         </tr>
         <tr>
           <td id="L2" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
-          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  2017-06-12</span></td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * jQuery serializeObject</span></td>
         </tr>
         <tr>
           <td id="L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
-          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  Public Domain.</span></td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * <span class=pl-k>@copyright</span> 2014, macek &lt;paulmacek@gmail.com&gt;</span></td>
         </tr>
         <tr>
           <td id="L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
-          <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  NO WARRANTY EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK.</span></td>
+          <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * <span class=pl-k>@link</span> https://github.com/macek/jquery-serialize-object</span></td>
         </tr>
         <tr>
           <td id="L5" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
-          <td id="LC5" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * <span class=pl-k>@license</span> BSD</span></td>
         </tr>
         <tr>
           <td id="L6" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
-          <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  USE YOUR OWN COPY. IT IS EXTREMELY UNWISE TO LOAD CODE FROM SERVERS YOU DO</span></td>
+          <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-c> * <span class=pl-k>@version</span> 2.5.0</span></td>
         </tr>
         <tr>
           <td id="L7" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
-          <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  NOT CONTROL.</span></td>
+          <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-c> */</span></td>
         </tr>
         <tr>
           <td id="L8" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
-          <td id="LC8" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>(</span><span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>root</span><span class=pl-kos>,</span> <span class=pl-s1>factory</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L9" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
-          <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  This file creates a global JSON object containing two methods: stringify</span></td>
+          <td id="LC9" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
-          <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  and parse. This file provides the ES5 JSON capability to ES3 systems.</span></td>
+          <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// AMD</span></td>
         </tr>
         <tr>
           <td id="L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
-          <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  If a project might run on IE8 or earlier, then this file should be included.</span></td>
+          <td id="LC11" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>define</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;function&quot;</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-s1>define</span><span class=pl-kos>.</span><span class=pl-c1>amd</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L12" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
-          <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  This file does nothing on ES5 systems.</span></td>
+          <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>define</span><span class=pl-kos>(</span><span class=pl-kos>[</span><span class=pl-s>&quot;exports&quot;</span><span class=pl-kos>,</span> <span class=pl-s>&quot;jquery&quot;</span><span class=pl-kos>]</span><span class=pl-kos>,</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>exports</span><span class=pl-kos>,</span> <span class=pl-s1>$</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L13" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
-          <td id="LC13" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC13" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-s1>factory</span><span class=pl-kos>(</span><span class=pl-s1>exports</span><span class=pl-kos>,</span> <span class=pl-s1>$</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L14" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
-          <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//      JSON.stringify(value, replacer, space)</span></td>
+          <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L15" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
-          <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          value       any JavaScript value, usually an object or array.</span></td>
+          <td id="LC15" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L16" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
-          <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          replacer    an optional parameter that determines how object</span></td>
+          <td id="LC16" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L17" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
-          <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      values are stringified for objects. It can be a</span></td>
+          <td id="LC17" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// CommonJS</span></td>
         </tr>
         <tr>
           <td id="L18" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
-          <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      function or an array of strings.</span></td>
+          <td id="LC18" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>else</span> <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>exports</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;undefined&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L19" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="19"></td>
-          <td id="LC19" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          space       an optional parameter that specifies the indentation</span></td>
+          <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>$</span> <span class=pl-c1>=</span> <span class=pl-en>require</span><span class=pl-kos>(</span><span class=pl-s>&quot;jquery&quot;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L20" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="20"></td>
-          <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      of nested structures. If it is omitted, the text will</span></td>
+          <td id="LC20" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>factory</span><span class=pl-kos>(</span><span class=pl-s1>exports</span><span class=pl-kos>,</span> <span class=pl-s1>$</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L21" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="21"></td>
-          <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      be packed without extra whitespace. If it is a number,</span></td>
+          <td id="LC21" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L22" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="22"></td>
-          <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      it will specify the number of spaces to indent at each</span></td>
+          <td id="LC22" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L23" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="23"></td>
-          <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      level. If it is a string (such as &quot;\t&quot; or &quot;&amp;nbsp;&quot;),</span></td>
+          <td id="LC23" class="blob-code blob-code-inner js-file-line">  <span class=pl-c>// Browser</span></td>
         </tr>
         <tr>
           <td id="L24" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="24"></td>
-          <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      it contains the characters used to indent at each level.</span></td>
+          <td id="LC24" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>else</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L25" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="25"></td>
-          <td id="LC25" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          This method produces a JSON text from a JavaScript value.</span></td>
+          <td id="LC25" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>factory</span><span class=pl-kos>(</span><span class=pl-s1>root</span><span class=pl-kos>,</span> <span class=pl-kos>(</span><span class=pl-s1>root</span><span class=pl-kos>.</span><span class=pl-c1>jQuery</span> <span class=pl-c1>||</span> <span class=pl-s1>root</span><span class=pl-kos>.</span><span class=pl-c1>Zepto</span> <span class=pl-c1>||</span> <span class=pl-s1>root</span><span class=pl-kos>.</span><span class=pl-c1>ender</span> <span class=pl-c1>||</span> <span class=pl-s1>root</span><span class=pl-kos>.</span><span class=pl-c1>$</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L26" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="26"></td>
-          <td id="LC26" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          When an object value is found, if the object contains a toJSON</span></td>
+          <td id="LC26" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L27" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="27"></td>
-          <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          method, its toJSON method will be called and the result will be</span></td>
+          <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L28" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="28"></td>
-          <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          stringified. A toJSON method does not serialize: it returns the</span></td>
+          <td id="LC28" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>,</span> <span class=pl-k>function</span><span class=pl-kos>(</span><span class=pl-s1>exports</span><span class=pl-kos>,</span> <span class=pl-s1>$</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L29" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="29"></td>
-          <td id="LC29" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          value represented by the name/value pair that should be serialized,</span></td>
+          <td id="LC29" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L30" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="30"></td>
-          <td id="LC30" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          or undefined if nothing should be serialized. The toJSON method</span></td>
+          <td id="LC30" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>var</span> <span class=pl-s1>patterns</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L31" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="31"></td>
-          <td id="LC31" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          will be passed the key associated with the value, and this will be</span></td>
+          <td id="LC31" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>validate</span>: <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>^</span><span class=pl-kos>[</span>a-z_<span class=pl-kos>]</span><span class=pl-kos>[</span>a-z0-9_<span class=pl-kos>]</span><span class=pl-c1>*</span><span class=pl-kos>(?:</span><span class=pl-cce>\[</span><span class=pl-kos>(?:</span><span class=pl-cce>\d</span><span class=pl-c1>*</span><span class=pl-c1>|</span><span class=pl-kos>[</span>a-z0-9_<span class=pl-kos>]</span><span class=pl-c1>+</span><span class=pl-kos>)</span><span class=pl-cce>\]</span><span class=pl-kos>)</span><span class=pl-c1>*</span><span class=pl-cce>$</span><span class=pl-c1>/</span>i</span><span class=pl-kos>,</span></td>
         </tr>
         <tr>
           <td id="L32" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="32"></td>
-          <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          bound to the value.</span></td>
+          <td id="LC32" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>key</span>:      <span class=pl-pds><span class=pl-c1>/</span><span class=pl-kos>[</span>a-z0-9_<span class=pl-kos>]</span><span class=pl-c1>+</span><span class=pl-c1>|</span><span class=pl-kos>(?</span><span class=pl-c1>=</span><span class=pl-cce>\[</span><span class=pl-cce>\]</span><span class=pl-kos>)</span><span class=pl-c1>/</span>gi</span><span class=pl-kos>,</span></td>
         </tr>
         <tr>
           <td id="L33" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="33"></td>
-          <td id="LC33" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC33" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>push</span>:     <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>^</span><span class=pl-cce>$</span><span class=pl-c1>/</span></span><span class=pl-kos>,</span></td>
         </tr>
         <tr>
           <td id="L34" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="34"></td>
-          <td id="LC34" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          For example, this would serialize Dates as ISO strings.</span></td>
+          <td id="LC34" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>fixed</span>:    <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>^</span><span class=pl-cce>\d</span><span class=pl-c1>+</span><span class=pl-cce>$</span><span class=pl-c1>/</span></span><span class=pl-kos>,</span></td>
         </tr>
         <tr>
           <td id="L35" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="35"></td>
-          <td id="LC35" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC35" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>named</span>:    <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>^</span><span class=pl-kos>[</span>a-z0-9_<span class=pl-kos>]</span><span class=pl-c1>+</span><span class=pl-cce>$</span><span class=pl-c1>/</span>i</span></td>
         </tr>
         <tr>
           <td id="L36" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="36"></td>
-          <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              Date.prototype.toJSON = function (key) {</span></td>
+          <td id="LC36" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L37" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="37"></td>
-          <td id="LC37" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  function f(n) {</span></td>
+          <td id="LC37" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L38" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="38"></td>
-          <td id="LC38" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      // Format integers to have at least two digits.</span></td>
+          <td id="LC38" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>function</span> <span class=pl-v>FormSerializer</span><span class=pl-kos>(</span><span class=pl-s1>helper</span><span class=pl-kos>,</span> <span class=pl-s1>$form</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L39" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="39"></td>
-          <td id="LC39" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      return (n &lt; 10)</span></td>
+          <td id="LC39" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L40" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="40"></td>
-          <td id="LC40" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                          ? &quot;0&quot; + n</span></td>
+          <td id="LC40" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>// private variables</span></td>
         </tr>
         <tr>
           <td id="L41" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="41"></td>
-          <td id="LC41" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                          : n;</span></td>
+          <td id="LC41" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>data</span>     <span class=pl-c1>=</span> <span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>,</span></td>
         </tr>
         <tr>
           <td id="L42" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="42"></td>
-          <td id="LC42" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  }</span></td>
+          <td id="LC42" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>pushes</span>   <span class=pl-c1>=</span> <span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L43" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="43"></td>
-          <td id="LC43" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  return this.getUTCFullYear()   + &quot;-&quot; +</span></td>
+          <td id="LC43" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L44" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="44"></td>
-          <td id="LC44" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                       f(this.getUTCMonth() + 1) + &quot;-&quot; +</span></td>
+          <td id="LC44" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>// private API</span></td>
         </tr>
         <tr>
           <td id="L45" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="45"></td>
-          <td id="LC45" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                       f(this.getUTCDate())      + &quot;T&quot; +</span></td>
+          <td id="LC45" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>build</span><span class=pl-kos>(</span><span class=pl-s1>base</span><span class=pl-kos>,</span> <span class=pl-s1>key</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L46" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="46"></td>
-          <td id="LC46" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                       f(this.getUTCHours())     + &quot;:&quot; +</span></td>
+          <td id="LC46" class="blob-code blob-code-inner js-file-line">      <span class=pl-s1>base</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span> <span class=pl-c1>=</span> <span class=pl-s1>value</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L47" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="47"></td>
-          <td id="LC47" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                       f(this.getUTCMinutes())   + &quot;:&quot; +</span></td>
+          <td id="LC47" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-s1>base</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L48" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="48"></td>
-          <td id="LC48" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                       f(this.getUTCSeconds())   + &quot;Z&quot;;</span></td>
+          <td id="LC48" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L49" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="49"></td>
-          <td id="LC49" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              };</span></td>
+          <td id="LC49" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L50" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="50"></td>
-          <td id="LC50" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC50" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>makeObject</span><span class=pl-kos>(</span><span class=pl-s1>root</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L51" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="51"></td>
-          <td id="LC51" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          You can provide an optional replacer method. It will be passed the</span></td>
-        </tr>
-        <tr>
-          <td id="L52" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="52"></td>
-          <td id="LC52" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          key and value of each member, with this bound to the containing</span></td>
-        </tr>
-        <tr>
-          <td id="L53" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="53"></td>
-          <td id="LC53" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          object. The value that is returned from your method will be</span></td>
-        </tr>
-        <tr>
-          <td id="L54" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="54"></td>
-          <td id="LC54" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          serialized. If your method returns undefined, then the member will</span></td>
-        </tr>
-        <tr>
-          <td id="L55" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="55"></td>
-          <td id="LC55" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          be excluded from the serialization.</span></td>
-        </tr>
-        <tr>
-          <td id="L56" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="56"></td>
-          <td id="LC56" class="blob-code blob-code-inner js-file-line">
+          <td id="LC51" class="blob-code blob-code-inner js-file-line">
 </td>
         </tr>
         <tr>
+          <td id="L52" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="52"></td>
+          <td id="LC52" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>var</span> <span class=pl-s1>keys</span> <span class=pl-c1>=</span> <span class=pl-s1>root</span><span class=pl-kos>.</span><span class=pl-en>match</span><span class=pl-kos>(</span><span class=pl-s1>patterns</span><span class=pl-kos>.</span><span class=pl-c1>key</span><span class=pl-kos>)</span><span class=pl-kos>,</span> <span class=pl-s1>k</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L53" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="53"></td>
+          <td id="LC53" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L54" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="54"></td>
+          <td id="LC54" class="blob-code blob-code-inner js-file-line">      <span class=pl-c>// nest, nest, ..., nest</span></td>
+        </tr>
+        <tr>
+          <td id="L55" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="55"></td>
+          <td id="LC55" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>while</span> <span class=pl-kos>(</span><span class=pl-kos>(</span><span class=pl-s1>k</span> <span class=pl-c1>=</span> <span class=pl-s1>keys</span><span class=pl-kos>.</span><span class=pl-en>pop</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-c1>!==</span> <span class=pl-c1>undefined</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L56" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="56"></td>
+          <td id="LC56" class="blob-code blob-code-inner js-file-line">        <span class=pl-c>// foo[]</span></td>
+        </tr>
+        <tr>
           <td id="L57" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="57"></td>
-          <td id="LC57" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          If the replacer parameter is an array of strings, then it will be</span></td>
+          <td id="LC57" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>patterns</span><span class=pl-kos>.</span><span class=pl-c1>push</span><span class=pl-kos>.</span><span class=pl-en>test</span><span class=pl-kos>(</span><span class=pl-s1>k</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L58" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="58"></td>
-          <td id="LC58" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          used to select the members to be serialized. It filters the results</span></td>
+          <td id="LC58" class="blob-code blob-code-inner js-file-line">          <span class=pl-k>var</span> <span class=pl-s1>idx</span> <span class=pl-c1>=</span> <span class=pl-en>incrementPush</span><span class=pl-kos>(</span><span class=pl-s1>root</span><span class=pl-kos>.</span><span class=pl-en>replace</span><span class=pl-kos>(</span><span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>\[</span><span class=pl-cce>\]</span><span class=pl-cce>$</span><span class=pl-c1>/</span></span><span class=pl-kos>,</span> <span class=pl-s>&#39;&#39;</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L59" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="59"></td>
-          <td id="LC59" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          such that only members with keys listed in the replacer array are</span></td>
+          <td id="LC59" class="blob-code blob-code-inner js-file-line">          <span class=pl-s1>value</span> <span class=pl-c1>=</span> <span class=pl-en>build</span><span class=pl-kos>(</span><span class=pl-kos>[</span><span class=pl-kos>]</span><span class=pl-kos>,</span> <span class=pl-s1>idx</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L60" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="60"></td>
-          <td id="LC60" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          stringified.</span></td>
+          <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L61" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="61"></td>
@@ -3130,19 +3117,19 @@
         </tr>
         <tr>
           <td id="L62" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="62"></td>
-          <td id="LC62" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          Values that do not have JSON representations, such as undefined or</span></td>
+          <td id="LC62" class="blob-code blob-code-inner js-file-line">        <span class=pl-c>// foo[n]</span></td>
         </tr>
         <tr>
           <td id="L63" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="63"></td>
-          <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          functions, will not be serialized. Such values in objects will be</span></td>
+          <td id="LC63" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>else</span> <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>patterns</span><span class=pl-kos>.</span><span class=pl-c1>fixed</span><span class=pl-kos>.</span><span class=pl-en>test</span><span class=pl-kos>(</span><span class=pl-s1>k</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L64" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="64"></td>
-          <td id="LC64" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          dropped; in arrays they will be replaced with null. You can use</span></td>
+          <td id="LC64" class="blob-code blob-code-inner js-file-line">          <span class=pl-s1>value</span> <span class=pl-c1>=</span> <span class=pl-en>build</span><span class=pl-kos>(</span><span class=pl-kos>[</span><span class=pl-kos>]</span><span class=pl-kos>,</span> <span class=pl-s1>k</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L65" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="65"></td>
-          <td id="LC65" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          a replacer function to replace those with JSON values.</span></td>
+          <td id="LC65" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L66" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="66"></td>
@@ -3151,24 +3138,23 @@
         </tr>
         <tr>
           <td id="L67" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="67"></td>
-          <td id="LC67" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          JSON.stringify(undefined) returns undefined.</span></td>
+          <td id="LC67" class="blob-code blob-code-inner js-file-line">        <span class=pl-c>// foo; foo[bar]</span></td>
         </tr>
         <tr>
           <td id="L68" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="68"></td>
-          <td id="LC68" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC68" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>else</span> <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>patterns</span><span class=pl-kos>.</span><span class=pl-c1>named</span><span class=pl-kos>.</span><span class=pl-en>test</span><span class=pl-kos>(</span><span class=pl-s1>k</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L69" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="69"></td>
-          <td id="LC69" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          The optional space parameter produces a stringification of the</span></td>
+          <td id="LC69" class="blob-code blob-code-inner js-file-line">          <span class=pl-s1>value</span> <span class=pl-c1>=</span> <span class=pl-en>build</span><span class=pl-kos>(</span><span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>,</span> <span class=pl-s1>k</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L70" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="70"></td>
-          <td id="LC70" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          value that is filled with line breaks and indentation to make it</span></td>
+          <td id="LC70" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L71" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="71"></td>
-          <td id="LC71" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          easier to read.</span></td>
+          <td id="LC71" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L72" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="72"></td>
@@ -3177,79 +3163,77 @@
         </tr>
         <tr>
           <td id="L73" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="73"></td>
-          <td id="LC73" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          If the space parameter is a non-empty string, then that string will</span></td>
+          <td id="LC73" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-s1>value</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L74" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="74"></td>
-          <td id="LC74" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          be used for indentation. If the space parameter is a number, then</span></td>
+          <td id="LC74" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L75" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="75"></td>
-          <td id="LC75" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          the indentation will be that many spaces.</span></td>
+          <td id="LC75" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L76" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="76"></td>
-          <td id="LC76" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC76" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>incrementPush</span><span class=pl-kos>(</span><span class=pl-s1>key</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L77" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="77"></td>
-          <td id="LC77" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          Example:</span></td>
+          <td id="LC77" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>pushes</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span> <span class=pl-c1>===</span> <span class=pl-c1>undefined</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L78" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="78"></td>
-          <td id="LC78" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC78" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>pushes</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L79" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="79"></td>
-          <td id="LC79" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          text = JSON.stringify([&quot;e&quot;, {pluribus: &quot;unum&quot;}]);</span></td>
+          <td id="LC79" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L80" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="80"></td>
-          <td id="LC80" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          // text is &#39;[&quot;e&quot;,{&quot;pluribus&quot;:&quot;unum&quot;}]&#39;</span></td>
+          <td id="LC80" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-s1>pushes</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span><span class=pl-c1>++</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L81" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="81"></td>
-          <td id="LC81" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC81" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L82" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="82"></td>
-          <td id="LC82" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          text = JSON.stringify([&quot;e&quot;, {pluribus: &quot;unum&quot;}], null, &quot;\t&quot;);</span></td>
-        </tr>
-        <tr>
-          <td id="L83" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="83"></td>
-          <td id="LC83" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          // text is &#39;[\n\t&quot;e&quot;,\n\t{\n\t\t&quot;pluribus&quot;: &quot;unum&quot;\n\t}\n]&#39;</span></td>
-        </tr>
-        <tr>
-          <td id="L84" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="84"></td>
-          <td id="LC84" class="blob-code blob-code-inner js-file-line">
+          <td id="LC82" class="blob-code blob-code-inner js-file-line">
 </td>
         </tr>
         <tr>
+          <td id="L83" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="83"></td>
+          <td id="LC83" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>encode</span><span class=pl-kos>(</span><span class=pl-s1>pair</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L84" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="84"></td>
+          <td id="LC84" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>switch</span> <span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>(</span><span class=pl-s>&#39;[name=&quot;&#39;</span> <span class=pl-c1>+</span> <span class=pl-s1>pair</span><span class=pl-kos>.</span><span class=pl-c1>name</span> <span class=pl-c1>+</span> <span class=pl-s>&#39;&quot;]&#39;</span><span class=pl-kos>,</span> <span class=pl-s1>$form</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>attr</span><span class=pl-kos>(</span><span class=pl-s>&quot;type&quot;</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
           <td id="L85" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="85"></td>
-          <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          text = JSON.stringify([new Date()], function (key, value) {</span></td>
+          <td id="LC85" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>case</span> <span class=pl-s>&quot;checkbox&quot;</span>:</td>
         </tr>
         <tr>
           <td id="L86" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="86"></td>
-          <td id="LC86" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              return this[key] instanceof Date</span></td>
+          <td id="LC86" class="blob-code blob-code-inner js-file-line">          <span class=pl-k>return</span> <span class=pl-s1>pair</span><span class=pl-kos>.</span><span class=pl-c1>value</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;on&quot;</span> ? <span class=pl-c1>true</span> : <span class=pl-s1>pair</span><span class=pl-kos>.</span><span class=pl-c1>value</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L87" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="87"></td>
-          <td id="LC87" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  ? &quot;Date(&quot; + this[key] + &quot;)&quot;</span></td>
+          <td id="LC87" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>default</span>:</td>
         </tr>
         <tr>
           <td id="L88" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="88"></td>
-          <td id="LC88" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  : value;</span></td>
+          <td id="LC88" class="blob-code blob-code-inner js-file-line">          <span class=pl-k>return</span> <span class=pl-s1>pair</span><span class=pl-kos>.</span><span class=pl-c1>value</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L89" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="89"></td>
-          <td id="LC89" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          });</span></td>
+          <td id="LC89" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L90" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="90"></td>
-          <td id="LC90" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          // text is &#39;[&quot;Date(---current time---)&quot;]&#39;</span></td>
+          <td id="LC90" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L91" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="91"></td>
@@ -3258,1849 +3242,233 @@
         </tr>
         <tr>
           <td id="L92" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="92"></td>
-          <td id="LC92" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//      JSON.parse(text, reviver)</span></td>
+          <td id="LC92" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>addPair</span><span class=pl-kos>(</span><span class=pl-s1>pair</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L93" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="93"></td>
-          <td id="LC93" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          This method parses a JSON text to produce an object or array.</span></td>
+          <td id="LC93" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-s1>patterns</span><span class=pl-kos>.</span><span class=pl-c1>validate</span><span class=pl-kos>.</span><span class=pl-en>test</span><span class=pl-kos>(</span><span class=pl-s1>pair</span><span class=pl-kos>.</span><span class=pl-c1>name</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-k>return</span> <span class=pl-smi>this</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L94" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="94"></td>
-          <td id="LC94" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          It can throw a SyntaxError exception.</span></td>
+          <td id="LC94" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>var</span> <span class=pl-s1>obj</span> <span class=pl-c1>=</span> <span class=pl-en>makeObject</span><span class=pl-kos>(</span><span class=pl-s1>pair</span><span class=pl-kos>.</span><span class=pl-c1>name</span><span class=pl-kos>,</span> <span class=pl-en>encode</span><span class=pl-kos>(</span><span class=pl-s1>pair</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L95" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="95"></td>
-          <td id="LC95" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC95" class="blob-code blob-code-inner js-file-line">      <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-s1>helper</span><span class=pl-kos>.</span><span class=pl-en>extend</span><span class=pl-kos>(</span><span class=pl-c1>true</span><span class=pl-kos>,</span> <span class=pl-s1>data</span><span class=pl-kos>,</span> <span class=pl-s1>obj</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L96" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="96"></td>
-          <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          The optional reviver parameter is a function that can filter and</span></td>
+          <td id="LC96" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-smi>this</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L97" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="97"></td>
-          <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          transform the results. It receives each of the keys and values,</span></td>
+          <td id="LC97" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L98" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="98"></td>
-          <td id="LC98" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          and its return value is used instead of the original value.</span></td>
+          <td id="LC98" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L99" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="99"></td>
-          <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          If it returns what it received, then the structure is not modified.</span></td>
+          <td id="LC99" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>addPairs</span><span class=pl-kos>(</span><span class=pl-s1>pairs</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L100" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="100"></td>
-          <td id="LC100" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          If it returns undefined then the member is deleted.</span></td>
+          <td id="LC100" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-s1>helper</span><span class=pl-kos>.</span><span class=pl-en>isArray</span><span class=pl-kos>(</span><span class=pl-s1>pairs</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L101" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="101"></td>
-          <td id="LC101" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC101" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>Error</span><span class=pl-kos>(</span><span class=pl-s>&quot;formSerializer.addPairs expects an Array&quot;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L102" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="102"></td>
-          <td id="LC102" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          Example:</span></td>
+          <td id="LC102" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L103" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="103"></td>
-          <td id="LC103" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC103" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>for</span> <span class=pl-kos>(</span><span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-c1>=</span><span class=pl-c1>0</span><span class=pl-kos>,</span> <span class=pl-s1>len</span><span class=pl-c1>=</span><span class=pl-s1>pairs</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span> <span class=pl-s1>i</span><span class=pl-c1>&lt;</span><span class=pl-s1>len</span><span class=pl-kos>;</span> <span class=pl-s1>i</span><span class=pl-c1>++</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L104" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="104"></td>
-          <td id="LC104" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          // Parse the text. Values that look like ISO date strings will</span></td>
+          <td id="LC104" class="blob-code blob-code-inner js-file-line">        <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>addPair</span><span class=pl-kos>(</span><span class=pl-s1>pairs</span><span class=pl-kos>[</span><span class=pl-s1>i</span><span class=pl-kos>]</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L105" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="105"></td>
-          <td id="LC105" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          // be converted to Date objects.</span></td>
+          <td id="LC105" class="blob-code blob-code-inner js-file-line">      <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L106" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="106"></td>
-          <td id="LC106" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC106" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-smi>this</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L107" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="107"></td>
-          <td id="LC107" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          myData = JSON.parse(text, function (key, value) {</span></td>
+          <td id="LC107" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L108" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="108"></td>
-          <td id="LC108" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              var a;</span></td>
+          <td id="LC108" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L109" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="109"></td>
-          <td id="LC109" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              if (typeof value === &quot;string&quot;) {</span></td>
+          <td id="LC109" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>serialize</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L110" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="110"></td>
-          <td id="LC110" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  a =</span></td>
+          <td id="LC110" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-s1>data</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L111" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="111"></td>
-          <td id="LC111" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//   /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2}(?:\.\d*)?)Z$/.exec(value);</span></td>
+          <td id="LC111" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L112" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="112"></td>
-          <td id="LC112" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  if (a) {</span></td>
+          <td id="LC112" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L113" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="113"></td>
-          <td id="LC113" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      return new Date(Date.UTC(</span></td>
+          <td id="LC113" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>serializeJSON</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L114" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="114"></td>
-          <td id="LC114" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                         +a[1], +a[2] - 1, +a[3], +a[4], +a[5], +a[6]</span></td>
+          <td id="LC114" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>return</span> <span class=pl-c1>JSON</span><span class=pl-kos>.</span><span class=pl-en>stringify</span><span class=pl-kos>(</span><span class=pl-en>serialize</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L115" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="115"></td>
-          <td id="LC115" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      ));</span></td>
+          <td id="LC115" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L116" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="116"></td>
-          <td id="LC116" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  }</span></td>
+          <td id="LC116" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L117" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="117"></td>
-          <td id="LC117" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  return value;</span></td>
+          <td id="LC117" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>// public API</span></td>
         </tr>
         <tr>
           <td id="L118" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="118"></td>
-          <td id="LC118" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              }</span></td>
+          <td id="LC118" class="blob-code blob-code-inner js-file-line">    <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>addPair</span> <span class=pl-c1>=</span> <span class=pl-s1>addPair</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L119" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="119"></td>
-          <td id="LC119" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          });</span></td>
+          <td id="LC119" class="blob-code blob-code-inner js-file-line">    <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>addPairs</span> <span class=pl-c1>=</span> <span class=pl-s1>addPairs</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L120" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="120"></td>
-          <td id="LC120" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC120" class="blob-code blob-code-inner js-file-line">    <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>serialize</span> <span class=pl-c1>=</span> <span class=pl-s1>serialize</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L121" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="121"></td>
-          <td id="LC121" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          myData = JSON.parse(</span></td>
+          <td id="LC121" class="blob-code blob-code-inner js-file-line">    <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-c1>serializeJSON</span> <span class=pl-c1>=</span> <span class=pl-s1>serializeJSON</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L122" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="122"></td>
-          <td id="LC122" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              &quot;[\&quot;Date(09/09/2001)\&quot;]&quot;,</span></td>
+          <td id="LC122" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L123" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="123"></td>
-          <td id="LC123" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              function (key, value) {</span></td>
+          <td id="LC123" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L124" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="124"></td>
-          <td id="LC124" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  var d;</span></td>
+          <td id="LC124" class="blob-code blob-code-inner js-file-line">  <span class=pl-v>FormSerializer</span><span class=pl-kos>.</span><span class=pl-c1>patterns</span> <span class=pl-c1>=</span> <span class=pl-s1>patterns</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L125" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="125"></td>
-          <td id="LC125" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  if (</span></td>
+          <td id="LC125" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L126" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="126"></td>
-          <td id="LC126" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      typeof value === &quot;string&quot;</span></td>
+          <td id="LC126" class="blob-code blob-code-inner js-file-line">  <span class=pl-v>FormSerializer</span><span class=pl-kos>.</span><span class=pl-en>serializeObject</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-en>serializeObject</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L127" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="127"></td>
-          <td id="LC127" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      &amp;&amp; value.slice(0, 5) === &quot;Date(&quot;</span></td>
+          <td id="LC127" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-k>new</span> <span class=pl-v>FormSerializer</span><span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>,</span> <span class=pl-smi>this</span><span class=pl-kos>)</span><span class=pl-kos>.</span></td>
         </tr>
         <tr>
           <td id="L128" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="128"></td>
-          <td id="LC128" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      &amp;&amp; value.slice(-1) === &quot;)&quot;</span></td>
+          <td id="LC128" class="blob-code blob-code-inner js-file-line">      <span class=pl-en>addPairs</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>serializeArray</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>.</span></td>
         </tr>
         <tr>
           <td id="L129" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="129"></td>
-          <td id="LC129" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  ) {</span></td>
+          <td id="LC129" class="blob-code blob-code-inner js-file-line">      <span class=pl-en>serialize</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L130" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="130"></td>
-          <td id="LC130" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      d = new Date(value.slice(5, -1));</span></td>
+          <td id="LC130" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L131" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="131"></td>
-          <td id="LC131" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      if (d) {</span></td>
+          <td id="LC131" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L132" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="132"></td>
-          <td id="LC132" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                          return d;</span></td>
+          <td id="LC132" class="blob-code blob-code-inner js-file-line">  <span class=pl-v>FormSerializer</span><span class=pl-kos>.</span><span class=pl-en>serializeJSON</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-en>serializeJSON</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L133" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="133"></td>
-          <td id="LC133" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                      }</span></td>
+          <td id="LC133" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-k>new</span> <span class=pl-v>FormSerializer</span><span class=pl-kos>(</span><span class=pl-s1>$</span><span class=pl-kos>,</span> <span class=pl-smi>this</span><span class=pl-kos>)</span><span class=pl-kos>.</span></td>
         </tr>
         <tr>
           <td id="L134" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="134"></td>
-          <td id="LC134" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  }</span></td>
+          <td id="LC134" class="blob-code blob-code-inner js-file-line">      <span class=pl-en>addPairs</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>serializeArray</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>.</span></td>
         </tr>
         <tr>
           <td id="L135" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="135"></td>
-          <td id="LC135" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//                  return value;</span></td>
+          <td id="LC135" class="blob-code blob-code-inner js-file-line">      <span class=pl-en>serializeJSON</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L136" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="136"></td>
-          <td id="LC136" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//              }</span></td>
+          <td id="LC136" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L137" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="137"></td>
-          <td id="LC137" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//          );</span></td>
+          <td id="LC137" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L138" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="138"></td>
-          <td id="LC138" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC138" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-c1>fn</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;undefined&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
         </tr>
         <tr>
           <td id="L139" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="139"></td>
-          <td id="LC139" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  This is a reference implementation. You are free to copy, modify, or</span></td>
+          <td id="LC139" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-c1>fn</span><span class=pl-kos>.</span><span class=pl-c1>serializeObject</span> <span class=pl-c1>=</span> <span class=pl-v>FormSerializer</span><span class=pl-kos>.</span><span class=pl-c1>serializeObject</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L140" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="140"></td>
-          <td id="LC140" class="blob-code blob-code-inner js-file-line"><span class=pl-c>//  redistribute.</span></td>
+          <td id="LC140" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>$</span><span class=pl-kos>.</span><span class=pl-c1>fn</span><span class=pl-kos>.</span><span class=pl-c1>serializeJSON</span>   <span class=pl-c1>=</span> <span class=pl-v>FormSerializer</span><span class=pl-kos>.</span><span class=pl-c1>serializeJSON</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L141" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="141"></td>
-          <td id="LC141" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC141" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
         </tr>
         <tr>
           <td id="L142" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="142"></td>
-          <td id="LC142" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/*jslint</span></td>
+          <td id="LC142" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L143" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="143"></td>
-          <td id="LC143" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    eval, for, this</span></td>
+          <td id="LC143" class="blob-code blob-code-inner js-file-line">  <span class=pl-s1>exports</span><span class=pl-kos>.</span><span class=pl-c1>FormSerializer</span> <span class=pl-c1>=</span> <span class=pl-v>FormSerializer</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L144" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="144"></td>
-          <td id="LC144" class="blob-code blob-code-inner js-file-line"><span class=pl-c>*/</span></td>
+          <td id="LC144" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L145" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="145"></td>
-          <td id="LC145" class="blob-code blob-code-inner js-file-line">
-</td>
+          <td id="LC145" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>return</span> <span class=pl-v>FormSerializer</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L146" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="146"></td>
-          <td id="LC146" class="blob-code blob-code-inner js-file-line"><span class=pl-c>/*property</span></td>
-        </tr>
-        <tr>
-          <td id="L147" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="147"></td>
-          <td id="LC147" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    JSON, apply, call, charCodeAt, getUTCDate, getUTCFullYear, getUTCHours,</span></td>
-        </tr>
-        <tr>
-          <td id="L148" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="148"></td>
-          <td id="LC148" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    getUTCMinutes, getUTCMonth, getUTCSeconds, hasOwnProperty, join,</span></td>
-        </tr>
-        <tr>
-          <td id="L149" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="149"></td>
-          <td id="LC149" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    lastIndex, length, parse, prototype, push, replace, slice, stringify,</span></td>
-        </tr>
-        <tr>
-          <td id="L150" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="150"></td>
-          <td id="LC150" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    test, toJSON, toString, valueOf</span></td>
-        </tr>
-        <tr>
-          <td id="L151" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="151"></td>
-          <td id="LC151" class="blob-code blob-code-inner js-file-line"><span class=pl-c>*/</span></td>
-        </tr>
-        <tr>
-          <td id="L152" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="152"></td>
-          <td id="LC152" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L153" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="153"></td>
-          <td id="LC153" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L154" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="154"></td>
-          <td id="LC154" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Create a JSON object only if one does not already exist. We create the</span></td>
-        </tr>
-        <tr>
-          <td id="L155" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="155"></td>
-          <td id="LC155" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// methods in a closure to avoid creating global variables.</span></td>
-        </tr>
-        <tr>
-          <td id="L156" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="156"></td>
-          <td id="LC156" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L157" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="157"></td>
-          <td id="LC157" class="blob-code blob-code-inner js-file-line"><span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-c1>JSON</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;object&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L158" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="158"></td>
-          <td id="LC158" class="blob-code blob-code-inner js-file-line">    <span class=pl-c1>JSON</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span><span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L159" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="159"></td>
-          <td id="LC159" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L160" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="160"></td>
-          <td id="LC160" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L161" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="161"></td>
-          <td id="LC161" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>(</span><span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L162" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="162"></td>
-          <td id="LC162" class="blob-code blob-code-inner js-file-line">    <span class=pl-s>&quot;use strict&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L163" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="163"></td>
-          <td id="LC163" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L164" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="164"></td>
-          <td id="LC164" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>rx_one</span> <span class=pl-c1>=</span> <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>^</span><span class=pl-kos>[</span><span class=pl-cce>\]</span>,:{}<span class=pl-cce>\s</span><span class=pl-kos>]</span><span class=pl-c1>*</span><span class=pl-cce>$</span><span class=pl-c1>/</span></span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L165" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="165"></td>
-          <td id="LC165" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>rx_two</span> <span class=pl-c1>=</span> <span class=pl-pds><span class=pl-c1>/</span><span class=pl-cce>\\</span><span class=pl-kos>(?:</span><span class=pl-kos>[</span>&quot;<span class=pl-cce>\\</span><span class=pl-cce>\/</span>bfnrt<span class=pl-kos>]</span><span class=pl-c1>|</span>u<span class=pl-kos>[</span>0-9a-fA-F<span class=pl-kos>]</span><span class=pl-kos>{</span>4<span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-c1>/</span>g</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L166" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="166"></td>
-          <td id="LC166" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>rx_three</span> <span class=pl-c1>=</span> <span class=pl-pds><span class=pl-c1>/</span>&quot;<span class=pl-kos>[</span>^&quot;<span class=pl-cce>\\</span><span class=pl-cce>\n</span><span class=pl-cce>\r</span><span class=pl-kos>]</span><span class=pl-c1>*</span>&quot;<span class=pl-c1>|</span>true<span class=pl-c1>|</span>false<span class=pl-c1>|</span>null<span class=pl-c1>|</span>-?<span class=pl-cce>\d</span><span class=pl-c1>+</span><span class=pl-kos>(?:</span><span class=pl-cce>\.</span><span class=pl-cce>\d</span><span class=pl-c1>*</span><span class=pl-kos>)</span>?<span class=pl-kos>(?:</span><span class=pl-kos>[</span>eE<span class=pl-kos>]</span><span class=pl-kos>[</span>+<span class=pl-cce>\-</span><span class=pl-kos>]</span>?<span class=pl-cce>\d</span><span class=pl-c1>+</span><span class=pl-kos>)</span>?<span class=pl-c1>/</span>g</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L167" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="167"></td>
-          <td id="LC167" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>rx_four</span> <span class=pl-c1>=</span> <span class=pl-pds><span class=pl-c1>/</span><span class=pl-kos>(?:</span><span class=pl-cce>^</span><span class=pl-c1>|</span>:<span class=pl-c1>|</span>,<span class=pl-kos>)</span><span class=pl-kos>(?:</span><span class=pl-cce>\s</span><span class=pl-c1>*</span><span class=pl-cce>\[</span><span class=pl-kos>)</span><span class=pl-c1>+</span><span class=pl-c1>/</span>g</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L168" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="168"></td>
-          <td id="LC168" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>rx_escapable</span> <span class=pl-c1>=</span> <span class=pl-pds><span class=pl-c1>/</span><span class=pl-kos>[</span><span class=pl-cce>\\</span>&quot;<span class=pl-cce>\u</span>0000-<span class=pl-cce>\u</span>001f<span class=pl-cce>\u</span>007f-<span class=pl-cce>\u</span>009f<span class=pl-cce>\u</span>00ad<span class=pl-cce>\u</span>0600-<span class=pl-cce>\u</span>0604<span class=pl-cce>\u</span>070f<span class=pl-cce>\u</span>17b4<span class=pl-cce>\u</span>17b5<span class=pl-cce>\u</span>200c-<span class=pl-cce>\u</span>200f<span class=pl-cce>\u</span>2028-<span class=pl-cce>\u</span>202f<span class=pl-cce>\u</span>2060-<span class=pl-cce>\u</span>206f<span class=pl-cce>\u</span>feff<span class=pl-cce>\u</span>fff0-<span class=pl-cce>\u</span>ffff<span class=pl-kos>]</span><span class=pl-c1>/</span>g</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L169" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="169"></td>
-          <td id="LC169" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>rx_dangerous</span> <span class=pl-c1>=</span> <span class=pl-pds><span class=pl-c1>/</span><span class=pl-kos>[</span><span class=pl-cce>\u</span>0000<span class=pl-cce>\u</span>00ad<span class=pl-cce>\u</span>0600-<span class=pl-cce>\u</span>0604<span class=pl-cce>\u</span>070f<span class=pl-cce>\u</span>17b4<span class=pl-cce>\u</span>17b5<span class=pl-cce>\u</span>200c-<span class=pl-cce>\u</span>200f<span class=pl-cce>\u</span>2028-<span class=pl-cce>\u</span>202f<span class=pl-cce>\u</span>2060-<span class=pl-cce>\u</span>206f<span class=pl-cce>\u</span>feff<span class=pl-cce>\u</span>fff0-<span class=pl-cce>\u</span>ffff<span class=pl-kos>]</span><span class=pl-c1>/</span>g</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L170" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="170"></td>
-          <td id="LC170" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L171" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="171"></td>
-          <td id="LC171" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>f</span><span class=pl-kos>(</span><span class=pl-s1>n</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L172" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="172"></td>
-          <td id="LC172" class="blob-code blob-code-inner js-file-line">        <span class=pl-c>// Format integers to have at least two digits.</span></td>
-        </tr>
-        <tr>
-          <td id="L173" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="173"></td>
-          <td id="LC173" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-kos>(</span><span class=pl-s1>n</span> <span class=pl-c1>&lt;</span> <span class=pl-c1>10</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L174" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="174"></td>
-          <td id="LC174" class="blob-code blob-code-inner js-file-line">            ? <span class=pl-s>&quot;0&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>n</span></td>
-        </tr>
-        <tr>
-          <td id="L175" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="175"></td>
-          <td id="LC175" class="blob-code blob-code-inner js-file-line">            : <span class=pl-s1>n</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L176" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="176"></td>
-          <td id="LC176" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L177" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="177"></td>
-          <td id="LC177" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L178" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="178"></td>
-          <td id="LC178" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>this_value</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L179" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="179"></td>
-          <td id="LC179" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>valueOf</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L180" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="180"></td>
-          <td id="LC180" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L181" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="181"></td>
-          <td id="LC181" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L182" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="182"></td>
-          <td id="LC182" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-v>Date</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>toJSON</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;function&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L183" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="183"></td>
-          <td id="LC183" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L184" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="184"></td>
-          <td id="LC184" class="blob-code blob-code-inner js-file-line">        <span class=pl-v>Date</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-en>toJSON</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L185" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="185"></td>
-          <td id="LC185" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L186" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="186"></td>
-          <td id="LC186" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span> <span class=pl-en>isFinite</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>valueOf</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L187" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="187"></td>
-          <td id="LC187" class="blob-code blob-code-inner js-file-line">                ? <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L188" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="188"></td>
-          <td id="LC188" class="blob-code blob-code-inner js-file-line">                    <span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>getUTCFullYear</span><span class=pl-kos>(</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L189" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="189"></td>
-          <td id="LC189" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-s>&quot;-&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L190" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="190"></td>
-          <td id="LC190" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-en>f</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>getUTCMonth</span><span class=pl-kos>(</span><span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-c1>1</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L191" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="191"></td>
-          <td id="LC191" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-s>&quot;-&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L192" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="192"></td>
-          <td id="LC192" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-en>f</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>getUTCDate</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L193" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="193"></td>
-          <td id="LC193" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-s>&quot;T&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L194" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="194"></td>
-          <td id="LC194" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-en>f</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>getUTCHours</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L195" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="195"></td>
-          <td id="LC195" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-s>&quot;:&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L196" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="196"></td>
-          <td id="LC196" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-en>f</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>getUTCMinutes</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L197" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="197"></td>
-          <td id="LC197" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-s>&quot;:&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L198" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="198"></td>
-          <td id="LC198" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-en>f</span><span class=pl-kos>(</span><span class=pl-smi>this</span><span class=pl-kos>.</span><span class=pl-en>getUTCSeconds</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L199" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="199"></td>
-          <td id="LC199" class="blob-code blob-code-inner js-file-line">                    <span class=pl-c1>+</span> <span class=pl-s>&quot;Z&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L200" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="200"></td>
-          <td id="LC200" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L201" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="201"></td>
-          <td id="LC201" class="blob-code blob-code-inner js-file-line">                : <span class=pl-c1>null</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L202" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="202"></td>
-          <td id="LC202" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L203" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="203"></td>
-          <td id="LC203" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L204" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="204"></td>
-          <td id="LC204" class="blob-code blob-code-inner js-file-line">        <span class=pl-v>Boolean</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>toJSON</span> <span class=pl-c1>=</span> <span class=pl-s1>this_value</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L205" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="205"></td>
-          <td id="LC205" class="blob-code blob-code-inner js-file-line">        <span class=pl-v>Number</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>toJSON</span> <span class=pl-c1>=</span> <span class=pl-s1>this_value</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L206" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="206"></td>
-          <td id="LC206" class="blob-code blob-code-inner js-file-line">        <span class=pl-v>String</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>toJSON</span> <span class=pl-c1>=</span> <span class=pl-s1>this_value</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L207" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="207"></td>
-          <td id="LC207" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L208" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="208"></td>
-          <td id="LC208" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L209" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="209"></td>
-          <td id="LC209" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>gap</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L210" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="210"></td>
-          <td id="LC210" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>indent</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L211" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="211"></td>
-          <td id="LC211" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>meta</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L212" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="212"></td>
-          <td id="LC212" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>rep</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L213" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="213"></td>
-          <td id="LC213" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L214" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="214"></td>
-          <td id="LC214" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L215" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="215"></td>
-          <td id="LC215" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>quote</span><span class=pl-kos>(</span><span class=pl-s1>string</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L216" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="216"></td>
-          <td id="LC216" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L217" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="217"></td>
-          <td id="LC217" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the string contains no control characters, no quote characters, and no</span></td>
-        </tr>
-        <tr>
-          <td id="L218" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="218"></td>
-          <td id="LC218" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// backslash characters, then we can safely slap some quotes around it.</span></td>
-        </tr>
-        <tr>
-          <td id="L219" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="219"></td>
-          <td id="LC219" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Otherwise we must also replace the offending characters with safe escape</span></td>
-        </tr>
-        <tr>
-          <td id="L220" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="220"></td>
-          <td id="LC220" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// sequences.</span></td>
-        </tr>
-        <tr>
-          <td id="L221" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="221"></td>
-          <td id="LC221" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L222" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="222"></td>
-          <td id="LC222" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>rx_escapable</span><span class=pl-kos>.</span><span class=pl-c1>lastIndex</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L223" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="223"></td>
-          <td id="LC223" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>rx_escapable</span><span class=pl-kos>.</span><span class=pl-en>test</span><span class=pl-kos>(</span><span class=pl-s1>string</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L224" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="224"></td>
-          <td id="LC224" class="blob-code blob-code-inner js-file-line">            ? <span class=pl-s>&quot;\&quot;&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>string</span><span class=pl-kos>.</span><span class=pl-en>replace</span><span class=pl-kos>(</span><span class=pl-s1>rx_escapable</span><span class=pl-kos>,</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>a</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L225" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="225"></td>
-          <td id="LC225" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>var</span> <span class=pl-s1>c</span> <span class=pl-c1>=</span> <span class=pl-s1>meta</span><span class=pl-kos>[</span><span class=pl-s1>a</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L226" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="226"></td>
-          <td id="LC226" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-k>typeof</span> <span class=pl-s1>c</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;string&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L227" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="227"></td>
-          <td id="LC227" class="blob-code blob-code-inner js-file-line">                    ? <span class=pl-s1>c</span></td>
-        </tr>
-        <tr>
-          <td id="L228" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="228"></td>
-          <td id="LC228" class="blob-code blob-code-inner js-file-line">                    : <span class=pl-s>&quot;\\u&quot;</span> <span class=pl-c1>+</span> <span class=pl-kos>(</span><span class=pl-s>&quot;0000&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-en>charCodeAt</span><span class=pl-kos>(</span><span class=pl-c1>0</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>toString</span><span class=pl-kos>(</span><span class=pl-c1>16</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>slice</span><span class=pl-kos>(</span><span class=pl-c1>-</span><span class=pl-c1>4</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L229" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="229"></td>
-          <td id="LC229" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span><span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-s>&quot;\&quot;&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L230" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="230"></td>
-          <td id="LC230" class="blob-code blob-code-inner js-file-line">            : <span class=pl-s>&quot;\&quot;&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>string</span> <span class=pl-c1>+</span> <span class=pl-s>&quot;\&quot;&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L231" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="231"></td>
-          <td id="LC231" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L232" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="232"></td>
-          <td id="LC232" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L233" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="233"></td>
-          <td id="LC233" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L234" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="234"></td>
-          <td id="LC234" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>function</span> <span class=pl-en>str</span><span class=pl-kos>(</span><span class=pl-s1>key</span><span class=pl-kos>,</span> <span class=pl-s1>holder</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L235" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="235"></td>
-          <td id="LC235" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L236" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="236"></td>
-          <td id="LC236" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Produce a string from holder[key].</span></td>
-        </tr>
-        <tr>
-          <td id="L237" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="237"></td>
-          <td id="LC237" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L238" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="238"></td>
-          <td id="LC238" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-kos>;</span>          <span class=pl-c>// The loop counter.</span></td>
-        </tr>
-        <tr>
-          <td id="L239" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="239"></td>
-          <td id="LC239" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>var</span> <span class=pl-s1>k</span><span class=pl-kos>;</span>          <span class=pl-c>// The member key.</span></td>
-        </tr>
-        <tr>
-          <td id="L240" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="240"></td>
-          <td id="LC240" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>var</span> <span class=pl-s1>v</span><span class=pl-kos>;</span>          <span class=pl-c>// The member value.</span></td>
-        </tr>
-        <tr>
-          <td id="L241" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="241"></td>
-          <td id="LC241" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>var</span> <span class=pl-s1>length</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L242" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="242"></td>
-          <td id="LC242" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>var</span> <span class=pl-s1>mind</span> <span class=pl-c1>=</span> <span class=pl-s1>gap</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L243" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="243"></td>
-          <td id="LC243" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>var</span> <span class=pl-s1>partial</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L244" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="244"></td>
-          <td id="LC244" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>var</span> <span class=pl-s1>value</span> <span class=pl-c1>=</span> <span class=pl-s1>holder</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L245" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="245"></td>
-          <td id="LC245" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L246" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="246"></td>
-          <td id="LC246" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the value has a toJSON method, call it to obtain a replacement value.</span></td>
-        </tr>
-        <tr>
-          <td id="L247" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="247"></td>
-          <td id="LC247" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L248" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="248"></td>
-          <td id="LC248" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L249" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="249"></td>
-          <td id="LC249" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>value</span></td>
-        </tr>
-        <tr>
-          <td id="L250" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="250"></td>
-          <td id="LC250" class="blob-code blob-code-inner js-file-line">            <span class=pl-c1>&amp;&amp;</span> <span class=pl-k>typeof</span> <span class=pl-s1>value</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;object&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L251" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="251"></td>
-          <td id="LC251" class="blob-code blob-code-inner js-file-line">            <span class=pl-c1>&amp;&amp;</span> <span class=pl-k>typeof</span> <span class=pl-s1>value</span><span class=pl-kos>.</span><span class=pl-c1>toJSON</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;function&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L252" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="252"></td>
-          <td id="LC252" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L253" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="253"></td>
-          <td id="LC253" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>value</span> <span class=pl-c1>=</span> <span class=pl-s1>value</span><span class=pl-kos>.</span><span class=pl-en>toJSON</span><span class=pl-kos>(</span><span class=pl-s1>key</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L254" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="254"></td>
-          <td id="LC254" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L255" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="255"></td>
-          <td id="LC255" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L256" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="256"></td>
-          <td id="LC256" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If we were called with a replacer function, then call the replacer to</span></td>
-        </tr>
-        <tr>
-          <td id="L257" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="257"></td>
-          <td id="LC257" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// obtain a replacement value.</span></td>
-        </tr>
-        <tr>
-          <td id="L258" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="258"></td>
-          <td id="LC258" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L259" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="259"></td>
-          <td id="LC259" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>rep</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;function&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L260" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="260"></td>
-          <td id="LC260" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>value</span> <span class=pl-c1>=</span> <span class=pl-s1>rep</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-s1>holder</span><span class=pl-kos>,</span> <span class=pl-s1>key</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L261" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="261"></td>
-          <td id="LC261" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L262" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="262"></td>
-          <td id="LC262" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L263" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="263"></td>
-          <td id="LC263" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// What happens next depends on the value&#39;s type.</span></td>
-        </tr>
-        <tr>
-          <td id="L264" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="264"></td>
-          <td id="LC264" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L265" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="265"></td>
-          <td id="LC265" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>switch</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L266" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="266"></td>
-          <td id="LC266" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>case</span> <span class=pl-s>&quot;string&quot;</span>:</td>
-        </tr>
-        <tr>
-          <td id="L267" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="267"></td>
-          <td id="LC267" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span> <span class=pl-en>quote</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L268" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="268"></td>
-          <td id="LC268" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L269" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="269"></td>
-          <td id="LC269" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>case</span> <span class=pl-s>&quot;number&quot;</span>:</td>
-        </tr>
-        <tr>
-          <td id="L270" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="270"></td>
-          <td id="LC270" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L271" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="271"></td>
-          <td id="LC271" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// JSON numbers must be finite. Encode non-finite numbers as null.</span></td>
-        </tr>
-        <tr>
-          <td id="L272" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="272"></td>
-          <td id="LC272" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L273" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="273"></td>
-          <td id="LC273" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span> <span class=pl-kos>(</span><span class=pl-en>isFinite</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L274" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="274"></td>
-          <td id="LC274" class="blob-code blob-code-inner js-file-line">                ? <span class=pl-v>String</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L275" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="275"></td>
-          <td id="LC275" class="blob-code blob-code-inner js-file-line">                : <span class=pl-s>&quot;null&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L276" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="276"></td>
-          <td id="LC276" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L277" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="277"></td>
-          <td id="LC277" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>case</span> <span class=pl-s>&quot;boolean&quot;</span>:</td>
-        </tr>
-        <tr>
-          <td id="L278" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="278"></td>
-          <td id="LC278" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>case</span> <span class=pl-s>&quot;null&quot;</span>:</td>
-        </tr>
-        <tr>
-          <td id="L279" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="279"></td>
-          <td id="LC279" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L280" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="280"></td>
-          <td id="LC280" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the value is a boolean or null, convert it to a string. Note:</span></td>
-        </tr>
-        <tr>
-          <td id="L281" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="281"></td>
-          <td id="LC281" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// typeof null does not produce &quot;null&quot;. The case is included here in</span></td>
-        </tr>
-        <tr>
-          <td id="L282" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="282"></td>
-          <td id="LC282" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// the remote chance that this gets fixed someday.</span></td>
-        </tr>
-        <tr>
-          <td id="L283" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="283"></td>
-          <td id="LC283" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L284" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="284"></td>
-          <td id="LC284" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span> <span class=pl-v>String</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L285" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="285"></td>
-          <td id="LC285" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L286" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="286"></td>
-          <td id="LC286" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the type is &quot;object&quot;, we might be dealing with an object or an array or</span></td>
-        </tr>
-        <tr>
-          <td id="L287" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="287"></td>
-          <td id="LC287" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// null.</span></td>
-        </tr>
-        <tr>
-          <td id="L288" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="288"></td>
-          <td id="LC288" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L289" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="289"></td>
-          <td id="LC289" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>case</span> <span class=pl-s>&quot;object&quot;</span>:</td>
-        </tr>
-        <tr>
-          <td id="L290" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="290"></td>
-          <td id="LC290" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L291" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="291"></td>
-          <td id="LC291" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Due to a specification blunder in ECMAScript, typeof null is &quot;object&quot;,</span></td>
-        </tr>
-        <tr>
-          <td id="L292" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="292"></td>
-          <td id="LC292" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// so watch out for that case.</span></td>
-        </tr>
-        <tr>
-          <td id="L293" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="293"></td>
-          <td id="LC293" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L294" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="294"></td>
-          <td id="LC294" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-c1>!</span><span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L295" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="295"></td>
-          <td id="LC295" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-s>&quot;null&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L296" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="296"></td>
-          <td id="LC296" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L297" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="297"></td>
-          <td id="LC297" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L298" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="298"></td>
-          <td id="LC298" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Make an array to hold the partial results of stringifying this object value.</span></td>
-        </tr>
-        <tr>
-          <td id="L299" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="299"></td>
-          <td id="LC299" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L300" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="300"></td>
-          <td id="LC300" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>gap</span> <span class=pl-c1>+=</span> <span class=pl-s1>indent</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L301" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="301"></td>
-          <td id="LC301" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>partial</span> <span class=pl-c1>=</span> <span class=pl-kos>[</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L302" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="302"></td>
-          <td id="LC302" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L303" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="303"></td>
-          <td id="LC303" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Is the value an array?</span></td>
-        </tr>
-        <tr>
-          <td id="L304" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="304"></td>
-          <td id="LC304" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L305" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="305"></td>
-          <td id="LC305" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-v>Object</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>toString</span><span class=pl-kos>.</span><span class=pl-en>apply</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;[object Array]&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L306" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="306"></td>
-          <td id="LC306" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L307" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="307"></td>
-          <td id="LC307" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// The value is an array. Stringify every element. Use null as a placeholder</span></td>
-        </tr>
-        <tr>
-          <td id="L308" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="308"></td>
-          <td id="LC308" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// for non-JSON values.</span></td>
-        </tr>
-        <tr>
-          <td id="L309" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="309"></td>
-          <td id="LC309" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L310" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="310"></td>
-          <td id="LC310" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>length</span> <span class=pl-c1>=</span> <span class=pl-s1>value</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L311" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="311"></td>
-          <td id="LC311" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>for</span> <span class=pl-kos>(</span><span class=pl-s1>i</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span><span class=pl-kos>;</span> <span class=pl-s1>i</span> <span class=pl-c1>&lt;</span> <span class=pl-s1>length</span><span class=pl-kos>;</span> <span class=pl-s1>i</span> <span class=pl-c1>+=</span> <span class=pl-c1>1</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L312" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="312"></td>
-          <td id="LC312" class="blob-code blob-code-inner js-file-line">                    <span class=pl-s1>partial</span><span class=pl-kos>[</span><span class=pl-s1>i</span><span class=pl-kos>]</span> <span class=pl-c1>=</span> <span class=pl-en>str</span><span class=pl-kos>(</span><span class=pl-s1>i</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-c1>||</span> <span class=pl-s>&quot;null&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L313" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="313"></td>
-          <td id="LC313" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L314" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="314"></td>
-          <td id="LC314" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L315" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="315"></td>
-          <td id="LC315" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Join all of the elements together, separated with commas, and wrap them in</span></td>
-        </tr>
-        <tr>
-          <td id="L316" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="316"></td>
-          <td id="LC316" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// brackets.</span></td>
-        </tr>
-        <tr>
-          <td id="L317" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="317"></td>
-          <td id="LC317" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L318" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="318"></td>
-          <td id="LC318" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>v</span> <span class=pl-c1>=</span> <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-c1>length</span> <span class=pl-c1>===</span> <span class=pl-c1>0</span></td>
-        </tr>
-        <tr>
-          <td id="L319" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="319"></td>
-          <td id="LC319" class="blob-code blob-code-inner js-file-line">                    ? <span class=pl-s>&quot;[]&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L320" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="320"></td>
-          <td id="LC320" class="blob-code blob-code-inner js-file-line">                    : <span class=pl-s1>gap</span></td>
-        </tr>
-        <tr>
-          <td id="L321" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="321"></td>
-          <td id="LC321" class="blob-code blob-code-inner js-file-line">                        ? <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L322" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="322"></td>
-          <td id="LC322" class="blob-code blob-code-inner js-file-line">                            <span class=pl-s>&quot;[\n&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L323" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="323"></td>
-          <td id="LC323" class="blob-code blob-code-inner js-file-line">                            <span class=pl-c1>+</span> <span class=pl-s1>gap</span></td>
-        </tr>
-        <tr>
-          <td id="L324" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="324"></td>
-          <td id="LC324" class="blob-code blob-code-inner js-file-line">                            <span class=pl-c1>+</span> <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span><span class=pl-s>&quot;,\n&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>gap</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L325" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="325"></td>
-          <td id="LC325" class="blob-code blob-code-inner js-file-line">                            <span class=pl-c1>+</span> <span class=pl-s>&quot;\n&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L326" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="326"></td>
-          <td id="LC326" class="blob-code blob-code-inner js-file-line">                            <span class=pl-c1>+</span> <span class=pl-s1>mind</span></td>
-        </tr>
-        <tr>
-          <td id="L327" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="327"></td>
-          <td id="LC327" class="blob-code blob-code-inner js-file-line">                            <span class=pl-c1>+</span> <span class=pl-s>&quot;]&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L328" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="328"></td>
-          <td id="LC328" class="blob-code blob-code-inner js-file-line">                        <span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L329" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="329"></td>
-          <td id="LC329" class="blob-code blob-code-inner js-file-line">                        : <span class=pl-s>&quot;[&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span><span class=pl-s>&quot;,&quot;</span><span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-s>&quot;]&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L330" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="330"></td>
-          <td id="LC330" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>gap</span> <span class=pl-c1>=</span> <span class=pl-s1>mind</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L331" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="331"></td>
-          <td id="LC331" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-s1>v</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L332" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="332"></td>
-          <td id="LC332" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L333" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="333"></td>
-          <td id="LC333" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L334" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="334"></td>
-          <td id="LC334" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the replacer is an array, use it to select the members to be stringified.</span></td>
-        </tr>
-        <tr>
-          <td id="L335" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="335"></td>
-          <td id="LC335" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L336" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="336"></td>
-          <td id="LC336" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>rep</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-k>typeof</span> <span class=pl-s1>rep</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;object&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L337" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="337"></td>
-          <td id="LC337" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>length</span> <span class=pl-c1>=</span> <span class=pl-s1>rep</span><span class=pl-kos>.</span><span class=pl-c1>length</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L338" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="338"></td>
-          <td id="LC338" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>for</span> <span class=pl-kos>(</span><span class=pl-s1>i</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span><span class=pl-kos>;</span> <span class=pl-s1>i</span> <span class=pl-c1>&lt;</span> <span class=pl-s1>length</span><span class=pl-kos>;</span> <span class=pl-s1>i</span> <span class=pl-c1>+=</span> <span class=pl-c1>1</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L339" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="339"></td>
-          <td id="LC339" class="blob-code blob-code-inner js-file-line">                    <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>rep</span><span class=pl-kos>[</span><span class=pl-s1>i</span><span class=pl-kos>]</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;string&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L340" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="340"></td>
-          <td id="LC340" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s1>k</span> <span class=pl-c1>=</span> <span class=pl-s1>rep</span><span class=pl-kos>[</span><span class=pl-s1>i</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L341" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="341"></td>
-          <td id="LC341" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s1>v</span> <span class=pl-c1>=</span> <span class=pl-en>str</span><span class=pl-kos>(</span><span class=pl-s1>k</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L342" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="342"></td>
-          <td id="LC342" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>v</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L343" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="343"></td>
-          <td id="LC343" class="blob-code blob-code-inner js-file-line">                            <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-en>push</span><span class=pl-kos>(</span><span class=pl-en>quote</span><span class=pl-kos>(</span><span class=pl-s1>k</span><span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L344" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="344"></td>
-          <td id="LC344" class="blob-code blob-code-inner js-file-line">                                <span class=pl-kos>(</span><span class=pl-s1>gap</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L345" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="345"></td>
-          <td id="LC345" class="blob-code blob-code-inner js-file-line">                                    ? <span class=pl-s>&quot;: &quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L346" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="346"></td>
-          <td id="LC346" class="blob-code blob-code-inner js-file-line">                                    : <span class=pl-s>&quot;:&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L347" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="347"></td>
-          <td id="LC347" class="blob-code blob-code-inner js-file-line">                            <span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-s1>v</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L348" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="348"></td>
-          <td id="LC348" class="blob-code blob-code-inner js-file-line">                        <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L349" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="349"></td>
-          <td id="LC349" class="blob-code blob-code-inner js-file-line">                    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L350" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="350"></td>
-          <td id="LC350" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L351" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="351"></td>
-          <td id="LC351" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span> <span class=pl-k>else</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L352" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="352"></td>
-          <td id="LC352" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L353" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="353"></td>
-          <td id="LC353" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Otherwise, iterate through all of the keys in the object.</span></td>
-        </tr>
-        <tr>
-          <td id="L354" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="354"></td>
-          <td id="LC354" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L355" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="355"></td>
-          <td id="LC355" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>for</span> <span class=pl-kos>(</span><span class=pl-s1>k</span> <span class=pl-k>in</span> <span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L356" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="356"></td>
-          <td id="LC356" class="blob-code blob-code-inner js-file-line">                    <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-v>Object</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>hasOwnProperty</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>,</span> <span class=pl-s1>k</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L357" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="357"></td>
-          <td id="LC357" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s1>v</span> <span class=pl-c1>=</span> <span class=pl-en>str</span><span class=pl-kos>(</span><span class=pl-s1>k</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L358" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="358"></td>
-          <td id="LC358" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>v</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L359" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="359"></td>
-          <td id="LC359" class="blob-code blob-code-inner js-file-line">                            <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-en>push</span><span class=pl-kos>(</span><span class=pl-en>quote</span><span class=pl-kos>(</span><span class=pl-s1>k</span><span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L360" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="360"></td>
-          <td id="LC360" class="blob-code blob-code-inner js-file-line">                                <span class=pl-kos>(</span><span class=pl-s1>gap</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L361" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="361"></td>
-          <td id="LC361" class="blob-code blob-code-inner js-file-line">                                    ? <span class=pl-s>&quot;: &quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L362" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="362"></td>
-          <td id="LC362" class="blob-code blob-code-inner js-file-line">                                    : <span class=pl-s>&quot;:&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L363" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="363"></td>
-          <td id="LC363" class="blob-code blob-code-inner js-file-line">                            <span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-s1>v</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L364" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="364"></td>
-          <td id="LC364" class="blob-code blob-code-inner js-file-line">                        <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L365" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="365"></td>
-          <td id="LC365" class="blob-code blob-code-inner js-file-line">                    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L366" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="366"></td>
-          <td id="LC366" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L367" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="367"></td>
-          <td id="LC367" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L368" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="368"></td>
-          <td id="LC368" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L369" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="369"></td>
-          <td id="LC369" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Join all of the member texts together, separated with commas,</span></td>
-        </tr>
-        <tr>
-          <td id="L370" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="370"></td>
-          <td id="LC370" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// and wrap them in braces.</span></td>
-        </tr>
-        <tr>
-          <td id="L371" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="371"></td>
-          <td id="LC371" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L372" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="372"></td>
-          <td id="LC372" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>v</span> <span class=pl-c1>=</span> <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-c1>length</span> <span class=pl-c1>===</span> <span class=pl-c1>0</span></td>
-        </tr>
-        <tr>
-          <td id="L373" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="373"></td>
-          <td id="LC373" class="blob-code blob-code-inner js-file-line">                ? <span class=pl-s>&quot;{}&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L374" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="374"></td>
-          <td id="LC374" class="blob-code blob-code-inner js-file-line">                : <span class=pl-s1>gap</span></td>
-        </tr>
-        <tr>
-          <td id="L375" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="375"></td>
-          <td id="LC375" class="blob-code blob-code-inner js-file-line">                    ? <span class=pl-s>&quot;{\n&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>gap</span> <span class=pl-c1>+</span> <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span><span class=pl-s>&quot;,\n&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>gap</span><span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-s>&quot;\n&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>mind</span> <span class=pl-c1>+</span> <span class=pl-s>&quot;}&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L376" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="376"></td>
-          <td id="LC376" class="blob-code blob-code-inner js-file-line">                    : <span class=pl-s>&quot;{&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>partial</span><span class=pl-kos>.</span><span class=pl-en>join</span><span class=pl-kos>(</span><span class=pl-s>&quot;,&quot;</span><span class=pl-kos>)</span> <span class=pl-c1>+</span> <span class=pl-s>&quot;}&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L377" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="377"></td>
-          <td id="LC377" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>gap</span> <span class=pl-c1>=</span> <span class=pl-s1>mind</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L378" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="378"></td>
-          <td id="LC378" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span> <span class=pl-s1>v</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L379" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="379"></td>
-          <td id="LC379" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L380" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="380"></td>
-          <td id="LC380" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L381" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="381"></td>
-          <td id="LC381" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L382" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="382"></td>
-          <td id="LC382" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the JSON object does not yet have a stringify method, give it one.</span></td>
-        </tr>
-        <tr>
-          <td id="L383" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="383"></td>
-          <td id="LC383" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L384" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="384"></td>
-          <td id="LC384" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-c1>JSON</span><span class=pl-kos>.</span><span class=pl-c1>stringify</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;function&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L385" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="385"></td>
-          <td id="LC385" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>meta</span> <span class=pl-c1>=</span> <span class=pl-kos>{</span>    <span class=pl-c>// table of character substitutions</span></td>
-        </tr>
-        <tr>
-          <td id="L386" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="386"></td>
-          <td id="LC386" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;\b&quot;</span>: <span class=pl-s>&quot;\\b&quot;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L387" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="387"></td>
-          <td id="LC387" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;\t&quot;</span>: <span class=pl-s>&quot;\\t&quot;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L388" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="388"></td>
-          <td id="LC388" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;\n&quot;</span>: <span class=pl-s>&quot;\\n&quot;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L389" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="389"></td>
-          <td id="LC389" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;\f&quot;</span>: <span class=pl-s>&quot;\\f&quot;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L390" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="390"></td>
-          <td id="LC390" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;\r&quot;</span>: <span class=pl-s>&quot;\\r&quot;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L391" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="391"></td>
-          <td id="LC391" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;\&quot;&quot;</span>: <span class=pl-s>&quot;\\\&quot;&quot;</span><span class=pl-kos>,</span></td>
-        </tr>
-        <tr>
-          <td id="L392" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="392"></td>
-          <td id="LC392" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;\\&quot;</span>: <span class=pl-s>&quot;\\\\&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L393" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="393"></td>
-          <td id="LC393" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L394" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="394"></td>
-          <td id="LC394" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>JSON</span><span class=pl-kos>.</span><span class=pl-en>stringify</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>,</span> <span class=pl-s1>replacer</span><span class=pl-kos>,</span> <span class=pl-s1>space</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L395" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="395"></td>
-          <td id="LC395" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L396" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="396"></td>
-          <td id="LC396" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// The stringify method takes a value and an optional replacer, and an optional</span></td>
-        </tr>
-        <tr>
-          <td id="L397" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="397"></td>
-          <td id="LC397" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// space parameter, and returns a JSON text. The replacer can be a function</span></td>
-        </tr>
-        <tr>
-          <td id="L398" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="398"></td>
-          <td id="LC398" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// that can replace values, or an array of strings that will select the keys.</span></td>
-        </tr>
-        <tr>
-          <td id="L399" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="399"></td>
-          <td id="LC399" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// A default replacer method can be provided. Use of the space parameter can</span></td>
-        </tr>
-        <tr>
-          <td id="L400" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="400"></td>
-          <td id="LC400" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// produce text that is more easily readable.</span></td>
-        </tr>
-        <tr>
-          <td id="L401" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="401"></td>
-          <td id="LC401" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L402" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="402"></td>
-          <td id="LC402" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>var</span> <span class=pl-s1>i</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L403" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="403"></td>
-          <td id="LC403" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>gap</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L404" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="404"></td>
-          <td id="LC404" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>indent</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;&quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L405" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="405"></td>
-          <td id="LC405" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L406" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="406"></td>
-          <td id="LC406" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the space parameter is a number, make an indent string containing that</span></td>
-        </tr>
-        <tr>
-          <td id="L407" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="407"></td>
-          <td id="LC407" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// many spaces.</span></td>
-        </tr>
-        <tr>
-          <td id="L408" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="408"></td>
-          <td id="LC408" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L409" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="409"></td>
-          <td id="LC409" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>space</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;number&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L410" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="410"></td>
-          <td id="LC410" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>for</span> <span class=pl-kos>(</span><span class=pl-s1>i</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span><span class=pl-kos>;</span> <span class=pl-s1>i</span> <span class=pl-c1>&lt;</span> <span class=pl-s1>space</span><span class=pl-kos>;</span> <span class=pl-s1>i</span> <span class=pl-c1>+=</span> <span class=pl-c1>1</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L411" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="411"></td>
-          <td id="LC411" class="blob-code blob-code-inner js-file-line">                    <span class=pl-s1>indent</span> <span class=pl-c1>+=</span> <span class=pl-s>&quot; &quot;</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L412" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="412"></td>
-          <td id="LC412" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L413" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="413"></td>
-          <td id="LC413" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L414" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="414"></td>
-          <td id="LC414" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the space parameter is a string, it will be used as the indent string.</span></td>
-        </tr>
-        <tr>
-          <td id="L415" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="415"></td>
-          <td id="LC415" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L416" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="416"></td>
-          <td id="LC416" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span> <span class=pl-k>else</span> <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>space</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;string&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L417" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="417"></td>
-          <td id="LC417" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>indent</span> <span class=pl-c1>=</span> <span class=pl-s1>space</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L418" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="418"></td>
-          <td id="LC418" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L419" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="419"></td>
-          <td id="LC419" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L420" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="420"></td>
-          <td id="LC420" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If there is a replacer, it must be a function or an array.</span></td>
-        </tr>
-        <tr>
-          <td id="L421" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="421"></td>
-          <td id="LC421" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Otherwise, throw an error.</span></td>
-        </tr>
-        <tr>
-          <td id="L422" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="422"></td>
-          <td id="LC422" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L423" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="423"></td>
-          <td id="LC423" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>rep</span> <span class=pl-c1>=</span> <span class=pl-s1>replacer</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L424" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="424"></td>
-          <td id="LC424" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>replacer</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-k>typeof</span> <span class=pl-s1>replacer</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;function&quot;</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L425" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="425"></td>
-          <td id="LC425" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>typeof</span> <span class=pl-s1>replacer</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;object&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L426" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="426"></td>
-          <td id="LC426" class="blob-code blob-code-inner js-file-line">                <span class=pl-c1>||</span> <span class=pl-k>typeof</span> <span class=pl-s1>replacer</span><span class=pl-kos>.</span><span class=pl-c1>length</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;number&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L427" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="427"></td>
-          <td id="LC427" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L428" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="428"></td>
-          <td id="LC428" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>Error</span><span class=pl-kos>(</span><span class=pl-s>&quot;JSON.stringify&quot;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L429" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="429"></td>
-          <td id="LC429" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L430" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="430"></td>
-          <td id="LC430" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L431" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="431"></td>
-          <td id="LC431" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Make a fake root object containing our value under the key of &quot;&quot;.</span></td>
-        </tr>
-        <tr>
-          <td id="L432" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="432"></td>
-          <td id="LC432" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Return the result of stringifying the value.</span></td>
-        </tr>
-        <tr>
-          <td id="L433" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="433"></td>
-          <td id="LC433" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L434" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="434"></td>
-          <td id="LC434" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>return</span> <span class=pl-en>str</span><span class=pl-kos>(</span><span class=pl-s>&quot;&quot;</span><span class=pl-kos>,</span> <span class=pl-kos>{</span><span class=pl-s>&quot;&quot;</span>: <span class=pl-s1>value</span><span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L435" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="435"></td>
-          <td id="LC435" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L436" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="436"></td>
-          <td id="LC436" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L437" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="437"></td>
-          <td id="LC437" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L438" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="438"></td>
-          <td id="LC438" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L439" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="439"></td>
-          <td id="LC439" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the JSON object does not yet have a parse method, give it one.</span></td>
-        </tr>
-        <tr>
-          <td id="L440" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="440"></td>
-          <td id="LC440" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L441" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="441"></td>
-          <td id="LC441" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-c1>JSON</span><span class=pl-kos>.</span><span class=pl-c1>parse</span> <span class=pl-c1>!==</span> <span class=pl-s>&quot;function&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L442" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="442"></td>
-          <td id="LC442" class="blob-code blob-code-inner js-file-line">        <span class=pl-c1>JSON</span><span class=pl-kos>.</span><span class=pl-en>parse</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>text</span><span class=pl-kos>,</span> <span class=pl-s1>reviver</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L443" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="443"></td>
-          <td id="LC443" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L444" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="444"></td>
-          <td id="LC444" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// The parse method takes a text and an optional reviver function, and returns</span></td>
-        </tr>
-        <tr>
-          <td id="L445" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="445"></td>
-          <td id="LC445" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// a JavaScript value if the text is a valid JSON text.</span></td>
-        </tr>
-        <tr>
-          <td id="L446" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="446"></td>
-          <td id="LC446" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L447" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="447"></td>
-          <td id="LC447" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>var</span> <span class=pl-s1>j</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L448" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="448"></td>
-          <td id="LC448" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L449" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="449"></td>
-          <td id="LC449" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>function</span> <span class=pl-en>walk</span><span class=pl-kos>(</span><span class=pl-s1>holder</span><span class=pl-kos>,</span> <span class=pl-s1>key</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L450" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="450"></td>
-          <td id="LC450" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L451" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="451"></td>
-          <td id="LC451" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// The walk method is used to recursively walk the resulting structure so</span></td>
-        </tr>
-        <tr>
-          <td id="L452" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="452"></td>
-          <td id="LC452" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// that modifications can be made.</span></td>
-        </tr>
-        <tr>
-          <td id="L453" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="453"></td>
-          <td id="LC453" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L454" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="454"></td>
-          <td id="LC454" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>var</span> <span class=pl-s1>k</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L455" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="455"></td>
-          <td id="LC455" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>var</span> <span class=pl-s1>v</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L456" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="456"></td>
-          <td id="LC456" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>var</span> <span class=pl-s1>value</span> <span class=pl-c1>=</span> <span class=pl-s1>holder</span><span class=pl-kos>[</span><span class=pl-s1>key</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L457" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="457"></td>
-          <td id="LC457" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>value</span> <span class=pl-c1>&amp;&amp;</span> <span class=pl-k>typeof</span> <span class=pl-s1>value</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;object&quot;</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L458" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="458"></td>
-          <td id="LC458" class="blob-code blob-code-inner js-file-line">                    <span class=pl-k>for</span> <span class=pl-kos>(</span><span class=pl-s1>k</span> <span class=pl-k>in</span> <span class=pl-s1>value</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L459" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="459"></td>
-          <td id="LC459" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-v>Object</span><span class=pl-kos>.</span><span class=pl-c1>prototype</span><span class=pl-kos>.</span><span class=pl-c1>hasOwnProperty</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>,</span> <span class=pl-s1>k</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L460" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="460"></td>
-          <td id="LC460" class="blob-code blob-code-inner js-file-line">                            <span class=pl-s1>v</span> <span class=pl-c1>=</span> <span class=pl-en>walk</span><span class=pl-kos>(</span><span class=pl-s1>value</span><span class=pl-kos>,</span> <span class=pl-s1>k</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L461" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="461"></td>
-          <td id="LC461" class="blob-code blob-code-inner js-file-line">                            <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>v</span> <span class=pl-c1>!==</span> <span class=pl-c1>undefined</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L462" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="462"></td>
-          <td id="LC462" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s1>value</span><span class=pl-kos>[</span><span class=pl-s1>k</span><span class=pl-kos>]</span> <span class=pl-c1>=</span> <span class=pl-s1>v</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L463" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="463"></td>
-          <td id="LC463" class="blob-code blob-code-inner js-file-line">                            <span class=pl-kos>}</span> <span class=pl-k>else</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L464" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="464"></td>
-          <td id="LC464" class="blob-code blob-code-inner js-file-line">                                <span class=pl-k>delete</span> <span class=pl-s1>value</span><span class=pl-kos>[</span><span class=pl-s1>k</span><span class=pl-kos>]</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L465" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="465"></td>
-          <td id="LC465" class="blob-code blob-code-inner js-file-line">                            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L466" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="466"></td>
-          <td id="LC466" class="blob-code blob-code-inner js-file-line">                        <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L467" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="467"></td>
-          <td id="LC467" class="blob-code blob-code-inner js-file-line">                    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L468" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="468"></td>
-          <td id="LC468" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L469" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="469"></td>
-          <td id="LC469" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-s1>reviver</span><span class=pl-kos>.</span><span class=pl-en>call</span><span class=pl-kos>(</span><span class=pl-s1>holder</span><span class=pl-kos>,</span> <span class=pl-s1>key</span><span class=pl-kos>,</span> <span class=pl-s1>value</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L470" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="470"></td>
-          <td id="LC470" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L471" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="471"></td>
-          <td id="LC471" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L472" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="472"></td>
-          <td id="LC472" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L473" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="473"></td>
-          <td id="LC473" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Parsing happens in four stages. In the first stage, we replace certain</span></td>
-        </tr>
-        <tr>
-          <td id="L474" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="474"></td>
-          <td id="LC474" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// Unicode characters with escape sequences. JavaScript handles many characters</span></td>
-        </tr>
-        <tr>
-          <td id="L475" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="475"></td>
-          <td id="LC475" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// incorrectly, either silently deleting them, or treating them as line endings.</span></td>
-        </tr>
-        <tr>
-          <td id="L476" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="476"></td>
-          <td id="LC476" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L477" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="477"></td>
-          <td id="LC477" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>text</span> <span class=pl-c1>=</span> <span class=pl-v>String</span><span class=pl-kos>(</span><span class=pl-s1>text</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L478" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="478"></td>
-          <td id="LC478" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>rx_dangerous</span><span class=pl-kos>.</span><span class=pl-c1>lastIndex</span> <span class=pl-c1>=</span> <span class=pl-c1>0</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L479" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="479"></td>
-          <td id="LC479" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>rx_dangerous</span><span class=pl-kos>.</span><span class=pl-en>test</span><span class=pl-kos>(</span><span class=pl-s1>text</span><span class=pl-kos>)</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L480" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="480"></td>
-          <td id="LC480" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>text</span> <span class=pl-c1>=</span> <span class=pl-s1>text</span><span class=pl-kos>.</span><span class=pl-en>replace</span><span class=pl-kos>(</span><span class=pl-s1>rx_dangerous</span><span class=pl-kos>,</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>a</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L481" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="481"></td>
-          <td id="LC481" class="blob-code blob-code-inner js-file-line">                    <span class=pl-k>return</span> <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L482" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="482"></td>
-          <td id="LC482" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s>&quot;\\u&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L483" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="483"></td>
-          <td id="LC483" class="blob-code blob-code-inner js-file-line">                        <span class=pl-c1>+</span> <span class=pl-kos>(</span><span class=pl-s>&quot;0000&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>a</span><span class=pl-kos>.</span><span class=pl-en>charCodeAt</span><span class=pl-kos>(</span><span class=pl-c1>0</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>toString</span><span class=pl-kos>(</span><span class=pl-c1>16</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>slice</span><span class=pl-kos>(</span><span class=pl-c1>-</span><span class=pl-c1>4</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L484" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="484"></td>
-          <td id="LC484" class="blob-code blob-code-inner js-file-line">                    <span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L485" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="485"></td>
-          <td id="LC485" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L486" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="486"></td>
-          <td id="LC486" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L487" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="487"></td>
-          <td id="LC487" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L488" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="488"></td>
-          <td id="LC488" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// In the second stage, we run the text against regular expressions that look</span></td>
-        </tr>
-        <tr>
-          <td id="L489" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="489"></td>
-          <td id="LC489" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// for non-JSON patterns. We are especially concerned with &quot;()&quot; and &quot;new&quot;</span></td>
-        </tr>
-        <tr>
-          <td id="L490" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="490"></td>
-          <td id="LC490" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// because they can cause invocation, and &quot;=&quot; because it can cause mutation.</span></td>
-        </tr>
-        <tr>
-          <td id="L491" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="491"></td>
-          <td id="LC491" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// But just to be safe, we want to reject all unexpected forms.</span></td>
-        </tr>
-        <tr>
-          <td id="L492" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="492"></td>
-          <td id="LC492" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L493" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="493"></td>
-          <td id="LC493" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// We split the second stage into 4 regexp operations in order to work around</span></td>
-        </tr>
-        <tr>
-          <td id="L494" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="494"></td>
-          <td id="LC494" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// crippling inefficiencies in IE&#39;s and Safari&#39;s regexp engines. First we</span></td>
-        </tr>
-        <tr>
-          <td id="L495" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="495"></td>
-          <td id="LC495" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// replace the JSON backslash pairs with &quot;@&quot; (a non-JSON character). Second, we</span></td>
-        </tr>
-        <tr>
-          <td id="L496" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="496"></td>
-          <td id="LC496" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// replace all simple value tokens with &quot;]&quot; characters. Third, we delete all</span></td>
-        </tr>
-        <tr>
-          <td id="L497" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="497"></td>
-          <td id="LC497" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// open brackets that follow a colon or comma or that begin the text. Finally,</span></td>
-        </tr>
-        <tr>
-          <td id="L498" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="498"></td>
-          <td id="LC498" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// we look to see that the remaining characters are only whitespace or &quot;]&quot; or</span></td>
-        </tr>
-        <tr>
-          <td id="L499" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="499"></td>
-          <td id="LC499" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// &quot;,&quot; or &quot;:&quot; or &quot;{&quot; or &quot;}&quot;. If that is so, then the text is safe for eval.</span></td>
-        </tr>
-        <tr>
-          <td id="L500" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="500"></td>
-          <td id="LC500" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L501" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="501"></td>
-          <td id="LC501" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L502" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="502"></td>
-          <td id="LC502" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>rx_one</span><span class=pl-kos>.</span><span class=pl-en>test</span><span class=pl-kos>(</span></td>
-        </tr>
-        <tr>
-          <td id="L503" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="503"></td>
-          <td id="LC503" class="blob-code blob-code-inner js-file-line">                    <span class=pl-s1>text</span></td>
-        </tr>
-        <tr>
-          <td id="L504" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="504"></td>
-          <td id="LC504" class="blob-code blob-code-inner js-file-line">                        <span class=pl-kos>.</span><span class=pl-en>replace</span><span class=pl-kos>(</span><span class=pl-s1>rx_two</span><span class=pl-kos>,</span> <span class=pl-s>&quot;@&quot;</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L505" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="505"></td>
-          <td id="LC505" class="blob-code blob-code-inner js-file-line">                        <span class=pl-kos>.</span><span class=pl-en>replace</span><span class=pl-kos>(</span><span class=pl-s1>rx_three</span><span class=pl-kos>,</span> <span class=pl-s>&quot;]&quot;</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L506" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="506"></td>
-          <td id="LC506" class="blob-code blob-code-inner js-file-line">                        <span class=pl-kos>.</span><span class=pl-en>replace</span><span class=pl-kos>(</span><span class=pl-s1>rx_four</span><span class=pl-kos>,</span> <span class=pl-s>&quot;&quot;</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L507" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="507"></td>
-          <td id="LC507" class="blob-code blob-code-inner js-file-line">                <span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L508" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="508"></td>
-          <td id="LC508" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
-        </tr>
-        <tr>
-          <td id="L509" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="509"></td>
-          <td id="LC509" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L510" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="510"></td>
-          <td id="LC510" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// In the third stage we use the eval function to compile the text into a</span></td>
-        </tr>
-        <tr>
-          <td id="L511" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="511"></td>
-          <td id="LC511" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// JavaScript structure. The &quot;{&quot; operator is subject to a syntactic ambiguity</span></td>
-        </tr>
-        <tr>
-          <td id="L512" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="512"></td>
-          <td id="LC512" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// in JavaScript: it can begin a block or an object literal. We wrap the text</span></td>
-        </tr>
-        <tr>
-          <td id="L513" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="513"></td>
-          <td id="LC513" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// in parens to eliminate the ambiguity.</span></td>
-        </tr>
-        <tr>
-          <td id="L514" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="514"></td>
-          <td id="LC514" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L515" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="515"></td>
-          <td id="LC515" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>j</span> <span class=pl-c1>=</span> <span class=pl-en>eval</span><span class=pl-kos>(</span><span class=pl-s>&quot;(&quot;</span> <span class=pl-c1>+</span> <span class=pl-s1>text</span> <span class=pl-c1>+</span> <span class=pl-s>&quot;)&quot;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L516" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="516"></td>
-          <td id="LC516" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L517" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="517"></td>
-          <td id="LC517" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// In the optional fourth stage, we recursively walk the new structure, passing</span></td>
-        </tr>
-        <tr>
-          <td id="L518" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="518"></td>
-          <td id="LC518" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// each name/value pair to a reviver function for possible transformation.</span></td>
-        </tr>
-        <tr>
-          <td id="L519" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="519"></td>
-          <td id="LC519" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L520" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="520"></td>
-          <td id="LC520" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-kos>(</span><span class=pl-k>typeof</span> <span class=pl-s1>reviver</span> <span class=pl-c1>===</span> <span class=pl-s>&quot;function&quot;</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L521" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="521"></td>
-          <td id="LC521" class="blob-code blob-code-inner js-file-line">                    ? <span class=pl-en>walk</span><span class=pl-kos>(</span><span class=pl-kos>{</span><span class=pl-s>&quot;&quot;</span>: <span class=pl-s1>j</span><span class=pl-kos>}</span><span class=pl-kos>,</span> <span class=pl-s>&quot;&quot;</span><span class=pl-kos>)</span></td>
-        </tr>
-        <tr>
-          <td id="L522" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="522"></td>
-          <td id="LC522" class="blob-code blob-code-inner js-file-line">                    : <span class=pl-s1>j</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L523" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="523"></td>
-          <td id="LC523" class="blob-code blob-code-inner js-file-line">            <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L524" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="524"></td>
-          <td id="LC524" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L525" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="525"></td>
-          <td id="LC525" class="blob-code blob-code-inner js-file-line"><span class=pl-c>// If the text is not JSON parseable, then a SyntaxError is thrown.</span></td>
-        </tr>
-        <tr>
-          <td id="L526" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="526"></td>
-          <td id="LC526" class="blob-code blob-code-inner js-file-line">
-</td>
-        </tr>
-        <tr>
-          <td id="L527" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="527"></td>
-          <td id="LC527" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>throw</span> <span class=pl-k>new</span> <span class=pl-v>SyntaxError</span><span class=pl-kos>(</span><span class=pl-s>&quot;JSON.parse&quot;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L528" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="528"></td>
-          <td id="LC528" class="blob-code blob-code-inner js-file-line">        <span class=pl-kos>}</span><span class=pl-kos>;</span></td>
-        </tr>
-        <tr>
-          <td id="L529" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="529"></td>
-          <td id="LC529" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
-        </tr>
-        <tr>
-          <td id="L530" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="530"></td>
-          <td id="LC530" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+          <td id="LC146" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
   </table>
 </div>
@@ -5126,8 +3494,8 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/douglascrockford/JSON-js/blame/8e8b0407e475e35942f7e9461dab81929fcc7321/json2.js">View git blame</a></li>
-          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/douglascrockford/JSON-js/issues/new">Reference in new issue</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/macek/jquery-serialize-object/blame/1531b2b8962b50fd80381485e580386f4ec77135/jquery.serialize-object.js">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/macek/jquery-serialize-object/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
   </details>
@@ -5151,7 +3519,7 @@
 
     <div class="Popover anim-scale-in js-tagsearch-popover"
      hidden
-     data-tagsearch-url="/douglascrockford/JSON-js/find-definition"
+     data-tagsearch-url="/macek/jquery-serialize-object/find-definition"
      data-tagsearch-ref="master"
      data-tagsearch-code-nav-context="BLOB_VIEW">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">

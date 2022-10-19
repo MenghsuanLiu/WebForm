@@ -11,8 +11,8 @@ namespace CFP.BLL.Model
     [NotMapped]
     public class Model_TrainSigIn2 : ZTST_TRAINSIGNIN2
     {
-        #region classdate_hw
-        public DateTime? classdate_hw { get; set; }
+        #region classdate
+        public DateTime? classdate { get; set; }
         #endregion
         #region trainer
         public string trainer { get; set; }

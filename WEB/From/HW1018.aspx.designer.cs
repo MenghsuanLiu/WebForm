@@ -15,13 +15,13 @@ namespace CFP.WEB.From
     {
 
         /// <summary>
-        /// form_hw control.
+        /// form_mod control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form_hw;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form_mod;
 
         /// <summary>
         /// classid control.
@@ -33,22 +33,22 @@ namespace CFP.WEB.From
         protected global::System.Web.UI.WebControls.DropDownList classid;
 
         /// <summary>
-        /// userid_hw control.
+        /// userid control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox userid_hw;
+        protected global::System.Web.UI.WebControls.TextBox userid;
 
         /// <summary>
-        /// classdate_hw control.
+        /// classdate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText classdate_hw;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText classdate;
 
         /// <summary>
         /// trainer control.
@@ -60,13 +60,13 @@ namespace CFP.WEB.From
         protected global::System.Web.UI.HtmlControls.HtmlInputText trainer;
 
         /// <summary>
-        /// ddl_trainee control.
+        /// trainee control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddl_trainee;
+        protected global::System.Web.UI.WebControls.DropDownList trainee;
 
         /// <summary>
         /// signin control.

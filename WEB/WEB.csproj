@@ -231,6 +231,7 @@
     <Content Include="From\js\jQuery-Validation-Engine-3.0.0\tests\placeholders.html" />
     <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\AjaxTestServer.java" />
     <Content Include="From\js\jQuery-Validation-Engine-3.0.0\test\NanoHTTPD.java" />
+    <Content Include="From\js\json2\jquery.serialize-object.js" />
     <Content Include="From\js\jquery.serializeObject.js" />
     <Content Include="From\js\json2.js" />
     <Content Include="From\js\moment.min.js" />
